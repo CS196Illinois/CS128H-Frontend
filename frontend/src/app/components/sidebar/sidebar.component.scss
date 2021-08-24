@@ -1,4 +1,4 @@
-$base-color: #3235e0;
+$base-color: #E56E15;
 
 .sidebar-main {
   height: 100%;
@@ -14,7 +14,7 @@ img {
 button {
   background-color: transparent; /* Green */
   border: none;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255);
   padding: 15px 16px 15px 16px;
   text-align: center;
   text-decoration: none;
@@ -25,17 +25,17 @@ button {
   cursor: pointer;
   box-sizing: border-box;
   border-bottom: solid 3px;
-  border-color: #ffffff;
+  border-color: #1E3877;
 }
 
 button:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgb(255, 255, 255);
 }
 
 hr {
   border: none;
   width: 75%;
-  color: rgb(255, 253, 253, 0.1);
+  color: rgb(255, 255, 255);
   // color: rgba(255,255,0, 0.7);
   margin-top: 30px;
   height: 3px;

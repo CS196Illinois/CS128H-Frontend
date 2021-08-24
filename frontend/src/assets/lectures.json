@@ -1,46 +1,7 @@
 {
     "lectures": [
-        {
-            "lectureID": "0",
-            "title": "Welcome to CS196!",
-            "date": "Jan 26",
-            "slides": "",
-            "video": "https://youtu.be/Uk3e-Pb951k"
-        },
-        {
-            "lectureID": "1",
-            "title": "Bash 1",
-            "date": "Jan 28",
-            "slides": "https://docs.google.com/presentation/d/13rkwePEXZrklGepk3dwCMTZCS3J8VMHUtr_DQm0r6aw/edit?usp=sharing",
-            "video": "https://youtu.be/lOIPiB6xykQ"
-        },
-        {
-            "lectureID": "2",
-            "title": "Bash 2",
-            "date": "Feb 2",
-            "slides": "https://docs.google.com/presentation/d/1uWfQfzhsIZCqTBbB5W2tsDcAV8lcdxRVL-faOtXP42Y/edit?usp=sharing",
-            "video": "https://www.youtube.com/watch?v=7zULoNaenvQ"
-        },
-        {
-            "lectureID": "3",
-            "title": "Git 1",
-            "date": "Feb 4",
-            "slides": "https://docs.google.com/presentation/d/1toLDbE4PLlKVKaNiR22JWO1z8bf7S_J842gNXV1spwc/edit?usp=sharing",
-            "video": "https://youtu.be/00LDZh4IJ9g"
-        },
-        {
-            "lectureID": "4",
-            "title": "Git 2",
-            "date": "Feb 9",
-            "slides": "https://docs.google.com/presentation/d/1e68E7P7hk259YRsrnNKiihWEAZLsgUFy330_mV-LTHs/edit?usp=sharing",
-            "video": "https://www.youtube.com/watch?v=QCnz_GQmTis"
-        },
-        {
-            "lectureID": "5",
-            "title": "Git 3",
-            "date": "Feb 11",
-            "slides": "https://docs.google.com/presentation/d/1Kb4RFWsebaMbjzpmAVXv3Zumh_ULAU-XjJTeMxNaGEg/edit?usp=sharing",
-            "video": "https://youtu.be/OcESHUakJy4"
-        }
-	]
-}
+      {
+      }
+    ]
+  }
+  

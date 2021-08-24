@@ -1,39 +1,15 @@
-<h1>Lectures</h1>
-<div class="table-container">
-    <table class="lecture-table">
-        <tr>
-            <th align="left">Lecture Name</th>
-            <th>Date</th>
-            <th>Slides</th>
-            <th>Video</th>
-        </tr>
-        <tr *ngFor="let lecture of lectures">
-            <td>
-                <span>
-                    <b>Lecture {{ lecture.lectureID }}:</b> {{ lecture.title }}
-                </span>
-            </td>
-            <td>
-                <span>
-                    {{ lecture.date }}
-                </span>
-            </td>
-            <td>
-                <span>
-                    <a *ngIf="lecture.slides" href={{lecture.slides}} target="_blank" rel="nooponer noreferrer">
-                        <fa-icon [icon]="faChalkboard"></fa-icon>
-                    </a>
-                    <fa-icon *ngIf="!lecture.slides" [icon]="faTimes" style="color: red"></fa-icon>
-                </span>
-            </td>
-            <td>
-                <span>
-                    <a *ngIf="lecture.video" href={{lecture.video}} target="_blank" rel="nooponer noreferrer">
-                        <fa-icon [icon]="faVideo"></fa-icon>
-                    </a>
-                    <fa-icon *ngIf="!lecture.video" [icon]="faTimes" style="color: red"></fa-icon>
-                </span>
-            </td>
-        </tr>
-    </table>
+<h1>{{lecture.title}}</h1>
+<div *ngFor = "let lecture of lectureVideo" >
+  <h3>{{lecture.title}}</h3>
+  <iframe
+    *ngIf = "lecture.link"
+    width="100%"
+    height="400vh"
+    [src]="lecture.link"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe>
 </div>
+

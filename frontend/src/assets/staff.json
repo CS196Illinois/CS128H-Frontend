@@ -11,9 +11,9 @@
             "picture" : "matt.jpeg"
         },
         {
-            "name" : "Albert",
-            "bio" : "getting big",
-            "picture" : "albert.jpg"
+            "name" : "Jonah",
+            "bio" : "I'm a sophomore majoring in Computer Science, interested in entrepreneurship and doing cool things with cs.",
+            "picture" : "jonah.jpg"
         },
         {
             "name" : "Andrea",
@@ -129,11 +129,6 @@
             "name" : "Timothy",
             "bio" : "my body is segfaulting due to my caffeine addiction",
             "picture" : "timothy.jpg"
-        }, 
-        {
-            "name" : "Jonah",
-            "bio" : "Passionate about Machine Learning. Enjoys Golf, Tennis, and Surfing. Occasionally plays Chess and Piano. Cruising through life sleep-deprived.",
-            "picture" : "jonah.jpg"
         }, 
         {
             "name" : "Faraz",

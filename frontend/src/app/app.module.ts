@@ -13,12 +13,17 @@ import { GradesComponent } from "./pages/grades/grades.component";
 import { HttpClientModule } from "@angular/common/http";
 import { LoginService } from "./services/login.service";
 import { GradesService } from "./services/grades.service";
+import { LecturesComponent } from './pages/lectures/lectures.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSidenavModule } from '@angular/material/sidenav'; 
+import { MatIconModule, MatMenuModule } from "@angular/material";
 
 const routes: Routes = [
   { path: "", component: HomeComponent },
   { path: "resources", component: ResourcesComponent },
   { path: "staff", component: StaffComponent },
   { path: "grades", component: GradesComponent },
+  { path: "lectures", component: LecturesComponent}
 ];
 
 @NgModule({
@@ -31,12 +36,17 @@ const routes: Routes = [
     LecturesTableComponent,
     PersonComponent,
     GradesComponent,
+    LecturesComponent,
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(routes),
     FontAwesomeModule,
     HttpClientModule,
+    BrowserAnimationsModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatMenuModule
   ],
   providers: [LoginService, GradesService],
   bootstrap: [AppComponent],

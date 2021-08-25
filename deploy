@@ -2,7 +2,7 @@
 cd ./frontend
 ng build --prod
 cd ..
-rm -rf ../../../var/www/html/{*,.*}
+rm -rf ../../../var/www/cs128honors/{*,.*}
 cp -R ./frontend/dist/website2020/. ../../../var/www/cs128honors
 cp ./frontend/.htaccess ../../../var/www/cs128honors
 (cd ../../../var/www/cs128honors;sudo service apache2 restart)

@@ -1,13 +1,18 @@
 {
     "lectures": [
-        {
-            "lectureID": "",
-            "title": "",
-            "date": "",
-            "slides": "",
-            "video": [
-            ]
-        }
+      {
+        "lectureID": "0",
+        "title": "Lesson 1",
+        "date": "August 26 2021",
+        "slides": "",
+        "video": [
+          {
+            "title" : "Course Logistics",
+            "link" : "https://www.youtube.com/embed/6DVTt-JXeyA",
+            "msg" : "Lesson Provider: William Eustis We discuss course logistics, grading, and course content in this lesson. No homeworks/MPs yet, so no due dates coming up. Have a great beginning of your semester, I-L-L!"
+          }
+        ]
+      }
     ]
-}
+  }
   

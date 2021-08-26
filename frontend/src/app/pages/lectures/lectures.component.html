@@ -1,34 +1,42 @@
-<h1 style="padding-left: 1vw; padding-top : 6vh" *ngIf = "!lectureVideo">No lectures yet. Check again later</h1>
-<div class="helper"></div>
-<mat-drawer-container class="container" autosize>
-    <div *ngIf="lectureVideo">
-        <button id="burger" type="button" (click)="drawer.toggle()">
-           <mat-icon>menu_open</mat-icon>
-        </button>
-    </div>
-    <mat-drawer #drawer class="sidenav" mode="side">
-        <h4>Lectures</h4>
-        <div *ngFor = "let lecture of lectures">
-            <button id="button" (click)="drawer.toggle()" (click)="changeLecture(lecture.lectureID)" >{{lecture.title}}</button>
-        </div>
-    </mat-drawer>
-    <div class="sidenav-content">
-    </div>
-    <h1 *ngIf = "lecture.title">{{lecture.title}}</h1>
-    <div *ngFor = "let lecture of lectureVideo" >
-        <h3>{{lecture.title}}</h3>
-        <iframe
-            *ngIf = "lecture.link"
-            width="100%"
-            height="400vh"
-            [src]="lecture.link"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-        ></iframe>
-        <p>{{lecture.msg}}</p>
-    </div>
+<div class ="lectures-page">
 
+    <h1 style="padding-left: 1vw; padding-top : 6vh" *ngIf = "!lectureVideo">No lectures yet. Check again later</h1>
+    <div class="helper">
+        
+    </div>
+    <mat-drawer-container class="container" autosize>
+        <div *ngIf="lectureVideo">
+            <button id="burger" type="button" (click)="drawer.toggle()">
+               <mat-icon>menu_open</mat-icon>
+            </button>
+        </div>
+        <mat-drawer #drawer class="sidenav" mode="side">
+            <h4>Lectures</h4>
+            <div *ngFor = "let lecture of lectures">
+                <button id="button" (click)="drawer.toggle()" (click)="changeLecture(lecture.lectureID)" >{{lecture.title}}</button>
+            </div>
+        </mat-drawer>
+        <div class="sidenav-content">
+        </div>
+        <h1 *ngIf = "lecture.title">{{lecture.title}}</h1>
+        <div *ngFor = "let lecture of lectureVideo" >
+            <h3>{{lecture.title}}</h3>
+            <iframe
+                *ngIf = "lecture.link"
+                width="100%"
+                height="400vh"
+                [src]="lecture.link"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+            ></iframe>
+            <p>{{lecture.msg}}</p>
+        </div>
     
-</mat-drawer-container>
+        
+    </mat-drawer-container>
+    
+
+</div>
+

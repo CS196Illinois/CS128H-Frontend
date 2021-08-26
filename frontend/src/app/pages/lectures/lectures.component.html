@@ -11,7 +11,7 @@
             </button>
         </div>
         <mat-drawer #drawer class="sidenav" mode="side">
-            <h4>Lectures</h4>
+            <h4>Lessons</h4>
             <div *ngFor = "let lecture of lectures">
                 <button id="button" (click)="drawer.toggle()" (click)="changeLecture(lecture.lectureID)" >{{lecture.title}}</button>
             </div>

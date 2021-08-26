@@ -4,6 +4,10 @@
   height: 100vh;
 }
 
+.mat-icon {
+  font-size: 35px;
+}
+
 .main-data {
   overflow-wrap: break-word;
   word-wrap: break-word;
@@ -33,7 +37,19 @@ app-sidebar {
   display: none;
 }
 
+#navmobile {
+  display:None;
+}
+
 @media (max-width: 559px) {
+  #navmobile {
+    position: absolute;
+    display:block;
+    margin: 3%;
+    border: 0;
+    background-color: Transparent;
+  }
+  
   app-sidebar {
     display: none;
   }

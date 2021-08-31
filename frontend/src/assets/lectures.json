@@ -12,6 +12,19 @@
             "msg" : "Lesson Provider: William Eustis We discuss course logistics, grading, and course content in this lesson. No homeworks/MPs yet, so no due dates coming up. Have a great beginning of your semester, I-L-L!"
           }
         ]
+      },
+      {
+        "lectureID": "1",
+        "title": "Lesson 2",
+        "date": "August 30 2021",
+        "slides": "",
+        "video": [
+          {
+            "title" : "Rust Env & Cargo",
+            "link" : "https://www.youtube.com/embed/c7dPy_FqfTI",
+            "msg" : "Lesson Provider: William Eustis"
+          }
+        ]
       }
     ]
   }

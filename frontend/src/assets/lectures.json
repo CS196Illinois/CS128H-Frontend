@@ -25,7 +25,36 @@
             "msg" : "Lesson Provider: William Eustis"
           }
         ]
+      },
+      {
+        "lectureID": "2",
+        "title": "Lesson 3",
+        "date": "September 1 2021",
+        "slides": "",
+        "video": [
+          {
+            "title" : "Rust Variables and Mutability",
+            "link" : "https://www.youtube.com/embed/ZBlpRYk47yg",
+            "msg" : "Lesson Provider: Matt Geimer"
+          },
+          {
+            "title" : "Rust Types",
+            "link" : "https://www.youtube.com/embed/01hoLZ4Jb-g",
+            "msg" : "Lesson Provider: Matt Geimer"
+          },
+          {
+            "title" : "Control Flow in Rust",
+            "link" : "https://www.youtube.com/embed/ZMFbWZ9XCDI",
+            "msg" : "Lesson Provider: Matt Geimer"
+          },
+          {
+            "title" : "Rust IO",
+            "link" : "https://www.youtube.com/embed/5JI-JFb0MPc",
+            "msg" : "Lesson Provider: Matt Geimer"
+          }
+        ]
       }
     ]
   }
+  
   

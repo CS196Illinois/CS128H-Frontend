@@ -9,7 +9,8 @@
           {
             "title" : "Course Logistics",
             "link" : "https://www.youtube.com/embed/6DVTt-JXeyA",
-            "msg" : "Lesson Provider: William Eustis We discuss course logistics, grading, and course content in this lesson. No homeworks/MPs yet, so no due dates coming up. Have a great beginning of your semester, I-L-L!"
+            "msg" : "Lesson Provider: William Eustis We discuss course logistics, grading, and course content in this lesson. No homeworks/MPs yet, so no due dates coming up. Have a great beginning of your semester, I-L-L!",
+            "slides": ""
           }
         ]
       },
@@ -22,7 +23,8 @@
           {
             "title" : "Rust Env & Cargo",
             "link" : "https://www.youtube.com/embed/c7dPy_FqfTI",
-            "msg" : "Lesson Provider: William Eustis"
+            "msg" : "Lesson Provider: William Eustis",
+            "slides": ""
           }
         ]
       },
@@ -35,22 +37,26 @@
           {
             "title" : "Rust Variables and Mutability",
             "link" : "https://www.youtube.com/embed/ZBlpRYk47yg",
-            "msg" : "Lesson Provider: Matt Geimer"
+            "msg" : "Lesson Provider: Matt Geimer",
+            "slides": "Mutability.pdf"
           },
           {
             "title" : "Rust Types",
             "link" : "https://www.youtube.com/embed/01hoLZ4Jb-g",
-            "msg" : "Lesson Provider: Matt Geimer"
+            "msg" : "Lesson Provider: Matt Geimer",
+            "slides": "RustTypes.pdf"
           },
           {
             "title" : "Control Flow in Rust",
             "link" : "https://www.youtube.com/embed/ZMFbWZ9XCDI",
-            "msg" : "Lesson Provider: Matt Geimer"
+            "msg" : "Lesson Provider: Matt Geimer",
+            "slides": "ControlFlow.pdf"
           },
           {
             "title" : "Rust IO",
             "link" : "https://www.youtube.com/embed/5JI-JFb0MPc",
-            "msg" : "Lesson Provider: Matt Geimer"
+            "msg" : "Lesson Provider: Matt Geimer",
+            "slides": "RustIO.pdf"
           }
         ]
       }

@@ -31,6 +31,7 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
             ></iframe>
+            <a *ngIf="lecture.slides" href="{{ '../../../../../assets/slides/' + lecture.slides}}" target="_blank">Click here to get the slides</a>
             <p>{{lecture.msg}}</p>
         </div>
     

@@ -29,7 +29,8 @@ export class LecturesComponent implements OnInit {
       this.lectureVideo.push({
         title: lecture.video[i].title,
         link: this.sanitizer.bypassSecurityTrustResourceUrl(lecture.video[i].link),
-        msg: lecture.video[i].msg
+        msg: lecture.video[i].msg,
+        slides: lecture.video[i].slides
       });
       console.log(this.lectureVideo);
     }

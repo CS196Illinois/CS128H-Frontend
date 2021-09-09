@@ -59,6 +59,20 @@
             "slides": "RustIO.pdf"
           }
         ]
+      },
+      {
+        "lectureID": "3",
+        "title": "Lesson 4",
+        "date": "September 8 2021",
+        "slides": "",
+        "video": [
+          {
+            "title" : "Rust Modules and Packages",
+            "link" : "https://www.youtube.com/embed/1o9lQl0RPWM",
+            "msg" : "Lesson Provider: William Eustis. HW0 and MP0 are out on PL!",
+            "slides": ""
+          }
+        ]
       }
     ]
   }

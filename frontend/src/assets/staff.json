@@ -32,7 +32,7 @@
         },
         {
             "name" : "Neil",
-            "bio" : "Hi! I'm Neil, and I'm a freshman in CS. Come talk to me about Python, soccer, and/or baseball!",
+            "bio" : "Coffee connoisseur and raging Rustacean",
             "picture" : "neil.jpg"
         }
     ]

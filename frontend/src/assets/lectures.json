@@ -73,6 +73,20 @@
             "slides": ""
           }
         ]
+      },
+      {
+        "lectureID": "4",
+        "title": "Lesson 5",
+        "date": "September 13 2021",
+        "slides": "",
+        "video": [
+          {
+            "title" : "Functions, Comments, and Arrays in Rust",
+            "link" : "https://www.youtube.com/embed/WEHfoKlomrM",
+            "msg" : "Presenter: Matt Geimer",
+            "slides": "FunctionsReturn.pdf"
+          }
+        ]
       }
     ]
   }

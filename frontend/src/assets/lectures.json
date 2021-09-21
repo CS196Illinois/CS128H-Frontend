@@ -87,6 +87,34 @@
             "slides": "FunctionsReturn.pdf"
           }
         ]
+      },
+      {
+        "lectureID": "5",
+        "title": "Lesson 6",
+        "date": "September 13 2021",
+        "slides": "",
+        "video": [
+          {
+            "title" : "CS128 Honors Lesson 6 - Rust Basics 2",
+            "link" : "https://www.youtube.com/embed/g5uKWts2Xrc",
+            "msg" : "Presenter: William Eustis",
+            "slides": ""
+          }
+        ]
+      },
+      {
+        "lectureID": "6",
+        "title": "Lesson 7",
+        "date": "September 13 2021",
+        "slides": "",
+        "video": [
+          {
+            "title" : "CS128 Honors Lesson 7 - Ownership Basics",
+            "link" : "https://www.youtube.com/embed/66fuaNXDwCQ",
+            "msg" : "Presenter: William Eustis",
+            "slides": ""
+          }
+        ]
       }
     ]
   }

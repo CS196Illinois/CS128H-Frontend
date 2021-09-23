@@ -115,6 +115,20 @@
             "slides": ""
           }
         ]
+      },
+      {
+        "lectureID": "7",
+        "title": "Lesson 8",
+        "date": "September 13 2021",
+        "slides": "",
+        "video": [
+          {
+            "title" : "Borrowing in Rust",
+            "link" : "https://www.youtube.com/embed/0_6O3z3erTU",
+            "msg" : "Presenter: Matt Geimer",
+            "slides": "Ownership_Functions.pdf"
+          }
+        ]
       }
     ]
   }

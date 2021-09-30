@@ -129,6 +129,34 @@
             "slides": "Ownership_Functions.pdf"
           }
         ]
+      },
+      {
+        "lectureID": "8",
+        "title": "Lesson 9",
+        "date": "September 13 2021",
+        "slides": "",
+        "video": [
+          {
+            "title" : "Ownership/Borrowing Examples",
+            "link" : "https://www.youtube.com/embed/ADI6d7AGZOM",
+            "msg" : "Presenter: William Eustis",
+            "slides": ""
+          }
+        ]
+      },
+      {
+        "lectureID": "9",
+        "title": "Lesson 10",
+        "date": "September 13 2021",
+        "slides": "",
+        "video": [
+          {
+            "title" : "Rust Structs",
+            "link" : "https://www.youtube.com/embed/QlltmBWvqWA",
+            "msg" : "Presenter: Matt Geimer",
+            "slides": "Rust_Structs.pdf"
+          }
+        ]
       }
     ]
   }

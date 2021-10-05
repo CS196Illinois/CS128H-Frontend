@@ -157,6 +157,20 @@
             "slides": "Rust_Structs.pdf"
           }
         ]
+      },
+      {
+        "lectureID": "10",
+        "title": "Lesson 11",
+        "date": "September 13 2021",
+        "slides": "",
+        "video": [
+          {
+            "title" : "Struct Methods in Rust",
+            "link" : "https://www.youtube.com/embed/r9yibbp2c3A",
+            "msg" : "Presenter: Matt Geimer",
+            "slides": "Rust_Instance_Functions.pdf"
+          }
+        ]
       }
     ]
   }

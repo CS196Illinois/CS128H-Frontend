@@ -171,6 +171,20 @@
             "slides": "Rust_Instance_Functions.pdf"
           }
         ]
+      },
+      {
+        "lectureID": "11",
+        "title": "Lesson 12",
+        "date": "September 13 2021",
+        "slides": "",
+        "video": [
+          {
+            "title" : "Parallelism and Concurrency",
+            "link" : "https://www.youtube.com/embed/tYwybu3rqp8",
+            "msg" : "Presenter: William Eustis",
+            "slides": ""
+          }
+        ]
       }
     ]
   }

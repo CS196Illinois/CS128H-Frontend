@@ -9,10 +9,9 @@ import { LoginService } from "src/app/services/login.service";
 })
 export class GradesComponent implements OnInit {
   grades;
-  homework_grades;
-  attendance_grades;
-  project_grades;
-  extra_credit_grades;
+  hw_grades = []
+  mp_grades = []
+  project_grades = []
   name;
   user: gapi.auth2.GoogleUser;
   flag: boolean = false;
@@ -51,17 +50,14 @@ export class GradesComponent implements OnInit {
     }
     this.name = this.user.getBasicProfile().getGivenName();
     var grades = JSON.parse(JSON.stringify(data));
-    this.homework_grades = grades.grades.filter(
-      item => item.assignmentType == 3
-    );
-    this.attendance_grades = grades.grades.filter(
-      item => item.assignmentType == 1
-    );
-    this.project_grades = grades.grades.filter(
-      item => item.assignmentType == 2
-    );
-    this.extra_credit_grades = grades.grades.filter(
-      item => item.assignmentType == 4
-    );
+    console.log(grades.grades);
+    for (var i = 0; i < grades.grades.length; ++i) {
+      if (grades.grades[i]['assignment_name'].substring(0,2) == 'MP') {
+        this.mp_grades.push({'assignmentName': grades.grades[i]['assignment_name'], 'grade': grades.grades[i]['grades']})
+      } else if (grades.grades[i]['assignment_name'].substring(0,2) == 'HW') {
+        this.hw_grades.push({'assignmentName': grades.grades[i]['assignment_name'], 'grade': grades.grades[i]['grades']})
+      }
+      console.log(this.mp_grades)
+    }
   }
 }

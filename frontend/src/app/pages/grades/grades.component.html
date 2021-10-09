@@ -41,10 +41,10 @@
   <h5 *ngIf="!grades">Loading the grades...</h5>
   <table class="content-table">
     <tr>
-      <th>Attendance</th>
+      <th>Homework</th>
       <th>Grades</th>
     </tr>
-    <tr *ngFor="let grade of attendance_grades">
+    <tr *ngFor="let grade of hw_grades">
       <td>{{ grade.assignmentName }}</td>
       <td>{{ grade.grade }}</td>
     </tr>
@@ -53,10 +53,10 @@
   <br />
   <table class="content-table">
     <tr>
-      <th>Homework</th>
+      <th>Machine Problem</th>
       <th>Grades</th>
     </tr>
-    <tr *ngFor="let grade of homework_grades">
+    <tr *ngFor="let grade of mp_grades">
       <td>{{ grade.assignmentName }}</td>
       <td>{{ grade.grade }}</td>
     </tr>
@@ -69,18 +69,6 @@
       <th>Grades</th>
     </tr>
     <tr *ngFor="let grade of project_grades">
-      <td>{{ grade.assignmentName }}</td>
-      <td>{{ grade.grade }}</td>
-    </tr>
-  </table>
-
-  <br />
-  <table class="content-table">
-    <tr>
-      <th>Extra Credit</th>
-      <th>Grades</th>
-    </tr>
-    <tr *ngFor="let grade of extra_credit_grades">
       <td>{{ grade.assignmentName }}</td>
       <td>{{ grade.grade }}</td>
     </tr>

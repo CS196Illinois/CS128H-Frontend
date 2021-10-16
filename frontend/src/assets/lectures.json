@@ -185,6 +185,34 @@
             "slides": ""
           }
         ]
+      },
+      {
+        "lectureID": "12",
+        "title": "Lesson 13",
+        "date": "September 13 2021",
+        "slides": "",
+        "video": [
+          {
+            "title" : "Ownership in Threads",
+            "link" : "https://www.youtube.com/embed/gQEcWid-vxc",
+            "msg" : "Presenter: Matt Geimer",
+            "slides": ""
+          }
+        ]
+      },
+      {
+        "lectureID": "13",
+        "title": "Lesson 14",
+        "date": "September 13 2021",
+        "slides": "",
+        "video": [
+          {
+            "title" : "Parallelism and Concurrency",
+            "link" : "https://www.youtube.com/embed/ifZ5Od92MXY",
+            "msg" : "Presenter: William Eustis",
+            "slides": ""
+          }
+        ]
       }
     ]
   }

@@ -213,6 +213,34 @@
             "slides": ""
           }
         ]
+      },
+      {
+        "lectureID": "14",
+        "title": "Lesson 15",
+        "date": "September 13 2021",
+        "slides": "",
+        "video": [
+          {
+            "title" : "CS128-Honors Lesson 15 - Review & Shared Memory",
+            "link" : "https://www.youtube.com/embed/UjWYS8bZCYo",
+            "msg" : "Presenter: William Eustis",
+            "slides": ""
+          }
+        ]
+      },
+      {
+        "lectureID": "15",
+        "title": "Lesson 16",
+        "date": "September 13 2021",
+        "slides": "",
+        "video": [
+          {
+            "title" : "CS128-Honors Lesson 16 - Rust Generics",
+            "link" : "https://www.youtube.com/embed/OA8TNC0ZHJw",
+            "msg" : "Presenter: Matt Geimer",
+            "slides": ""
+          }
+        ]
       }
     ]
   }

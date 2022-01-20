@@ -34,6 +34,11 @@
             "name" : "Neil",
             "bio" : "Coffee connoisseur and raging Rustacean",
             "picture" : "neil.jpg"
+        },
+        {
+            "name" : "Liza",
+            "bio": "Freshman in CS, still figuring out my interests. DM for the best snickerdoodles recipe on earth.",
+            "picture": "liza.jpg"
         }
     ]
 }

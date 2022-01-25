@@ -1,6 +1,6 @@
-# fall-2020-website
+# spring-2022-website
 
-Official CS196 Website: [cs196.cs.illinois.edu](http://cs196.cs.illinois.edu)
+Official CS128 Honors Website: [honors.cs128.org/](https://honors.cs128.org/)
 
 Updated website written in Angular
 

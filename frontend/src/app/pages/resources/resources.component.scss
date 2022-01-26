@@ -1,5 +1,16 @@
-app-lectures-table {
-  width: 100%;
+.resources-table {
+  height: 100vh;
+  width: 75vw;
+  margin-top: 5%;
+  padding: 0;
+  box-sizing: border-box;
+  padding: 0% 8% 20% 8%;
+}
+
+.resource-page {
+  height: 100vh;
+  width: 75vw;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 p {
@@ -7,10 +18,6 @@ p {
   font-size: large;
   padding-bottom: 1rem;
   margin: 0;
-}
-.container {
-  width: 90%;
-  padding-bottom: 10%;
 }
 
 .resource {
@@ -21,9 +28,9 @@ p {
 }
 
 .row {
+  margin-top: 12%;
   background-color: rgba(0, 0, 0, 0.15);
   min-height: 20rem;
-  // height: 35vh;
 }
 
 h3 {
@@ -52,6 +59,9 @@ section {
 }
 
 @media (max-width: 559px) {
+  .resource-page {
+    width: 100vw;
+  }
   .big-container {
     padding-top: 10%;
   }
@@ -94,7 +104,7 @@ section {
   }
 }
 
-@media only screen and (min-width: 559px) {
+@media only screen and (min-width: 560px) {
   nav {
     display: none;
   }

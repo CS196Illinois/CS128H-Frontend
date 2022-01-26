@@ -3,12 +3,12 @@
         {
             "name" : "Eustis",
             "bio" : "computer vision go brrrrr",
-            "picture" : "william.jpg"
+            "picture" : "eustis.jpg"
         },
         {
-            "name" : "Matt",
-            "bio" : "I’m a junior majoring in Computer Science + Economics. My interests are mobile development, fintech, and data analytics. I’m also a pilot in my free time.",
-            "picture" : "matt.jpeg"
+            "name" : "Neil",
+            "bio" : "Coffee connoisseur and raging Rustacean",
+            "picture" : "neil.jpg"
         },
         {
             "name" : "Jonah",
@@ -18,27 +18,27 @@
         {
             "name" : "Andrea",
             "bio": "Spurs and Texans fan, an aspiring chef, a wannabe trap producer, and a gym rat.",
-            "picture" : "andrea.png"
+            "picture" : "andrea.jpg"
         },
-        {
-            "name" : "Daniel",
-            "bio" : "As a reward for joining CS196 have a cake.",
-            "picture" : "daniel.jpg"
-        }, 
         {
             "name" : "Welby",
             "bio" : "css isn't a real programming language",
             "picture" : "welby.jpg"
         },
         {
-            "name" : "Neil",
-            "bio" : "Coffee connoisseur and raging Rustacean",
-            "picture" : "neil.jpg"
+            "name" : "Cooper",
+            "bio": "coffee addict.",
+            "picture": "cooper.jpg"
         },
         {
-            "name" : "Liza",
-            "bio": "Freshman in CS, still figuring out my interests. DM for the best snickerdoodles recipe on earth.",
-            "picture": "liza.jpg"
+            "name" : "Harry",
+            "bio": "Fractal enthusiast that likes raytracing and GPU programming",
+            "picture": "harry.jpg"
+        },
+        {
+            "name" : "Arul",
+            "bio": "Hi everyone! My name is Arul Verma, a freshman majoring in CS. I took CS128H last semester and really enjoyed learning about Rust. I'm excited to be a CA for the course this semester and will try to help in any way I can.",
+            "picture": "arul.jpg"
         }
     ]
 }

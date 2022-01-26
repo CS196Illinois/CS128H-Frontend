@@ -38,18 +38,18 @@ app-sidebar {
 }
 
 #navmobile {
-  display:None;
+  display: None;
 }
 
 @media (max-width: 559px) {
   #navmobile {
     position: absolute;
-    display:block;
+    display: block;
     margin: 3%;
     border: 0;
-    background-color: transparent ;
+    background-color: transparent;
   }
-  
+
   app-sidebar {
     display: none;
   }

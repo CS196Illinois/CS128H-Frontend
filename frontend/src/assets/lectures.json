@@ -10,7 +10,21 @@
             "title" : "What is CS 128 Honors?",
             "link" : "https://www.youtube.com/embed/d5u9ftlA0zM",
             "msg" : "This is the link to the form we talk about at the end. Please make sure you follow the steps on this form: https://forms.gle/wNUrZ3fuz9FKbfid9 You'll need to log in to your Illinois account.",
-            "slides": ""
+            "slides": "lecture0.pdf"
+          }
+        ]
+      },
+      {
+        "lectureID": "1",
+        "title": "Lecture 1",
+        "date": "",
+        "slides": "",
+        "video": [
+          {
+            "title" : "What is Rust (The Programming Language)? - CS 128 Honors Lecture 1",
+            "link" : "https://www.youtube.com/embed/3GcHSC5qNKo",
+            "msg" : "CS 128 Honors is the Honors Add-on course for CS 128 at the University of Illinois Urbana-Champaign. This course teaches Rust, with a focus on topics such as concurrency, thread safety, functional programming, and how Rust does OOP.",
+            "slides": "lecture1.pdf"
           }
         ]
       }

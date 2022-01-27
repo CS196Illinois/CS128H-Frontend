@@ -35,6 +35,10 @@
             "bio": "Fractal enthusiast that likes raytracing and GPU programming",
             "picture": "harry.jpg"
         },
+        {"name" : "Liza",
+            "bio": "Freshman in CS, still figuring out my interests. DM for the best snickerdoodles recipe on earth.",
+            "picture": "liza.jpg"
+        },
         {
             "name" : "Arul",
             "bio": "Hi everyone! My name is Arul Verma, a freshman majoring in CS. I took CS128H last semester and really enjoyed learning about Rust. I'm excited to be a CA for the course this semester and will try to help in any way I can.",

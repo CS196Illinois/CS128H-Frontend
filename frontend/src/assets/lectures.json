@@ -28,6 +28,21 @@
           }
         ]
       }
+      ,
+      {
+        "lectureID": "2",
+        "title": "Lecture 2",
+        "date": "",
+        "slides": "",
+        "video": [
+          {
+            "title" : "Introduction to Rust (Part 1) - CS 128 Honors Lecture 2",
+            "link" : "https://www.youtube.com/embed/Vgt9C58obpc",
+            "msg" : "CS 128 Honors is the Honors Add-on course for CS 128 at the University of Illinois Urbana-Champaign. This course teaches Rust, with a focus on topics such as concurrency, thread safety, functional programming, and how Rust does OOP.            This lecture covers basic Rust programs, variables and mutability, basic types in Rust, macros, and standard input and output.",
+            "slides": "lecture2.pdf"
+          }
+        ]
+      }
     ]
   }
   

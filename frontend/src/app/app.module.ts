@@ -17,13 +17,15 @@ import { LecturesComponent } from './pages/lectures/lectures.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSidenavModule } from '@angular/material/sidenav'; 
 import { MatIconModule, MatMenuModule } from "@angular/material";
+import { ScheduleComponent } from './pages/schedule/schedule.component';
 
 const routes: Routes = [
   { path: "", component: HomeComponent },
   { path: "resources", component: ResourcesComponent },
   { path: "staff", component: StaffComponent },
   { path: "grades", component: GradesComponent },
-  { path: "lectures", component: LecturesComponent}
+  { path: "lectures", component: LecturesComponent},
+  { path: "schedule", component: ScheduleComponent}
 ];
 
 @NgModule({
@@ -37,6 +39,7 @@ const routes: Routes = [
     PersonComponent,
     GradesComponent,
     LecturesComponent,
+    ScheduleComponent,
   ],
   imports: [
     BrowserModule,

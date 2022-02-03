@@ -17,6 +17,7 @@ import { LecturesComponent } from './pages/lectures/lectures.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSidenavModule } from '@angular/material/sidenav'; 
 import { MatIconModule, MatMenuModule } from "@angular/material";
+import {MatTableModule} from '@angular/material/table';
 import { ScheduleComponent } from './pages/schedule/schedule.component';
 
 const routes: Routes = [
@@ -49,7 +50,8 @@ const routes: Routes = [
     BrowserAnimationsModule,
     MatSidenavModule,
     MatIconModule,
-    MatMenuModule
+    MatMenuModule,
+    MatTableModule
   ],
   providers: [LoginService, GradesService],
   bootstrap: [AppComponent],

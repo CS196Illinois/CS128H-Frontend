@@ -1,0 +1,29 @@
+.staff{
+    padding: 3rem;
+}
+.title {
+    font-size: 3.5rem;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.divider-row{
+    font-weight: bold;
+}
+
+@media (max-width: 559px) {
+    .schedule {
+        padding-top: 7%;
+    }
+    .link {
+        color: black;
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (min-width: 559px) {
+    nav {
+        display: none;
+    }
+}

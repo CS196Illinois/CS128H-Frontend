@@ -1,29 +1,61 @@
-.staff{
-    padding: 3rem;
+.staff {
+  padding: 3rem;
 }
 .title {
-    font-size: 3.5rem;
-    margin-left: 5%;
-    margin-bottom: 3%;
-    margin-top: 3%;
+  font-size: 3.5rem;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  margin-top: 3%;
 }
 
-.divider-row{
-    font-weight: bold;
+// .divider-row{
+//     font-weight: bold;
+// }
+
+.schedule-tree-invisible {
+  display: none;
+}
+
+.schedule-tree ul,
+.schedule-tree li {
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+}
+
+/*
+   * This padding sets alignment of the nested nodes.
+   */
+.schedule-tree .mat-nested-tree-node div[role="group"] {
+  padding-left: 40px;
+}
+
+/*
+   * Padding for leaf nodes.
+   * Leaf nodes need to have padding so as to align with other non-leaf nodes
+   * under the same parent.
+   */
+.schedule-tree div[role="group"] > .mat-tree-node {
+  padding-left: 40px;
+}
+
+button{
+  border: none;
+  background-color: white;
 }
 
 @media (max-width: 559px) {
-    .schedule {
-        padding-top: 7%;
-    }
-    .link {
-        color: black;
-        margin-left: 5%;
-    }
+  .schedule {
+    padding-top: 7%;
+  }
+  .link {
+    color: black;
+    margin-left: 5%;
+  }
 }
 
 @media only screen and (min-width: 559px) {
-    nav {
-        display: none;
-    }
+  nav {
+    display: none;
+  }
 }

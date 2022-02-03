@@ -19,6 +19,9 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule, MatMenuModule } from "@angular/material";
 import {MatTableModule} from '@angular/material/table';
 import { ScheduleComponent } from './pages/schedule/schedule.component';
+// import {MatTreeNestedDataSource} from '@angular/material/tree';
+import {MatTreeModule} from '@angular/material/tree';
+
 
 const routes: Routes = [
   { path: "", component: HomeComponent },
@@ -51,7 +54,9 @@ const routes: Routes = [
     MatSidenavModule,
     MatIconModule,
     MatMenuModule,
-    MatTableModule
+    MatTableModule,
+    MatTreeModule,
+    // MatTreeNestedDataSource
   ],
   providers: [LoginService, GradesService],
   bootstrap: [AppComponent],

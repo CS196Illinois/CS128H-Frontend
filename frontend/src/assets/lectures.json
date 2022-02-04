@@ -58,6 +58,21 @@
           }
         ]
       }
+      ,
+      {
+        "lectureID": "4",
+        "title": "Lecture 4",
+        "date": "",
+        "slides": "",
+        "video": [
+          {
+            "title" : "Enums and Matching in Rust - CS 128 Honors Lecture 4",
+            "link" : "https://www.youtube.com/embed/ptWRtNaNNfY",
+            "msg" : "CS 128 Honors is the Honors Add-on course for CS 128 at the University of Illinois Urbana-Champaign. This course teaches Rust, with a focus on topics such as concurrency, thread safety, functional programming, and how Rust does OOP.            ",
+            "slides": "lecture4.pdf"
+          }
+        ]
+      }
     ]
   }
   

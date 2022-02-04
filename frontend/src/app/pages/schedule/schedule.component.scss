@@ -3,14 +3,34 @@
 }
 .title {
   font-size: 3.5rem;
-  margin-left: 5%;
   margin-bottom: 3%;
   margin-top: 3%;
 }
 
-.divider-row{
-    font-weight: bold;
+#schedule-info{
+  margin-left: 5%;
+  font-style: italic;
+  margin-bottom: 5%;
+
 }
+
+.divider-row{
+  font-weight: bold;
+}
+
+// td.mat-cell:first-of-type{
+//   padding-left: 14px;
+// }
+
+
+.staff{
+  width: 100%;
+}
+
+.mat-column-type{
+  font-style: italic;
+}
+
 
 .schedule-tree-invisible {
   display: none;

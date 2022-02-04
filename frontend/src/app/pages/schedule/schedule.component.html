@@ -1,9 +1,12 @@
-<div class="staff">
+<div class="staff" id="staff-div">
     <div class="title">Schedule</div>
-    <p>MPs are released day of lecture.  (Tues/Thurs)</p>
-    <p>MPs are due day after lecture (Wed/Fri)</p>
-    <p>Homework is released day of lecture (Tues/Thurs)</p>
-    <p>Homework is due 1 week from release. </p>
+
+    <div id="schedule-info">
+        <p>MPs are released day of lecture.  (Tues/Thurs)</p>
+        <p>MPs are due day after lecture (Wed/Fri)</p> 
+        <p>Homework is released day of lecture (Tues/Thurs)</p>
+        <p>Homework is due 1 week from release. </p>
+    </div>
 
 
     <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
@@ -34,7 +37,6 @@
         <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
         <tr mat-row *matRowDef="let row; columns: displayedColumns;" [ngClass]="{'divider-row':row.isDivider}"></tr>
 
-        <tr mat-row *matRowDef="let row; columns: ['weekDivider']; when: isGroup"> </tr>
 
     </table>
 

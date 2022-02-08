@@ -6,6 +6,12 @@
   width: 75vw;
 }
 
+mat-card-actions {
+  display: flex;
+  justify-content: space-between;
+  width: 5vw;
+}
+
 .hof-plaque-container {
   margin-bottom: 10vh;
 }
@@ -40,5 +46,8 @@
   }
   .hof-card {
     width: 80vw;
+  }
+  mat-card-actions {
+    width: 15vw;
   }
 }

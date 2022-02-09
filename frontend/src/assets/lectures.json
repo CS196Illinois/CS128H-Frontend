@@ -73,6 +73,21 @@
           }
         ]
       }
+      ,
+      {
+        "lectureID": "5",
+        "title": "Lecture 5",
+        "date": "",
+        "slides": "",
+        "video": [
+          {
+            "title" : "Rust And Ownership - CS 128 Honors Lecture 5",
+            "link" : "https://www.youtube.com/embed/XygVE6Xhbhc",
+            "msg" : "CS 128 Honors is the Honors Add-on course for CS 128 at the University of Illinois Urbana-Champaign. This course teaches Rust, with a focus on topics such as concurrency, thread safety, functional programming, and how Rust does OOP.            ",
+            "slides": "lecture5.pdf"
+          }
+        ]
+      }
     ]
   }
   

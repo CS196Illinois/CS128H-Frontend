@@ -17,8 +17,10 @@ import { LecturesComponent } from './pages/lectures/lectures.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSidenavModule } from '@angular/material/sidenav'; 
 import { MatIconModule, MatMenuModule } from "@angular/material";
+import { HofComponent } from "./pages/hof/hof.component";
 import {MatTableModule} from '@angular/material/table';
 import { ScheduleComponent } from './pages/schedule/schedule.component';
+import { MatCardModule } from '@angular/material/card';
 // import {MatTreeNestedDataSource} from '@angular/material/tree';
 import {MatTreeModule} from '@angular/material/tree';
 
@@ -29,7 +31,8 @@ const routes: Routes = [
   { path: "staff", component: StaffComponent },
   { path: "grades", component: GradesComponent },
   { path: "lectures", component: LecturesComponent},
-  { path: "schedule", component: ScheduleComponent}
+  { path: "hof", component: HofComponent},
+  { path: "schedule", component: ScheduleComponent},
 ];
 
 @NgModule({
@@ -43,6 +46,7 @@ const routes: Routes = [
     PersonComponent,
     GradesComponent,
     LecturesComponent,
+    HofComponent,
     ScheduleComponent,
   ],
   imports: [
@@ -56,6 +60,7 @@ const routes: Routes = [
     MatMenuModule,
     MatTableModule,
     MatTreeModule,
+    MatCardModule
     // MatTreeNestedDataSource
   ],
   providers: [LoginService, GradesService],

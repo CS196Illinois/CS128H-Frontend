@@ -1,0 +1,56 @@
+.hof-page-container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  margin-top: 15vh;
+  width: 75vw;
+}
+
+mat-card-actions {
+  display: flex;
+  justify-content: space-between;
+  width: 5vw;
+}
+
+.hof-plaque-container {
+  margin-bottom: 10vh;
+}
+
+.hof-plaque {
+  z-index: -1;
+  width: 12rem;
+}
+
+.img-container {
+  width: 8rem;
+  height: 8rem;
+}
+
+.hof-card-container {
+  display: flex;
+  padding: 2vh;
+}
+
+.hof-card {
+  width: 60vw;
+}
+
+@media only screen and (max-width: 590px) {
+  .hof-page-container {
+    padding-top: 5vw;
+    margin: 12vw;
+  }
+  .hof-card-container {
+    display: block;
+    width: 100%;
+  }
+  .hof-card {
+    width: 80vw;
+  }
+  mat-card-actions {
+    width: 15vw;
+  }
+  a {
+    z-index: 7;
+  }
+}

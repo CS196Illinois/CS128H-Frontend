@@ -1,0 +1,36 @@
+{
+    "hof": [
+        {
+            "group":"SIGSEGV",
+            "description": "Jeff Zou created a visual interpreter for a niche esolang called \"5D Brainf*ck With Multiverse Time Travel\" (am I allowed to say that?). I wish I could speak more on this project but I understand it too little. The plethora of complex tasks Jeff was able to complete alone left us speechless. To parse, interperate, and execute it's behavior, to design a website, and to then deploy it live for you all — truly wonderful. I encourage you to try it out!",
+            "github": "https://github.com/SIGUSR97/bf5d",
+            "live": "https://bf5d.netlify.app/"
+        },
+        {
+            "group":"Team::Team",
+            "description": "Ishaan Mathur, James Huang, and Louis Asanaka created a multiplayer snake game coined 'Snek'. Their codebase handles the networking allowing players to connect to a central server to send and recieve data; the logic for the game itself, including collisions and board alive/death state; and the graphics, so that it all looks nice.  It's fun, it's creative, and it's perfectly executed.",
+            "github": "https://github.com/imathur1/snek-game",
+            "live": ""
+        },
+        {
+            "group":"Coastal Elites",
+            "description": "Aiden Glickman and Max Fan created a custom chess engine in rust. Deemed 'Pickerel', the codebase implemented a parallelised, pruned, tree-search algorithm called abdada to search different game states in order to find optimal play. In addition, their codebase was outstanding. Implementing CI/CD to automatically test commits, ensuring LINTing format, and writing the project in such a way that the engine is not specific to Chess and could easily be swapped with a different game. Truly a beautiful code base and paragon for future projects to emulate.",
+            "github": "https://github.com/AidanGlickman/CS128Hon-Final",
+            "live": ""
+        },
+        {
+            "group":"Raytracers",
+            "description": "Harry Zhou, Athish Thiruvengadam, Jizheng He, and Chen Yang created, as the name may suggest, a raytracing engine. A major descriptor for this project was 'exhaustive'. The group implemented not just the math to calculate ray direction but implemented the underlying 3D vector struct and 3D Matrix struct. They went further to implement a camera, color, material, object, sky, and scene classes. The masterful use of inheritance and class properties are nothing if not deeply impressive.",
+            "github": "https://github.com/hhhzzzsss/rust-raytracer",
+            "live": ""
+        },
+        {
+            "group":"MK",
+            "description": "Mark Zhang implemented a tic-tac-toe server but don't be fooled- the implemention is nowhere near as simple as the game. Mark ensures his system is efficient and effective- utilizing dipa to send only the game state deltas to clients, spawning a seperate dedicated thread to handle each server's process. He allows for the creation and deletion of rooms, safely handling the game state and actions between players. Of course, he made sure to seperate the game state and the game logic - allowing the ease to replace and extend the framework to nearly any task. He handles each TCP connection in a seperate process, allowing for me to rage-quit after I lose 7 times in a row without any issue to the server. Mark's work was nothing but professional in it's approach, execution, and presentation.",
+            "github": "https://github.com/MarkintoshZ/rust-tic-tac-toe-server",
+            "live": ""
+        }
+    ]
+    
+    
+}

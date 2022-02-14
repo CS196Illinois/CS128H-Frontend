@@ -35,7 +35,8 @@
         </ng-container>
         
         <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-        <tr mat-row *matRowDef="let row; columns: displayedColumns;" [ngClass]="{'divider-row':row.isDivider}"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;" [ngClass]="{'divider-row': row.isDivider, 'non-divider-row': !row.isDivider, 'description-row':row.isDescription}"></tr>
+        <!-- <tr mat-row *matRowDef="let row; columns: displayedColumns;" [ngClass]="row.isDivider ? 'divider-row' : 'non-divider-row'"></tr> -->
 
 
     </table>

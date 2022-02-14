@@ -103,7 +103,7 @@ const SCHEDULE_DATA_FOR_TABLE: (ScheduleElemForTable )[] = [ // | WeekDivider
   {position: 1, name:'Final Projects', type:'', date: '', isDivider: false},
 
   {position: 1, name: 'Debugging Special Lecture', type:'Lecture', date: '3/29/2022', isDivider: false},
-  {position: 1, name: 'Special (guest?) Lecture ', type:'Lecture', date: '4/1/2022', isDivider: false},
+  {position: 1, name: 'Special Topics Lecture', type:'Lecture', date: '4/1/2022', isDivider: false},
 
   {position: 1, name:'Week 11, 12, 13, 14', type:'', date: '', isDivider: true},
   {position: 1, name:'Final Projects; No HW, no MPs', type:'', date: '', isDivider: false},
@@ -111,15 +111,7 @@ const SCHEDULE_DATA_FOR_TABLE: (ScheduleElemForTable )[] = [ // | WeekDivider
 
 
   {position: 1, name:'Week 15', type:'', date: '', isDivider: true},
-  {position: 1, name: 'Final Project Due (soft deadline)', type:'Final Project', date: '5/4/2022', isDivider: false},
-  {position: 1, name: 'Final Project Due (hard deadline)', type:'Final Project', date: '5/8/2022', isDivider: false},
-
-  // {isGroupBy: true, weekNumber: 5},
-  // {isGroupBy: true, weekNumber: 6},
-  // {isGroupBy: true, weekNumber: 7},
-  // {isGroupBy: true, weekNumber: 8},
-  // {isGroupBy: true, weekNumber: 9},
-  // {isGroupBy: true, weekNumber: 10},
+  {position: 1, name: 'Final Project Due', type:'Final Project', date: '5/4/2022', isDivider: false}
 
 ];
 

@@ -103,6 +103,21 @@
           }
         ]
       }
+      ,
+      {
+        "lectureID": "7",
+        "title": "Lecture 7",
+        "date": "",
+        "slides": "",
+        "video": [
+          {
+            "title" : "Borrowing and Slices in Rust - CS 128 Honors Lecture 7",
+            "link" : "https://www.youtube.com//embed/I5hAy-YFU2Q",
+            "msg" : "CS 128 Honors is the Honors Add-on course for CS 128 at the University of Illinois Urbana-Champaign. This course teaches Rust, with a focus on topics such as concurrency, thread safety, functional programming, and how Rust does OOP. ",
+            "slides": "lecture7.pdf"
+          }
+        ]
+      }
     ]
   }
   

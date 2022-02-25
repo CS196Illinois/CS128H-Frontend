@@ -148,6 +148,21 @@
           }
         ]
       }
+      ,
+      {
+        "lectureID": "10",
+        "title": "Lecture 10",
+        "date": "",
+        "slides": "",
+        "video": [
+          {
+            "title" : "Generics and Smart Pointers in Rust - CS 128 Honors Lecture 10",
+            "link" : "https://www.youtube.com/embed/Mys3lbm7kpM",
+            "msg" : "CS 128 Honors is the Honors Add-on course for CS 128 at the University of Illinois Urbana-Champaign. This course teaches Rust, with a focus on topics such as concurrency, thread safety, functional programming, and how Rust does OOP. This lecture covers structs, generics, and introduces smart pointers. Also goes over how to approach and complete part of HW8.",
+            "slides": "lecture10.pdf"
+          }
+        ]
+      }
     ]
   }
   

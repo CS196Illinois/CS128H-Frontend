@@ -6,6 +6,7 @@ jobs:
     steps:
         - name: Reach correct directory
           run: |
-            cd cs196-128-official-website
+            # cd cs196-128-official-website
+            npm install
             ls -a
         - run: echo "🍏 This job's status is ${{ job.status }}."

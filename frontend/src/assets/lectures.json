@@ -163,6 +163,21 @@
           }
         ]
       }
+      ,
+      {
+        "lectureID": "11",
+        "title": "Lecture 11",
+        "date": "",
+        "slides": "",
+        "video": [
+          {
+            "title" : "Parallelism and Concurrency in Rust - CS128 Honors Lesson 11",
+            "link" : "https://www.youtube.com/embed/1070Dc6irDM",
+            "msg" : "CS 128 Honors is the Honors Add-on course for CS 128 at the University of Illinois Urbana-Champaign. This course teaches Rust, with a focus on topics such as concurrency, thread safety, functional programming, and how Rust does OOP.",
+            "slides": "lecture11.pdf"
+          }
+        ]
+      }
     ]
   }
   

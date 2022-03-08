@@ -7,17 +7,9 @@ import { LoginService } from "src/app/services/login.service";
   styleUrls: ['./admin.component.scss']
 })
 export class AdminComponent implements OnInit {
-  grades;
-  final_grade;
-  hw_grades = []
-  mp_grades = []
-  project_grades = []
   name;
   isAdmin: boolean = false
   user: gapi.auth2.GoogleUser;
-  flag: boolean = false;
-  isSignedIn: boolean = false;
-  isIllini: boolean = true;
   constructor(    
     private GradesService: GradesService,
     private LoginService: LoginService,
@@ -36,38 +28,4 @@ export class AdminComponent implements OnInit {
       }
     });
   }
-
-  displayGrades(data) {
-    if (
-      this.user
-        .getBasicProfile()
-        .getEmail()
-        .match("(?:@)[^.]+(?=.)")[0]
-        .substr(1) !== "illinois"
-    ) {
-      this.isIllini = false;
-    }
-    this.name = this.user.getBasicProfile().getGivenName();
-    var grades = JSON.parse(JSON.stringify(data));
-    var MPGradeTotal = 0;
-    var MPGradeCount = 0;
-    var HWGradeTotal = 0;
-    var HWGradeCount = 0;
-    var FinalProject = 0;
-    console.log(grades.grades);
-    for (var i = 0; i < grades.grades.length; ++i) {
-      if (grades.grades[i]['assignment_name'].substring(0,2) == 'MP') {
-        MPGradeTotal += grades.grades[i]['grades'];
-        MPGradeCount++;
-        this.mp_grades.push({'assignmentName': grades.grades[i]['assignment_name'], 'grade': grades.grades[i]['grades']})
-      } else if (grades.grades[i]['assignment_name'].substring(0,2) == 'HW') {
-        HWGradeTotal += grades.grades[i]['grades'];
-        HWGradeCount++;
-        this.hw_grades.push({'assignmentName': grades.grades[i]['assignment_name'], 'grade': grades.grades[i]['grades']})
-      }
-      console.log(this.mp_grades)
-    }
-    this.final_grade = Math.round(((MPGradeTotal/MPGradeCount)*0.55 + (HWGradeTotal/HWGradeCount)*0.15 + (FinalProject)*0.3) * 100)/100;
-  }
-
 }

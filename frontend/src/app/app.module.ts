@@ -23,6 +23,7 @@ import { ScheduleComponent } from './pages/schedule/schedule.component';
 import { MatCardModule } from '@angular/material/card';
 // import {MatTreeNestedDataSource} from '@angular/material/tree';
 import {MatTreeModule} from '@angular/material/tree';
+// import { AdminComponent } from './pages/admin/admin/admin.component';
 
 
 const routes: Routes = [
@@ -32,7 +33,7 @@ const routes: Routes = [
   { path: "grades", component: GradesComponent },
   { path: "lectures", component: LecturesComponent},
   { path: "hof", component: HofComponent},
-  { path: "schedule", component: ScheduleComponent},
+  { path: "schedule", component: ScheduleComponent}
 ];
 
 @NgModule({

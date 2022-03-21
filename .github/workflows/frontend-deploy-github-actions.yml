@@ -5,11 +5,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         - name: Reach correct directory
-          env:
-            CREDS_PWD: ${{secrets.CREDS_PWD}}
-          run: |
-            ssh lizag2@cs196.cs.illinois.edu
-            env.CREDS_PWD
-            cd cs196-128-official-website
-            ls -a
-        - run: echo "🍏 This job's status is ${{ job.status}}."
+          uses: appleboy/ssh-action@master
+          with:
+            host: cs196.cs.illinois.edu
+            username: lizag2
+            key: ${{secrets.CREDS_PWD}}
+            script: |
+              cd cs196-128-official-website
+              ls -a
+        - run: echo "🍏 This job's status is ${{ job.status }}."

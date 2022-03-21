@@ -9,7 +9,7 @@ jobs:
           with:
             host: cs196.cs.illinois.edu
             username: lizag2
-            key: ${{secrets.CREDS_PWD}}
+            key: ${{secrets.LIZAS_SSH_SECRET}}
             script: |
               cd cs196-128-official-website
               ls -a

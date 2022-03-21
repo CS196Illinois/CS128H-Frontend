@@ -1,7 +1,9 @@
 name: Update Frontend
 on:
   push:
-    branches: [master]
+    branches: 
+      - master
+      - lizag2-github-actions
 jobs:
   Push-changes-on-remote-server:
     runs-on: ubuntu-latest

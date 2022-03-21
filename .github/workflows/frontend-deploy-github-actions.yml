@@ -1,12 +1,15 @@
-name: GitHub Actions Demo
+name: Update Frontend
 on: [push]
 jobs:
-  Explore-GitHub-Actions:
+  Push-changes-on-remote-server:
     runs-on: ubuntu-latest
     steps:
         - name: Reach correct directory
+          env:
+            CREDS_PWD: ${{secrets.CREDS_PWD}}
           run: |
-            # cd cs196-128-official-website
-            npm install
+            ssh lizag2@cs196.cs.illinois.edu
+            env.CREDS_PWD
+            cd cs196-128-official-website
             ls -a
         - run: echo "🍏 This job's status is ${{ job.status }}."

@@ -12,4 +12,4 @@ jobs:
             env.CREDS_PWD
             cd cs196-128-official-website
             ls -a
-        - run: echo "🍏 This job's status is ${{ job.status }}."
+        - run: echo "🍏 This job's status is ${{ job.status}}."

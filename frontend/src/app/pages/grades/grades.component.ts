@@ -55,6 +55,8 @@ export class GradesComponent implements OnInit {
     var MPGradeCount = 0;
     var HWGradeTotal = 0;
     var HWGradeCount = 0;
+    var PRGradeTotal = 0;
+    var PRGradeCount = 0;
     var FinalProject = 0;
     console.log(grades.grades);
     for (var i = 0; i < grades.grades.length; ++i) {
@@ -66,6 +68,10 @@ export class GradesComponent implements OnInit {
         HWGradeTotal += grades.grades[i]['grades'];
         HWGradeCount++;
         this.hw_grades.push({'assignmentName': grades.grades[i]['assignment_name'], 'grade': grades.grades[i]['grades']})
+      } else if (grades.grades[i]['assignment_name'].substring(0,2) == 'PR') {
+        PRGradeTotal += grades.grades[i]['grades'];
+        PRGradeCount++;
+        this.project_grades.push({'assignmentName': grades.grades[i]['assignment_name'], 'grade': grades.grades[i]['grades']})
       }
       console.log(this.mp_grades)
     }

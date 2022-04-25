@@ -21,7 +21,7 @@ export class GradesComponent implements OnInit {
     private LoginService: LoginService,
     private ref: ChangeDetectorRef,
     private NgZone: NgZone
-  ) {}
+  ) { }
   isSignedIn: boolean = false;
   isIllini: boolean = true;
   ngOnInit() {
@@ -58,23 +58,22 @@ export class GradesComponent implements OnInit {
     var PRGradeTotal = 0;
     var PRGradeCount = 0;
     var FinalProject = 0;
-    console.log(grades.grades);
     for (var i = 0; i < grades.grades.length; ++i) {
-      if (grades.grades[i]['assignment_name'].substring(0,2) == 'MP') {
+      if (grades.grades[i]['assignment_name'].substring(0, 2) == 'MP') {
         MPGradeTotal += grades.grades[i]['grades'];
         MPGradeCount++;
-        this.mp_grades.push({'assignmentName': grades.grades[i]['assignment_name'], 'grade': grades.grades[i]['grades']})
-      } else if (grades.grades[i]['assignment_name'].substring(0,2) == 'HW') {
+        this.mp_grades.push({ 'assignmentName': grades.grades[i]['assignment_name'], 'grade': grades.grades[i]['grades'] })
+      } else if (grades.grades[i]['assignment_name'].substring(0, 2) == 'HW') {
         HWGradeTotal += grades.grades[i]['grades'];
         HWGradeCount++;
-        this.hw_grades.push({'assignmentName': grades.grades[i]['assignment_name'], 'grade': grades.grades[i]['grades']})
-      } else if (grades.grades[i]['assignment_name'].substring(0,2) == 'PR') {
-        PRGradeTotal += grades.grades[i]['grades'];
-        PRGradeCount++;
-        this.project_grades.push({'assignmentName': grades.grades[i]['assignment_name'], 'grade': grades.grades[i]['grades']})
-      }
-      console.log(this.mp_grades)
+        this.hw_grades.push({ 'assignmentName': grades.grades[i]['assignment_name'], 'grade': grades.grades[i]['grades'] })
+      } // } else if (grades.grades[i]['assignment_name'].substring(0, 2) == 'PR') {
+      //   console.log("HUHU")
+      //   PRGradeTotal += grades.grades[i]['grades'];
+      //   PRGradeCount++;
+      //   this.project_grades.push({ 'assignmentName': grades.grades[i]['assignment_name'], 'grade': grades.grades[i]['grades'] })
+      // }
     }
-    this.final_grade = Math.round(((MPGradeTotal/MPGradeCount)*0.55 + (HWGradeTotal/HWGradeCount)*0.15 + (FinalProject)*0.3) * 100)/100;
+    this.final_grade = Math.round(((MPGradeTotal / MPGradeCount) * 0.55 + (HWGradeTotal / HWGradeCount) * 0.15 + (FinalProject) * 0.3) * 100) / 100;
   }
 }

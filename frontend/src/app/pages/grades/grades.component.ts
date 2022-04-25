@@ -71,8 +71,10 @@ export class GradesComponent implements OnInit {
         MPGradeCount++;
         this.mp_grades.push({ 'assignmentName': grades.grades[i]['assignment_name'], 'grade': grades.grades[i]['grades'] })
       } else if (grades.grades[i]['assignment_name'].substring(0, 2) == 'HW') {
-        HWGradeTotal += grades.grades[i]['grades'];
-        HWGradeCount++;
+        if (grades.grades[i]['assignment_name'] != "HW0") {
+          HWGradeTotal += grades.grades[i]['grades']
+          HWGradeCount++
+        }
         this.hw_grades.push({ 'assignmentName': grades.grades[i]['assignment_name'], 'grade': grades.grades[i]['grades'] })
       } // } else if (grades.grades[i]['assignment_name'].substring(0, 2) == 'PR') {
       //   console.log("HUHU")
@@ -81,6 +83,6 @@ export class GradesComponent implements OnInit {
       //   this.project_grades.push({ 'assignmentName': grades.grades[i]['assignment_name'], 'grade': grades.grades[i]['grades'] })
       // }
     }
-    this.final_grade = Math.round(((MPGradeTotal / MPGradeCount) * 0.55 + (HWGradeTotal / HWGradeCount) * 0.15 + (FinalProject) * 0.3) * 100) / 100;
+    this.final_grade = Math.round(((MPGradeTotal / MPGradeCount) * 0.6 + (HWGradeTotal / HWGradeCount) * 0.2 + (FinalProject) * 0.2) * 100) / 100;
   }
 }

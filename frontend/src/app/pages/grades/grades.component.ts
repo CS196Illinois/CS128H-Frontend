@@ -31,12 +31,19 @@ export class GradesComponent implements OnInit {
       this.GradesService.getGrades().subscribe(data => {
         this.grades = data;
         if (this.grades) {
+          this.clearGrades()
           this.NgZone.run(() => {
             this.displayGrades(this.grades);
           });
         }
       });
     });
+  }
+
+  clearGrades() {
+    this.hw_grades = []
+    this.mp_grades = []
+    this.project_grades = []
   }
 
   displayGrades(data) {

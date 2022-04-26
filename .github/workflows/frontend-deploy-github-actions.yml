@@ -13,7 +13,7 @@ jobs:
       with:
         host: cs196.cs.illinois.edu
         username: lizag2
-        key: ${{secrets.LIZAS_SSH_SECRET}}
+        key: ${{secrets.LIZAS_SSH_SECRET_HOME}}
         script: |
           cd cs196-128-official-website
           git pull origin master

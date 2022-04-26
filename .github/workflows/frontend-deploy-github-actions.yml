@@ -16,5 +16,4 @@ jobs:
         key: ${{secrets.LIZAS_SSH_SECRET_HOME}}
         script: |
           cd cs196-128-official-website
-          git pull origin master
-          git status
+          ls

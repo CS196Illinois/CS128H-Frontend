@@ -10,6 +10,7 @@ import { LoginService } from "src/app/services/login.service";
 export class GradesComponent implements OnInit {
   grades;
   final_grade;
+  FinalGrade;
   hw_grades = []
   mp_grades = []
   project_grades = []
@@ -65,6 +66,7 @@ export class GradesComponent implements OnInit {
     var PRGradeTotal = 0;
     var PRGradeCount = 0;
     var FinalProject = 0;
+    this.FinalGrade = (grades.final_grade == 1) ? "Satisfactory" : "Unsatisfactory"
     for (var i = 0; i < grades.grades.length; ++i) {
       if (grades.grades[i]['assignment_name'].substring(0, 2) == 'MP') {
         MPGradeTotal += grades.grades[i]['grades'];

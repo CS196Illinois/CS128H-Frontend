@@ -65,7 +65,7 @@ span {
 }
 
 .msg {
-  margin-top: 2%;
+  font-weight: 400;
 }
 
 @media (max-width: 559px) {
@@ -101,6 +101,7 @@ span {
 
 .final-grade {
   font-weight: bold;
+  font-size: x-large;
 }
 
 @media only screen and (min-width: 559px) {

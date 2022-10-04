@@ -32,7 +32,6 @@ export class GradesComponent implements OnInit {
       this.GradesService.getGrades().subscribe(data => {
         this.grades = data;
         if (this.grades) {
-          this.clearGrades()
           this.NgZone.run(() => {
             this.displayGrades(this.grades);
           });
@@ -48,6 +47,7 @@ export class GradesComponent implements OnInit {
   }
 
   displayGrades(data) {
+    this.clearGrades()
     if (
       this.user
         .getBasicProfile()
@@ -85,6 +85,6 @@ export class GradesComponent implements OnInit {
       //   this.project_grades.push({ 'assignmentName': grades.grades[i]['assignment_name'], 'grade': grades.grades[i]['grades'] })
       // }
     }
-    this.final_grade = Math.round(((MPGradeTotal / MPGradeCount) * 0.6 + (HWGradeTotal / HWGradeCount) * 0.2 + (FinalProject) * 0.2) * 100) / 100;
+    this.final_grade = Math.round(((MPGradeTotal / MPGradeCount) * 0.5 + (HWGradeTotal / HWGradeCount) * 0.2 + (FinalProject) * 0.3) * 100) / 100;
   }
 }

@@ -1,0 +1,85 @@
+.lecture-dashboard-container {
+    margin: auto;
+}
+
+.dashboard-nav {
+    margin-left: 4%;
+    padding-top: 50px;
+    display: grid;
+    width: 40vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.dashboard-nav button {
+    background-color: white;
+    text-align: center;
+    width: 30%;
+    height: 85%;
+    line-height: 32px;
+    border-radius: 7%;
+    border: none;
+    outline: none;
+}
+
+
+.preview {
+    width: 100vw;
+    display: grid !important;
+    grid-template-rows: 1fr 15fr;
+}
+
+.lecturePreview {
+    margin-top: -15%;
+    margin-left: -25%;
+}
+
+.view {
+    align-items: center;
+    justify-content: center;
+}
+
+textarea:focus {
+    outline-color: rgb(115, 178, 221);
+}
+
+textarea {
+    width: 100%;
+    border: none;
+}
+
+.btn {
+    background-color: rgb(235, 235, 235);
+    border: none;
+    border-radius: 10%;
+    box-shadow: 1px 1px 1px 1px rgb(149, 149, 149);
+}
+
+.tb,
+th,
+td {
+    padding: none;
+    margin: none;
+    border: 1px solid;
+    border-color: rgb(188, 188, 188);
+    border-collapse: collapse;
+}
+
+.tabbar {
+    z-index: 10;
+}
+
+.lecture-dashboard-container {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 10px;
+    height: 100%;
+}
+
+.form {
+    display: flex;
+    margin-top: 20%;
+    margin-left: 10%;
+}

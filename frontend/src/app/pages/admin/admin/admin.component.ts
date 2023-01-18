@@ -10,7 +10,7 @@ export class AdminComponent implements OnInit {
   name;
   isAdmin: boolean = false
   user: gapi.auth2.GoogleUser;
-  constructor(    
+  constructor(
     private GradesService: GradesService,
     private LoginService: LoginService,
     private ref: ChangeDetectorRef,

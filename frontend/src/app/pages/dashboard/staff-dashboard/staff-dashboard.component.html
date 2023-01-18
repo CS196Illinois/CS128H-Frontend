@@ -1,0 +1,25 @@
+<div class="staff-container">
+    <table class="tb">
+        <tr>
+            <th>Email</th>
+            <th>Status</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td><textarea type="text" id="email" [formControl]="email"></textarea></td>
+            <td>
+                <select id="status" [formControl]="status">
+                    <option value="staff">staff</option>
+                    <option value="staff">admin</option>
+                </select>
+            </td>
+            <th><button class="btn" (click)="addStaff()">Submit</button>
+            </th>
+        </tr>
+        <tr *ngFor="let s of staff">
+            <td>{{s.email}}</td>
+            <td>{{s.status}}</td>
+            <th><button class="btn" (click)="delStaff(s.email)">Delete</button></th>
+        </tr>
+    </table>
+</div>

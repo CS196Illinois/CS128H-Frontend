@@ -1,17 +1,18 @@
-import { Component, OnInit } from '@angular/core';
-import * as data from '../../../assets/staff.json';
+import { Component, OnInit } from "@angular/core";
+import { StaffService } from "src/app/services/staff.service";
 
 @Component({
-  selector: 'app-staff',
-  templateUrl: './staff.component.html',
-  styleUrls: ['./staff.component.scss']
+  selector: "app-staff",
+  templateUrl: "./staff.component.html",
+  styleUrls: ["./staff.component.scss"],
 })
 export class StaffComponent implements OnInit {
-
-  staff = data.staff;
-  constructor() { }
-
+  constructor(private StaffService: StaffService) { }
+  staff = null;
   ngOnInit() {
+    this.StaffService.getStaffProfile(true).subscribe((staff) => {
+      this.staff = staff['staff']
+      console.log("HERE!" + this.staff[0].Name);
+    })
   }
-
 }

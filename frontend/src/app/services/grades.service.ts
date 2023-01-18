@@ -29,7 +29,7 @@ export class GradesService {
     };
     // deployment api: https://cs196.cs.illinois.edu/wsgi/api/get/128grades
     this.http
-      .get<JSON>("http://127.0.0.1:5000/api/get/128grades", httpOptions)
+      .get<JSON>("https://cs196.cs.illinois.edu/wsgi/api/get/128grades", httpOptions)
       .subscribe(res => {
         this.grades.next(res);
       });

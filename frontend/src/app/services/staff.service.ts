@@ -34,7 +34,7 @@ export class StaffService {
     // deployment endpoint: https://cs196.cs.illinois.edu/wsgi/api
     this.http
       .get<JSON>(
-        "http://127.0.0.1:5000/api/get/get128Status",
+        "https://cs196.cs.illinois.edu/wsgi/api/get/get128Status",
         httpOptions
       ).subscribe((res) => {
         this.status.next(res)
@@ -53,7 +53,7 @@ export class StaffService {
     // deployment endpoint: https://cs196.cs.illinois.edu/wsgi/api
     this.http
       .post(
-        "http://127.0.0.1:5000/api/post/add128Staff",
+        "https://cs196.cs.illinois.edu/wsgi/api/post/add128Staff",
         staffObj,
         httpOptions
       ).subscribe((res) => {
@@ -72,7 +72,7 @@ export class StaffService {
     // deployment endpoint: https://cs196.cs.illinois.edu/wsgi/api
     this.http
       .post(
-        "http://127.0.0.1:5000/api/post/del128Staff",
+        "https://cs196.cs.illinois.edu/wsgi/api/post/del128Staff",
         email,
         httpOptions
       ).subscribe((res) => {
@@ -91,7 +91,7 @@ export class StaffService {
     // deployment endpoint: https://cs196.cs.illinois.edu/wsgi/api
     this.http
       .get<JSON>(
-        "http://127.0.0.1:5000/api/get/get128Staff",
+        "https://cs196.cs.illinois.edu/wsgi/api/get/get128Staff",
         httpOptions
       ).subscribe((res) => {
         this.staff.next(res)
@@ -115,7 +115,7 @@ export class StaffService {
       // deployment endpoint: https://cs196.cs.illinois.edu/wsgi/api
       this.http
         .get<JSON>(
-          "http://127.0.0.1:5000/api/get/128/GetStaffProfile",
+          "https://cs196.cs.illinois.edu/wsgi/api/get/128/GetStaffProfile",
           httpOptions
         ).subscribe((res) => {
           console.log("getting staff object: " + JSON.stringify(res))
@@ -130,7 +130,7 @@ export class StaffService {
       };
       this.http
         .get<JSON>(
-          "http://127.0.0.1:5000/api/get/128/GetAllStaffProfile",
+          "https://cs196.cs.illinois.edu/wsgi/api/get/128/GetAllStaffProfile",
           httpOptions
         ).subscribe((res) => {
           console.log(res)
@@ -151,7 +151,7 @@ export class StaffService {
     // deployment endpoint: https://cs196.cs.illinois.edu/wsgi/api
     this.http
       .post(
-        "http://127.0.0.1:5000/api/post/128/PostStaff",
+        "https://cs196.cs.illinois.edu/wsgi/api/post/128/PostStaff",
         staffObj,
         httpOptions
       ).subscribe((res) => {

@@ -61,6 +61,7 @@ const SCHEDULE_DATA_FOR_TABLE: (ScheduleElemForTable )[] = [ // | WeekDivider
   {position: 1, name: 'Threads & Ownership', type:'Lecture', date: '3/2/2023', isDivider: false, isDescription:false},
   {position: 1, name: 'Release HW10: More Threads', type: 'Homework', date: '3/2/2023', isDivider: false, isDescription:false},
   {position: 1, name: 'Due: HW8', type: 'Due Date', date: '3/2/2023', isDivider: false, isDescription:false},
+  {position: 1, name: 'Final Project Group Formations Due', type: 'Final Project', date: '3/3/2023', isDivider: false, isDescription: false},
 
   {position: 1, name: 'Week 8', type:'', date: '', isDivider: true, isDescription:false},
   {position: 1, name: 'Release MP3: MapReduce', type: 'MP', date: '3/6/2023', isDivider: false, isDescription:false},
@@ -71,7 +72,7 @@ const SCHEDULE_DATA_FOR_TABLE: (ScheduleElemForTable )[] = [ // | WeekDivider
   {position: 1, name: 'Shared State Messaging', type: 'Lecture', date: '3/9/2023', isDivider: false, isDescription:false},
   {position: 1, name: 'Release HW12 (Tentative): TBD', type: 'Homework', date: '3/9/2023', isDivider: false, isDescription:false},
   {position: 1, name: 'Due: HW10', type: 'Due Date', date: '3/9/2023', isDivider: false, isDescription:false},
-  {position: 1, name: 'Final Project Group Formations Due', type: 'Final Project', date: '3/10/2023', isDivider: false, isDescription: false},
+  {position: 1, name: 'Final Project Ideas/Plan Due', type: 'Final Project', date: '3/10/2023', isDivider: false, isDescription: false},
 
   {position: 1, name: 'Week 8.5', type:'', date: '', isDivider: true, isDescription:false},
   {position: 1, name: 'Spring Break!', type:'', date: '', isDivider: false, isDescription:true},
@@ -81,7 +82,6 @@ const SCHEDULE_DATA_FOR_TABLE: (ScheduleElemForTable )[] = [ // | WeekDivider
   {position: 1, name: 'Special Topics Lecture (Traits, Async, Solana, Blockchain, etc...)', type: 'Lecture', date: '3/21/2023', isDivider: false, isDescription:false},
   {position: 1, name: 'Due: HW11', type: 'Due Date', date: '3/21/2023', isDivider: false, isDescription:false},
   {position: 1, name: 'Due: HW12', type: 'Due Date', date: '3/23/2023', isDivider: false, isDescription:false},
-  {position: 1, name: 'Final Project Ideas/Plan Due', type: 'Final Project', date: '3/24/2023', isDivider: false, isDescription: false},
 
   {position: 1, name: 'Week 10', type:'', date: '', isDivider: true, isDescription:false},
   {position: 1, name: 'Due: MP3', type: 'Due Date', date: '3/27/2023', isDivider: false, isDescription:false},

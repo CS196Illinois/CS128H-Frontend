@@ -1,20 +1,12 @@
 {
-    "lectures": [
-      {
-        "lectureID": "0",
-        "title": "Intro Video",
-        "date": "",
-        "slides": "",
-        "video": [
-          {
-            "title" : "What is CS 128 Honors?",
-            "link" : "https://www.youtube.com/embed/19haeL-vTgY",
-            "msg" : "This is the link to the form we talk about at the end. Please make sure you follow the steps on this form: https://forms.gle/njX8YNWFprFPG5KZ9. You'll need to log in to your Illinois account.",
-            "slides": "lecture0.pdf"
-          }
-        ]
-      }
-    ]
-  }
-  
-  
+  "lectures": [
+    {
+      "LectureID": "0",
+      "Title": "Course Logistics",
+      "Date": "August 22 2023",
+      "Slide": "",
+      "Link" : "https://www.youtube.com/embed/5k2Grp6mrKs?si=h0ffm4RSdKx4MP5P",
+      "Comment" : "Cooper Miller and Arul Verma discuss course logistics, grading, and course content in this lesson. No homeworks/MPs yet, so no due dates coming up. Have a great beginning of your semester, I-L-L!"
+    }
+  ]
+}

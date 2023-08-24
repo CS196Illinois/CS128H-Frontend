@@ -3,27 +3,13 @@
     {
       "lectureID": "0",
       "title": "Lesson 1",
-      "date": "August 26 2021",
+      "date": "August 22 2023",
       "slides": "",
       "video": [
         {
           "title" : "Course Logistics",
-          "link" : "https://www.youtube.com/embed/6DVTt-JXeyA",
-          "msg" : "Lesson Provider: William Eustis We discuss course logistics, grading, and course content in this lesson. No homeworks/MPs yet, so no due dates coming up. Have a great beginning of your semester, I-L-L!"
-        }
-      ]
-    },
-    {
-      "lectureID": "1",
-      "title": "Lecture 1",
-      "date": "",
-      "slides": "",
-      "video": [
-        {
-          "title" : "What is Rust (The Programming Language)? - CS 128 Honors Lecture 1",
-          "link" : "https://www.youtube.com/embed/3GcHSC5qNKo",
-          "msg" : "CS 128 Honors is the Honors Add-on course for CS 128 at the University of Illinois Urbana-Champaign. This course teaches Rust, with a focus on topics such as concurrency, thread safety, functional programming, and how Rust does OOP.",
-          "slides": "lecture1.pdf"
+          "link" : "https://www.youtube.com/embed/5k2Grp6mrKs?si=h0ffm4RSdKx4MP5P",
+          "msg" : "Lesson Provider: Cooper Miller and Arul Verma discuss course logistics, grading, and course content in this lesson. No homeworks/MPs yet, so no due dates coming up. Have a great beginning of your semester, I-L-L!"
         }
       ]
     }

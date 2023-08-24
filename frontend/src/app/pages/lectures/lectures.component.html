@@ -11,7 +11,7 @@
             <mat-icon>menu_open</mat-icon>
         </button>
     </div>
-    <mat-drawer #drawer class="sidenav" mode="side">
+    <mat-drawer #drawer class="sidenav" mode="side" opened="true">
         <h4>Lectures</h4>
         <div class="navContent" *ngFor="let lecture of lectures">
             <button id="button" (click)="drawer.toggle()" (click)="changeLecture(lecture.LectureID)">
@@ -24,6 +24,6 @@
     <iframe *ngIf="currLecture" width="100%" height="400vh" [src]="currLecture.Link" title="YouTube video player"
         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
-    <a *ngIf="currLecture" href="{{ currLecture.Slide }}" target="_blank">Click here to get the slides</a>
+    <!-- <a *ngIf="currLecture" href="{{ currLecture.Slide }}" target="_blank">Click here to get the slides</a> -->
     <p *ngIf="currLecture" style="white-space: pre-line">{{currLecture.Comment}}</p>
 </mat-drawer-container>

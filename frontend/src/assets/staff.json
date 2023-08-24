@@ -1,48 +1,34 @@
 {
     "staff": [
         {
-            "name" : "Eustis",
-            "bio" : "computer vision go brrrrr",
-            "picture" : "eustis.jpg"
+            "Name" : "Arul Verma",
+            "Bio" : "",
+            "Picture" : "assets/staffPictures/arul.jpg"
         },
         {
-            "name" : "Neil",
-            "bio" : "Coffee connoisseur and raging Rustacean",
-            "picture" : "neil.jpg"
+            "Name" : "Cooper Miller",
+            "Bio" : "",
+            "Picture" : "assets/staffPictures/cooper.jpg"
         },
         {
-            "name" : "Jonah",
-            "bio" : "I'm a sophomore majoring in Computer Science, interested in entrepreneurship and doing cool things with cs.",
-            "picture" : "jonah.jpg"
+            "Name" : "Ritvik Sood",
+            "Bio" : "",
+            "Picture" : ""
         },
         {
-            "name" : "Andrea",
-            "bio": "Spurs and Texans fan, an aspiring chef, a wannabe trap producer, and a gym rat.",
-            "picture" : "andrea.jpg"
+            "Name" : "Porter Shawver",
+            "Bio" : "",
+            "Picture" : ""
         },
         {
-            "name" : "Welby",
-            "bio" : "css isn't a real programming language",
-            "picture" : "welby.jpg"
+            "Name" : "Minh Phan",
+            "Bio" : "",
+            "Picture" : ""
         },
         {
-            "name" : "Cooper",
-            "bio": "coffee addict.",
-            "picture": "cooper.jpg"
-        },
-        {
-            "name" : "Harry",
-            "bio": "Fractal enthusiast that likes raytracing and GPU programming",
-            "picture": "harry.jpg"
-        },
-        {"name" : "Liza",
-            "bio": "Freshman in CS, still figuring out my interests. DM for the best snickerdoodles recipe on earth.",
-            "picture": "liza.jpg"
-        },
-        {
-            "name" : "Arul",
-            "bio": "Hi everyone! My name is Arul Verma, a freshman majoring in CS. I took CS128H last semester and really enjoyed learning about Rust. I'm excited to be a CA for the course this semester and will try to help in any way I can.",
-            "picture": "arul.jpg"
+            "Name" : "Quan Hao NG",
+            "Bio" : "",
+            "Picture" : ""
         }
     ]
 }

@@ -15,6 +15,14 @@
       "Slide": "",
       "Link" : "https://www.youtube.com/embed/i1U6VZVlrFw?si=LW0ETcOAcu1pT1dv",
       "Comment" : "What is Rust, how to install it, and how to create a simple program."
+    },
+    {
+      "LectureID": "2",
+      "Title": "Rust Basics",
+      "Date": "September 2 2023",
+      "Slide": "",
+      "Link" : "https://www.youtube.com/embed/RMrCvdUPnEM?si=bcf3wf8vAPax2dWW",
+      "Comment" : "Rust basics, including variables, types, and mutability."
     }
   ]
 }

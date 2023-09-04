@@ -18,9 +18,10 @@ const SCHEDULE_DATA_FOR_TABLE: (ScheduleElemForTable )[] = [ // | WeekDivider
   {position: 1, name: 'Rust Basics Part 1 - Variables, Control Flow', type:'Lecture', date: '8/30/2023', isDivider: false, isDescription:false},
 
   {position: 1, name: 'Week 3', type:'', date: '', isDivider: true, isDescription:false},
-  {position: 1, name: 'Rust Basics Part 2 - Functions, Compound Data Types', type:'Lecture', date: '9/4/2023', isDivider: false, isDescription:false},
-  {position: 1, name: 'Release HW1: Variable Types and Control Flow', type: 'Homework', date: '9/4/2023', isDivider: false, isDescription:false},
-  {position: 1, name: 'Rust Basics Part 2.5 - Basic Match Statements', type:'Lecture', date: '9/4/2023', isDivider: false, isDescription:false},
+  {position: 1, name: 'Labor Day (all-campus holiday)', type:'', date: '9/4/2023', isDivider: false, isDescription:true},
+  {position: 1, name: 'Rust Basics Part 2 - Functions, Compound Data Types', type:'Lecture', date: '9/5/2023', isDivider: false, isDescription:false},
+  {position: 1, name: 'Release HW1: Variable Types and Control Flow', type: 'Homework', date: '9/5/2023', isDivider: false, isDescription:false},
+  {position: 1, name: 'Rust Basics Part 2.5 - Basic Match Statements', type:'Lecture', date: '9/5/2023', isDivider: false, isDescription:false},
   {position: 1, name: 'This will be a shorter lecture introducing the "match" keyword. This new lecture is here so that the Rust Basics 3 Lecture will not be extremely long.', type:'', date: '', isDivider: false, isDescription:true},
   {position: 1, name: 'Release MP0: Calculator', type: 'MP', date: '9/6/2023', isDivider: false, isDescription:false},
   {position: 1, name: 'Rust Basics Part 3 - Enums, Matching', type:'Lecture', date: '9/6/2023', isDivider: false, isDescription:false},

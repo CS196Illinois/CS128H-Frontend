@@ -26,10 +26,10 @@ const SCHEDULE_DATA_FOR_TABLE: (ScheduleElemForTable )[] = [ // | WeekDivider
   {position: 1, name: 'Release HW2: Enums, Option, and Result', type: 'Homework', date: '9/6/2023', isDivider: false, isDescription:false},
 
   {position: 1, name: 'Week 4', type:'', date: '', isDivider: true, isDescription:false},
-  {position: 1, name: 'Rust Basics Part 3 - Enums, Matching', type:'Lecture', date: '9/11/2023', isDivider: false, isDescription:false},
+  {position: 1, name: 'Rust Basics Part 4 - Enums, Matching', type:'Lecture', date: '9/11/2023', isDivider: false, isDescription:false},
   {position: 1, name: 'Release HW3: Scope and Ownership', type: 'Homework', date: '9/11/2023', isDivider: false, isDescription:false},
   {position: 1, name: 'Due: HW1', type: 'Due Date', date: '9/11/2023', isDivider: false, isDescription:false},
-  {position: 1, name: 'Rust Basics Part 4 - Examples, Ownership', type:'Lecture', date: '9/13/2023', isDivider: false, isDescription:false},
+  {position: 1, name: 'Rust Basics Part 5 - Examples, Ownership', type:'Lecture', date: '9/13/2023', isDivider: false, isDescription:false},
   {position: 1, name: 'Release HW4: Ownership and Vectors', type: 'Homework', date: '9/13/2023', isDivider: false, isDescription:false},
   {position: 1, name: 'Due: HW2', type: 'Due Date', date: '9/13/2023', isDivider: false, isDescription:false},
 

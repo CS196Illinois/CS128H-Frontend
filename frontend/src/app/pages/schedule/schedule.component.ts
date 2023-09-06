@@ -22,7 +22,7 @@ const SCHEDULE_DATA_FOR_TABLE: (ScheduleElemForTable )[] = [ // | WeekDivider
   {position: 1, name: 'Release HW1: Variable Types and Control Flow', type: 'Homework', date: '9/4/2023', isDivider: false, isDescription:false},
   {position: 1, name: 'Rust Basics Part 2 - Functions, Compound Data Types', type:'Lecture', date: '9/6/2023', isDivider: false, isDescription:false},
   {position: 1, name: 'Release MP0: Calculator', type: 'MP', date: '9/6/2023', isDivider: false, isDescription:false},
-  {position: 1, name: 'Release HW2: Enums, Option, and Result', type: 'Homework', date: '9/11/2023', isDivider: false, isDescription:false},
+  {position: 1, name: 'Release HW2: Enums, Option, and Result', type: 'Homework', date: '9/6/2023', isDivider: false, isDescription:false},
 
   {position: 1, name: 'Week 4', type:'', date: '', isDivider: true, isDescription:false},
   {position: 1, name: 'Rust Basics Part 3 - Enums, Matching', type:'Lecture', date: '9/11/2023', isDivider: false, isDescription:false},

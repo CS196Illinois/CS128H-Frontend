@@ -23,6 +23,23 @@
       "Slide": "",
       "Link" : "https://www.youtube.com/embed/RMrCvdUPnEM?si=bcf3wf8vAPax2dWW",
       "Comment" : "Rust basics, including variables, types, and mutability."
+    },
+    {
+      "LectureID": "3",
+      "Title": "Data Types and Functions",
+      "Date": "September 5 2023",
+      "Slide": "",
+      "Link" : "https://www.youtube.com/embed/rLewlMM9KSc?si=ABIqtDXEpwUEJBGX",
+      "Comment" : "Rust data types and functions."
+    },
+    {
+      "LectureID": "4",
+      "Title": "Pattern Matching in Rust",
+      "Date": "September 6 2023",
+      "Slide": "",
+      "Link" : "https://www.youtube.com/embed/H2wpwHC1WJw?si=hWsOej_ECkGL2R0R",
+      "Comment" : "Strings and match statements in Rust."
     }
   ]
 }
+

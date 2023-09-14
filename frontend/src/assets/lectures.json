@@ -39,6 +39,22 @@
       "Slide": "",
       "Link" : "https://www.youtube.com/embed/H2wpwHC1WJw?si=hWsOej_ECkGL2R0R",
       "Comment" : "Strings and match statements in Rust."
+    },
+    {
+      "LectureID": "5",
+      "Title": "Ownership and Borrowing",
+      "Date": "September 12 2023",
+      "Slide": "",
+      "Link" : "https://www.youtube.com/embed/3jHgy9LxaaE?si=zC4xRuzcK8c5XRFi",
+      "Comment" : "Basics of memory management and ownership in Rust."
+    },
+    {
+      "LectureID": "6",
+      "Title": "Enums & Option/Result + Borrowing & Dereferencing",
+      "Date": "September 13 2023",
+      "Slide": "",
+      "Link" : "https://www.youtube.com/embed/ShzDdWNNIbk?si=H9raMB32F6GYnRwQ",
+      "Comment" : "Enums, Option/Result, and more ownership in Rust."
     }
   ]
 }

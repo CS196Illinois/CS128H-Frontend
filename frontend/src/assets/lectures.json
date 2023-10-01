@@ -55,6 +55,38 @@
       "Slide": "",
       "Link" : "https://www.youtube.com/embed/ShzDdWNNIbk?si=H9raMB32F6GYnRwQ",
       "Comment" : "Enums, Option/Result, and more ownership in Rust."
+    },
+    {
+      "LectureID": "7",
+      "Title": "The Slice Type",
+      "Date": "September 19, 2023",
+      "Slide": "",
+      "Link" : "https://www.youtube.com/embed/JDfvHFgDpMg?si=gQ99vZNVDOxniOcE",
+      "Comment" : "Slices in Rust."
+    },
+    {
+      "LectureID": "8",
+      "Title": "Structs",
+      "Date": "September 21, 2023",
+      "Slide": "",
+      "Link" : "https://www.youtube.com/embed/n1AWa_jpOmI?si=m0DMQSLLK9elqUOv",
+      "Comment" : "Structs in Rust."
+    },
+    {
+      "LectureID": "9",
+      "Title": "Structs Part 2",
+      "Date": "September 26, 2023",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/Lqj7uElixko?si=qHJJ06kxI8X-VJzX",
+      "Comment": "Structs in Rust."
+    },
+    {
+      "LectureID": "10",
+      "Title": "Generics & Traits",
+      "Date": "September 28, 2023",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/w8WA7ZhlEb8?si=CCFZrkQrS1O2VZs4",
+      "Comment": "Generics and traits in Rust."
     }
   ]
 }

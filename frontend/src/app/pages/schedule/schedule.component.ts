@@ -60,7 +60,6 @@ const SCHEDULE_DATA_FOR_TABLE: (ScheduleElemForTable )[] = [ // | WeekDivider
   {position: 1, name: 'Parallelism & Concurrency', type:'Lecture', date: '10/4/2023', isDivider: false, isDescription:false},
   {position: 1, name: 'Release HW10: More Threads', type: 'Homework', date: '10/4/2023', isDivider: false, isDescription:false},
   {position: 1, name: 'Due: HW8', type: 'Due Date', date: '10/4/2023', isDivider: false, isDescription:false},
-  {position: 1, name: 'Final Project Group Formations Due', type: 'Final Project', date: '10/5/2023', isDivider: false, isDescription: false},
 
   {position: 1, name: 'Week 8', type:'', date: '', isDivider: true, isDescription:false},
   {position: 1, name: 'Release MP3: MapReduce', type: 'MP', date: '10/9/2023', isDivider: false, isDescription:false},
@@ -71,11 +70,11 @@ const SCHEDULE_DATA_FOR_TABLE: (ScheduleElemForTable )[] = [ // | WeekDivider
   {position: 1, name: 'Threads & Messaging', type: 'Lecture', date: '10/11/2023', isDivider: false, isDescription:false},
   {position: 1, name: 'Release HW12 (Tentative): TBD', type: 'Homework', date: '10/11/2023', isDivider: false, isDescription:false},
   {position: 1, name: 'Due: HW10', type: 'Due Date', date: '10/11/2023', isDivider: false, isDescription:false},
-  {position: 1, name: 'Final Project Ideas/Plan Due', type: 'Final Project', date: '10/12/2023', isDivider: false, isDescription: false},
 
   {position: 1, name: 'Week 9', type: '', date: '', isDivider: true, isDescription:false},
   {position: 1, name: 'Shared State Messaging', type: 'Lecture', date: '10/16/2023', isDivider: false, isDescription:false},
   {position: 1, name: 'Due: HW11', type: 'Due Date', date: '10/16/2023', isDivider: false, isDescription:false},
+  {position: 1, name: 'Final Project Ideas/Plan Due', type: 'Final Project', date: '10/18/2023', isDivider: false, isDescription: false},
   {position: 1, name: 'Special Topics Lecture (Traits, Async, Solana, Blockchain, etc...)', type: 'Lecture', date: '10/18/2023', isDivider: false, isDescription:false},
   {position: 1, name: 'Due: HW12', type: 'Due Date', date: '10/18/2023', isDivider: false, isDescription:false},
 
@@ -85,19 +84,19 @@ const SCHEDULE_DATA_FOR_TABLE: (ScheduleElemForTable )[] = [ // | WeekDivider
 
   {position: 1, name: 'Week 11', type:'', date: '', isDivider: true, isDescription:false},
   {position: 1, name: 'Special Topics Lecture (Traits, Async, Solana, etc...)', type: 'Lecture', date: '11/1/2023', isDivider: false, isDescription:false},
-  {position: 1, name: 'Final Project Checkpoint 1 Due', type: 'Final Project', date: '11/2/2023', isDivider: false, isDescription: false},
 
   {position: 1, name: 'Week 12', type:'', date: '', isDivider: true, isDescription:false},
+  {position: 1, name: 'Final Project Checkpoint 1', type: 'Final Project', date: '11/6/2023', isDivider: false, isDescription: false},
   {position: 1, name: 'Special Topics Lecture (Traits, Async, Solana, etc...)', type: 'Lecture', date: '11/8/2023', isDivider: false, isDescription:false},
 
   {position: 1, name: 'Week 13', type:'', date: '', isDivider: true, isDescription:false},
   {position: 1, name: 'Special Topics Lecture (Traits, Async, Solana, etc...)', type: 'Lecture', date: '11/15/2023', isDivider: false, isDescription:false},
-  {position: 1, name: 'Final Project Checkpoint 2 Due', type: 'Final Project', date: '11/16/2023', isDivider: false, isDescription: false},
 
   {position: 1, name: 'Week 14', type:'', date: '', isDivider: true, isDescription:false},
   {position: 1, name: 'Fall Break!', type:'', date: '', isDivider: false, isDescription:true},
 
   {position: 1, name: 'Week 15', type:'', date: '', isDivider: true, isDescription:false},
+  {position: 1, name: 'Final Project Checkpoint 2', type: 'Final Project', date: '11/27/2023', isDivider: false, isDescription: false},
   {position: 1, name: 'Special Topics Lecture (Traits, Async, Solana, etc...)', type: 'Lecture', date: '11/29/2023', isDivider: false, isDescription:false},
 
   {position: 1, name: 'Week 16', type:'', date: '', isDivider: true, isDescription:false},

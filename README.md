@@ -1,4 +1,4 @@
-# spring-2022-website
+# spring-2024-website
 
 Official CS128 Honors Website: [honors.cs128.org/](https://honors.cs128.org/)
 

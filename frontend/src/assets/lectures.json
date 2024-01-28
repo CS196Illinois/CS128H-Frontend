@@ -1,5 +1,21 @@
 {
   "lectures": [
+    {
+      "LectureID": "0",
+      "Title": "What is Rust?",
+      "Date": "January 23 2024",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/zp12oBMNwDQ",
+      "Comment": "Today's topic is a quick introduction to Rust and how to set up a project."
+    },
+    {
+      "LectureID": "1",
+      "Title": "Rust Basics Part 1 - Variables, Control Flow",
+      "Date": "January 26 2024",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/RMrCvdUPnEM",
+      "Comment": "Please ignore what I say in the video regarding Homework 1 release times."
+    }
   ]
 }
 

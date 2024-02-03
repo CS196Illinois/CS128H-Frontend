@@ -23,6 +23,14 @@
       "Slide": "",
       "Link": "https://www.youtube.com/embed/rLewlMM9KSc",
       "Comment": "Homework 1 has been released!"
+    },
+    {
+      "LectureID": "3",
+      "Title": "Strings and Matching",
+      "Date": "January 26 2024",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/SxMIRbc9mhs",
+      "Comment": "This is the first in a 2 part lecture covering Strings, Enums and the match statement. The second one will release tomorrow."
     }
   ]
 }

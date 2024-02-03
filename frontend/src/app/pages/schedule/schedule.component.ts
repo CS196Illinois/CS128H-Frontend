@@ -15,13 +15,13 @@ const SCHEDULE_DATA_FOR_TABLE: (ScheduleElemForTable)[] = [ // | WeekDivider
 
   { position: 1, name: 'Week 2', type: '', date: '', isDivider: true, isDescription: false },
   { position: 1, name: 'Rust Setup', type: 'Lecture', date: '1/23/2024', isDivider: false, isDescription: false },
-  { position: 1, name: 'Rust Basics Part 1 - Variables, Control Flow', type: 'Lecture', date: '1/25/2024', isDivider: false, isDescription: false },
+  { position: 1, name: 'Rust Basics - Variables, Control Flow', type: 'Lecture', date: '1/25/2024', isDivider: false, isDescription: false },
   { position: 1, name: 'Add/Drop Deadline', type: 'Due Date', date: '1/29/2024', isDivider: false, isDescription: true },
 
   { position: 1, name: 'Week 3', type: '', date: '', isDivider: true, isDescription: false },
   // { position: 1, name: 'Labor Day (all-campus holiday)', type: '', date: '', isDivider: false, isDescription: true },
   { position: 1, name: 'Release HW1: Variable Types and Control Flow', type: 'Homework', date: '1/25/2024', isDivider: false, isDescription: false },
-  { position: 1, name: 'Rust Basics Part 2 - Functions, Compound Data Types', type: 'Lecture', date: '1/30/2024', isDivider: false, isDescription: false },
+  { position: 1, name: 'Data Types and Functions', type: 'Lecture', date: '1/30/2024', isDivider: false, isDescription: false },
   { position: 1, name: 'HW1 Due', type: 'Due Date', date: '2/1/2023', isDivider: false, isDescription: false },
   { position: 1, name: 'Rust Basics Part 3 - Enums, Pattern Matching', type: 'Lecture', date: '2/1/2024', isDivider: false, isDescription: false },
   { position: 1, name: 'Release HW2: Enums, Option, and Result', type: 'Homework', date: '2/1/2024', isDivider: false, isDescription: false },

@@ -10,11 +10,19 @@
     },
     {
       "LectureID": "1",
-      "Title": "Rust Basics Part 1 - Variables, Control Flow",
+      "Title": "Rust Basics - Variables, Control Flow",
       "Date": "January 26 2024",
       "Slide": "",
       "Link": "https://www.youtube.com/embed/RMrCvdUPnEM",
       "Comment": "Please ignore what I say in the video regarding Homework 1 release times."
+    },
+    {
+      "LectureID": "2",
+      "Title": "Data Types and Functions",
+      "Date": "January 26 2024",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/rLewlMM9KSc",
+      "Comment": "Homework 1 has been released!"
     }
   ]
 }

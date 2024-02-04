@@ -19,7 +19,7 @@
     {
       "LectureID": "2",
       "Title": "Data Types and Functions",
-      "Date": "January 26 2024",
+      "Date": "January 31 2024",
       "Slide": "",
       "Link": "https://www.youtube.com/embed/rLewlMM9KSc",
       "Comment": "Homework 1 has been released!"
@@ -27,10 +27,18 @@
     {
       "LectureID": "3",
       "Title": "Strings and Matching",
-      "Date": "January 26 2024",
+      "Date": "February 2 2024",
       "Slide": "",
       "Link": "https://www.youtube.com/embed/SxMIRbc9mhs",
       "Comment": "This is the first in a 2 part lecture covering Strings, Enums and the match statement. The second one will release tomorrow."
+    },
+    {
+      "LectureID": "4",
+      "Title": "Enums, Matching",
+      "Date": "February 3 2024",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/vlJP-vtG-RE",
+      "Comment": "This is the follow up to yesterday's lecture covering Enums and further use of match statements.\nReminder: MP0 is also out on PrairieLearn and will be due in 2 weeks."
     }
   ]
 }

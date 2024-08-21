@@ -1,0 +1,164 @@
+{
+    "staff": [
+        {
+            "name" : "Eustis",
+            "bio" : "computer vision go brrrrr",
+            "picture" : "william.jpg"
+        },
+        {
+            "name" : "Matt",
+            "bio" : "I’m a sophomore majoring in Computer Science + Economics. My interests are mobile development, fintech, and data analytics. I’m also a pilot in my free time.",
+            "picture" : "matt.jpeg"
+        },
+        {
+            "name" : "Jonah",
+            "bio" : "I'm a sophomore majoring in Computer Science, interested in entrepreneurship and doing cool things with cs.",
+            "picture" : "jonah.jpg"
+        },
+        {
+            "name" : "Andrea",
+            "bio": "Spurs and Texans fan, an aspiring chef, a wannabe trap producer, and a gym rat.",
+            "picture" : "andrea.png"
+        },
+        {
+            "name" : "Isa",
+            "bio" : "I love a good craft!",
+            "picture" : "isa.png"
+        },
+        {
+            "name" : "Charles",
+            "bio" : "coffee",
+            "picture" : "charles.jpg"
+        },
+        {
+            "name" : "Welby",
+            "bio" : "css isn't a real programming language",
+            "picture" : "welby.jpg"
+        },
+        {
+            "name" : "Shreya",
+            "bio" : "Hey! I'm a sleep-deprived sophomore in bioengineering interested in data science and eating good food",
+            "picture" : "shreya_b.jpeg"
+        }, 
+        {
+            "name" : "Meghna",
+            "bio" : "Hi! I’m Meghna, a freshman majoring in CS. Feel free to hmu to talk about anything and everything under the sun :)",
+            "picture" : "meghna.jpg"
+        }, 
+        {
+            "name" : "Jasmine",
+            "bio" : "Hi! I'm Jasmine, an avid foodie who takes daily naps and is trying to get on the Chloe Ting grind",
+            "picture" : "jasmine.jpeg"
+        }, 
+        {
+            "name" : "Sal",
+            "bio" : "Hey I’m Sal, feel free to reach out to me if you’d like to get smashed in 2k.",
+            "picture" : "logo.png"
+        }, 
+        {
+            "name" : "Tianyun",
+            "bio" : "Sprinkle of optimistic existentialism. I also play violin.",
+            "picture" : "tianyun.jpg"
+        }, 
+        {
+            "name" : "Meghan",
+            "bio" : "I'm a freshman majoring in Computer Science & Philosophy. My interests include App Development, Computer Security, and traveling.",
+            "picture" : "meghan.jpg"
+        }, 
+        {
+            "name" : "Tanishq",
+            "bio" : "I think the Office has to be the most underrated show of all time. I'm just a Comp Sci and Phil major who loves Steve Carell.",
+            "picture" : "tanishq.jpg"
+        }, 
+        {
+            "name" : "Ishani",
+            "bio" : "Foodie and bubble tea lover. Amateur/aspiring skateboarder. Coding is cool too, I guess.",
+            "picture" : "ishani.jpg"
+        }, 
+        {
+            "name" : "Rayna",
+            "bio" : "Sleep deprived poli sci major with a lot of opinions and a passion for crafts",
+            "picture" : "rayna.jpg"
+        }, 
+        {
+            "name" : "Neil",
+            "bio" : "Hi! I'm Neil, and I'm a freshman in CS. Come talk to me about Python, soccer, and/or baseball!",
+            "picture" : "neil.jpg"
+        }, 
+        {
+            "name" : "Daniel",
+            "bio" : "As a reward for joining CS196 have a cake.",
+            "picture" : "daniel.jpg"
+        }, 
+        {
+            "name" : "Nishanth",
+            "bio" : "the cake is a lie :((",
+            "picture" : "nishanth.png"
+        }, 
+        {
+            "name" : "Jeffrey",
+            "bio" : "",
+            "picture" : "logo.png"
+        }, 
+        {
+            "name" : "Nick",
+            "bio" : "Hi, I am Nick! I am in marching band, I enjoy trying new restaurants, and I love talking to new people!",
+            "picture" : "nick_k.jpg"
+        }, 
+        {
+            "name" : "Anjali",
+            "bio" : "fan of porch swings, thali meals, and sleep",
+            "picture" : "anjali.jpeg"
+        }, 
+        {
+            "name" : "Amit",
+            "bio" : "I am a CS + Math major! Probably will respond within a minute. ATLA S3 : E13 : 6:40-6:45",
+            "picture" : "amit.jpg"
+        }, 
+        {
+            "name" : "Trisha",
+            "bio" : "she/her; talk to me about mcu, ariana grande, and criminal minds",
+            "picture" : "trisha.jpeg"
+        }, 
+        {
+            "name" : "Emily",
+            "bio" : "catch me taking care of my plants, drinking tea, and wearing striped shirts ",
+            "picture" : "emily.jpeg"
+        }, 
+        {
+            "name" : "Timothy",
+            "bio" : "my body is segfaulting due to my caffeine addiction",
+            "picture" : "timothy.jpg"
+        }, 
+        {
+            "name" : "Faraz",
+            "bio" : "CS and Advertising major interested in sorting and organizing data to make inferences. ",
+            "picture" : "faraz.jpeg"
+        }, 
+        {
+            "name" : "Drshika",
+            "bio" : "(she/her) hackillinois fan girl, CS major. Probably singing in the shower or serially procrastinating. Spotify: penguinlvr02",
+            "picture" : "drshika.jpg"
+        }, 
+        {
+            "name" : "Rachael",
+            "bio" : "milk before cereal",
+            "picture" : "logo.png"
+        }, 
+        {
+            "name" : "Arnab",
+            "bio" : "Genius. Billionaire. Philanthropist. I am absolutely none of these things, but I know the reference.",
+            "picture" : "arnab.JPG"
+        }, 
+        {
+            "name" : "Raghav",
+            "bio" : "CS Major, jazz pianist, and always eager to help!",
+            "picture" : "raghav.jpeg"
+        }, 
+        {
+            "name" : "Malcolm",
+            "bio" : "I enjoy photography, rowing, and gaming in my free time. Plus I don’t have Covid 😎",
+            "picture" : "john.jpeg"
+        } 
+    ]
+}

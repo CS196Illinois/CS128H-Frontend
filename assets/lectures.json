@@ -1,0 +1,149 @@
+{
+  "lectures": [
+    {
+      "LectureID": "0",
+      "Title": "What is Rust?",
+      "Date": "January 23 2024",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/zp12oBMNwDQ",
+      "Comment": "Today's topic is a quick introduction to Rust and how to set up a project."
+    },
+    {
+      "LectureID": "1",
+      "Title": "Rust Basics - Variables, Control Flow",
+      "Date": "January 26 2024",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/RMrCvdUPnEM",
+      "Comment": "Please ignore what I say in the video regarding Homework 1 release times."
+    },
+    {
+      "LectureID": "2",
+      "Title": "Data Types and Functions",
+      "Date": "January 31 2024",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/rLewlMM9KSc",
+      "Comment": "Homework 1 has been released!"
+    },
+    {
+      "LectureID": "3",
+      "Title": "Strings and Matching",
+      "Date": "February 2 2024",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/SxMIRbc9mhs",
+      "Comment": "This is the first in a 2 part lecture covering Strings, Enums and the match statement. The second one will release tomorrow."
+    },
+    {
+      "LectureID": "4",
+      "Title": "Enums, Matching",
+      "Date": "February 3 2024",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/vlJP-vtG-RE",
+      "Comment": "This is the follow up to yesterday's lecture covering Enums and further use of match statements.\nReminder: MP0 is also out on PrairieLearn and will be due in 2 weeks."
+    },
+    {
+      "LectureID": "5",
+      "Title": "Borrowing and Ownership",
+      "Date": "February 7 2024",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/3jHgy9LxaaE",
+      "Comment": "This got slightly delayed in the announcement but Lecture 5 is out!"
+    },
+    {
+      "LectureID": "6",
+      "Title": "Ownership and Borrowing",
+      "Date": "February 9 2024",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/DshxB99PPAQ",
+      "Comment": "Lecture 6 is out! Homework 4 is also out on PrairieLearn."
+    },
+    {
+      "LectureID": "7",
+      "Title": "Borrowing, Slices",
+      "Date": "February 14 2024",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/ndVuVIaEjbc",
+      "Comment": "Lecture 7 is out! Homework 5 is also out on PrairieLearn."
+    },
+    {
+      "LectureID": "8",
+      "Title": "Structs Part 1",
+      "Date": "February 15 2024",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/n1AWa_jpOmI",
+      "Comment": "The due dates on the last slide are wrong. Homework 5 is this week and MP1 has just been released so you still have 2 weeks."
+    },
+    {
+      "LectureID": "9",
+      "Title": "Structs Part 2",
+      "Date": "February 21 2024",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/Lqj7uElixko",
+      "Comment": "Lecture 9 on Structs has been released here! HW7 isn't out yet but will be out soon (~1 day or so). "
+    },
+    {
+      "LectureID": "10",
+      "Title": "Generics and Smart Pointers",
+      "Date": "February 23 2024",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/kLfbCelNnxw",
+      "Comment": "First, Lecture 10 on Generics and Smart Pointers have been released alongside HW8. The final project has also been released! Here are the logistics for the final project, containing everything you need to know about the project including logistics, grading etc: https://docs.google.com/document/d/1fuu4ZePlBtcC--EBBg4OClNy_KZRHcz_H4ngrZEZOY0/edit?usp=sharing"
+    },
+    {
+      "LectureID": "11",
+      "Title": "Parallelism, Threads",
+      "Date": "February 28 2024",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/DUoBYpGPaj0",
+      "Comment": "Lecture 11 has been released! HW9 and MP2 are also out on PrairieLearn. Also disregard what I said at the end about HW11, I meant to say HW9."
+    },
+    {
+      "LectureID": "12",
+      "Title": "Thread Ownership, Messaging",
+      "Date": "February 29 2024",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/X6B64d-rX6s",
+      "Comment": "Lecture 12 has been released!"
+    },
+    {
+      "LectureID": "13",
+      "Title": "Messaging",
+      "Date": "March 5 2024",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/pDg7UEW7BLQ",
+      "Comment": "Lecture 13 has been released! HW10 and MP3 are also out on PrairieLearn."
+    },
+    {
+      "LectureID": "14",
+      "Title": "Shared State, Mutex, and Atomic",
+      "Date": "March 10 2024",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/tyh7eEQaMY0",
+      "Comment": "Lecture 15 is here! Sorry for the delay, we had some confusion on the lecture topics. Feel free to revisit this after break and right now, enjoy your spring break!"
+    },
+    {
+      "LectureID": "15",
+      "Title": "Traits",
+      "Date": "March 19 2024",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/tyK8mFq_SrQ",
+      "Comment": "Lecture 16 is out! HW 11 is also available on PrairieLearn! This is an experimental homework that the course staff created this semester, and so we are giving you 2 weeks so you have more time to complete it. We are also looking for feedback for this homework, so if you have any complaints please fill out this form: https://forms.gle/ufvChWocsi9iYZPi8"
+    },
+    {
+      "LectureID": "16",
+      "Title": "Special Topics - Rust Project Structure",
+      "Date": "March 11 2024",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/Qu8FgrISk_8 ",
+      "Comment": "We wanted to release some special topics for those of you working on your final projects over break and looking to get ahead. This special topic is on File Structures and Project Management presented by our CA Porter."
+    },
+    {
+      "LectureID": "17",
+      "Title": "Special Topics - Quantum Computing in Rust",
+      "Date": "March 22 2024",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/aF-4cWc2tsc",
+      "Comment": "Another special topic lecture is also up, this one presented by our CA Daniel on Quantum Computing in Rust!"
+    }
+  ]
+}
+

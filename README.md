@@ -21,7 +21,7 @@ npm install
 Run the development server:
 
 ```bash
-export NODE_OPTIONS="--openssl-legacy-provider --no-experimental-fetch" # Fixes error with the legacy OpenSSL provider. This is a hacky fix and should be removed once the issue is resolved
+export NODE_OPTIONS=--openssl-legacy-provider # Fixes error with the legacy OpenSSL provider. This is a hacky fix and should be removed once the issue is resolved
 ng serve
 ```
 

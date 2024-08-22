@@ -26,7 +26,7 @@ export class PersonComponent implements OnInit {
     // console.log("from person card!")
     // console.log(this.picture);
     if (!this.picture) {
-      this.picture = '/assets/logo.png'
+      this.picture = './assets/logo.png'
     }
     this.split_technical_areas = this.technical_area.split(',');
     this.split_languages = this.language.split(',');

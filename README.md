@@ -21,8 +21,13 @@ npm install
 Run the development server:
 
 ```bash
-export NODE_OPTIONS=--openssl-legacy-provider # Fixes error with the legacy OpenSSL provider. This is a hacky fix and should be removed once the issue is resolved
+export NODE_OPTIONS="--openssl-legacy-provider --no-experimental-fetch" # Fixes error with the legacy OpenSSL provider. This is a hacky fix and should be removed once the issue is resolved
 ng serve
+```
+
+Deploy on Github Pages:
+```bash
+ng deploy --base-href=https://cs196illinois.github.io/CS128H-Frontend/ --repo=https://github.com/cs196illinois/CS128H-Frontend.git
 ```
 
 ## Updating the Lectures:

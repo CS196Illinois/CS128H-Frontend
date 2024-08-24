@@ -25,11 +25,6 @@ export NODE_OPTIONS=--openssl-legacy-provider # Fixes error with the legacy Open
 ng serve
 ```
 
-Deploy on Github Pages:
-```bash
-ng deploy --base-href=https://cs196illinois.github.io/CS128H-Frontend/ --repo=https://github.com/cs196illinois/CS128H-Frontend.git
-```
-
 ## Updating the Lectures:
 
 1. Navigate to `official-website/frontend/src/assets/` directory
@@ -37,6 +32,14 @@ ng deploy --base-href=https://cs196illinois.github.io/CS128H-Frontend/ --repo=ht
 3. Deploy
 
 ## Deployment
+
+We now deploy the site on GitHub Pages, use the following command after making the changes:
+
+```bash
+ng deploy --cname=honors.cs128.org --repo=https://github.com/cs196illinois/CS128H-Frontend.git
+```
+
+### Old Deployment:
 
 To deploy on the server, get access to the `cs196.cs.illinois.edu` Ubuntu server. SSH into `<NetID>@cs196.cs.illinois.edu` (Note that you need to be connected to IllinoisNet or VPN).
 
@@ -46,8 +49,6 @@ The website is deployed using `Apache2 HTTP Server`on the Ubuntu 16.0.4 server. 
 2. Run `sudo ./deploy`. Check website to make sure changes are live (may take a few seconds)
 
 Website SSL Certificate is managed by [LetsEncrypt](https://certbot.eff.org/lets-encrypt/ubuntuxenial-apache).
-
-### Old Deployment:
 
 If the deployment script does not work, do the following:
 

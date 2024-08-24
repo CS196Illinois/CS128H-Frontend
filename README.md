@@ -33,7 +33,7 @@ ng serve
 
 ## Deployment
 
-We now deploy the site on GitHub Pages, use the following command after making the changes:
+We now deploy the site on GitHub Pages, use the following command in the `frontend` directory (required since it contains `angular.json`, otherwise won't work) after making the changes:
 
 ```bash
 ng deploy --cname=honors.cs128.org --repo=https://github.com/cs196illinois/CS128H-Frontend.git

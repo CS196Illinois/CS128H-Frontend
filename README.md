@@ -33,6 +33,14 @@ ng serve
 
 ## Deployment
 
+We now deploy the site on GitHub Pages, use the following command in the `frontend` directory (required since it contains `angular.json`, otherwise won't work) after making the changes:
+
+```bash
+ng deploy --cname=honors.cs128.org --repo=https://github.com/cs196illinois/CS128H-Frontend.git
+```
+
+### Old Deployment:
+
 To deploy on the server, get access to the `cs196.cs.illinois.edu` Ubuntu server. SSH into `<NetID>@cs196.cs.illinois.edu` (Note that you need to be connected to IllinoisNet or VPN).
 
 The website is deployed using `Apache2 HTTP Server`on the Ubuntu 16.0.4 server. Do the following steps:
@@ -41,8 +49,6 @@ The website is deployed using `Apache2 HTTP Server`on the Ubuntu 16.0.4 server. 
 2. Run `sudo ./deploy`. Check website to make sure changes are live (may take a few seconds)
 
 Website SSL Certificate is managed by [LetsEncrypt](https://certbot.eff.org/lets-encrypt/ubuntuxenial-apache).
-
-### Old Deployment:
 
 If the deployment script does not work, do the following:
 

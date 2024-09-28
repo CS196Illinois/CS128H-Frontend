@@ -4,13 +4,16 @@ import { Observable, ReplaySubject } from "rxjs";
 import { LoginService } from "./login.service";
 
 @Injectable({
-  providedIn: "root"
+  providedIn: "root",
 })
 export class GradesService {
   user: gapi.auth2.GoogleUser;
   grades = new ReplaySubject<JSON>(1);
-  constructor(private http: HttpClient, private LoginService: LoginService) {
-    this.LoginService.observable().subscribe(user => {
+  constructor(
+    private http: HttpClient,
+    private LoginService: LoginService,
+  ) {
+    this.LoginService.observable().subscribe((user) => {
       this.user = user;
       // sign in
       if (this.user) this.fetch();
@@ -24,13 +27,16 @@ export class GradesService {
       headers: new HttpHeaders({
         Accept: "application/json",
         "Content-Type": "application/json",
-        Authorization: this.user.getAuthResponse().id_token
-      })
+        Authorization: this.user.getAuthResponse().id_token,
+      }),
     };
     // deployment api: https://cs196.cs.illinois.edu/wsgi/api/get/128grades
     this.http
-      .get<JSON>("https://cs196.cs.illinois.edu/wsgi/api/get/128grades", httpOptions)
-      .subscribe(res => {
+      .get<JSON>(
+        "https://cs196.cs.illinois.edu/wsgi/api/get/128grades",
+        httpOptions,
+      )
+      .subscribe((res) => {
         this.grades.next(res);
       });
   }

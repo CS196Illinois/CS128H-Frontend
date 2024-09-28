@@ -12,7 +12,7 @@ export class AppComponent {
 
   constructor(
     private LoginService: LoginService,
-    private ref: ChangeDetectorRef
+    private ref: ChangeDetectorRef,
   ) {}
 
   ngOnInit(): void {

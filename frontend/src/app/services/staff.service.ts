@@ -1,19 +1,21 @@
-import { Injectable } from '@angular/core';
+import { Injectable } from "@angular/core";
 import { HttpClient, HttpHeaders } from "@angular/common/http";
 import { Observable, ReplaySubject } from "rxjs";
 import { LoginService } from "./login.service";
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: "root",
 })
 export class StaffService {
-
   user: gapi.auth2.GoogleUser;
   staffProfile = new ReplaySubject<JSON>(1);
   staff = new ReplaySubject<JSON>(1);
-  status = new ReplaySubject<JSON>(1)
+  status = new ReplaySubject<JSON>(1);
 
-  constructor(private http: HttpClient, private LoginService: LoginService) {
+  constructor(
+    private http: HttpClient,
+    private LoginService: LoginService,
+  ) {
     this.LoginService.observable().subscribe((user) => {
       this.user = user;
       // sign in
@@ -35,11 +37,12 @@ export class StaffService {
     this.http
       .get<JSON>(
         "https://cs196.cs.illinois.edu/wsgi/api/get/get128Status",
-        httpOptions
-      ).subscribe((res) => {
-        this.status.next(res)
+        httpOptions,
+      )
+      .subscribe((res) => {
+        this.status.next(res);
       });
-    return this.status.asObservable()
+    return this.status.asObservable();
   }
 
   public addStaff(staffObj: string) {
@@ -55,9 +58,10 @@ export class StaffService {
       .post(
         "https://cs196.cs.illinois.edu/wsgi/api/post/add128Staff",
         staffObj,
-        httpOptions
-      ).subscribe((res) => {
-        console.log(res)
+        httpOptions,
+      )
+      .subscribe((res) => {
+        console.log(res);
       });
   }
 
@@ -74,9 +78,10 @@ export class StaffService {
       .post(
         "https://cs196.cs.illinois.edu/wsgi/api/post/del128Staff",
         email,
-        httpOptions
-      ).subscribe((res) => {
-        console.log(res)
+        httpOptions,
+      )
+      .subscribe((res) => {
+        console.log(res);
       });
   }
 
@@ -92,19 +97,20 @@ export class StaffService {
     this.http
       .get<JSON>(
         "https://cs196.cs.illinois.edu/wsgi/api/get/get128Staff",
-        httpOptions
-      ).subscribe((res) => {
-        this.staff.next(res)
+        httpOptions,
+      )
+      .subscribe((res) => {
+        this.staff.next(res);
       });
-    return this.staff.asObservable()
+    return this.staff.asObservable();
   }
 
   public getStaffProfile(all = false): Observable<JSON> {
     if (!all) {
       if (!this.user) {
-        return this.staffProfile.asObservable()
+        return this.staffProfile.asObservable();
       }
-      const email = this.user.getBasicProfile().getEmail()
+      const email = this.user.getBasicProfile().getEmail();
       const httpOptions = {
         headers: new HttpHeaders({
           Accept: "application/json",
@@ -116,24 +122,26 @@ export class StaffService {
       this.http
         .get<JSON>(
           "https://cs196.cs.illinois.edu/wsgi/api/get/128/GetStaffProfile",
-          httpOptions
-        ).subscribe((res) => {
-          console.log("getting staff object: " + JSON.stringify(res))
+          httpOptions,
+        )
+        .subscribe((res) => {
+          console.log("getting staff object: " + JSON.stringify(res));
           this.staffProfile.next(res);
         });
     } else {
       const httpOptions = {
         headers: new HttpHeaders({
           Accept: "application/json",
-          "Content-Type": "application/json"
+          "Content-Type": "application/json",
         }),
       };
       this.http
         .get<JSON>(
           "https://cs196.cs.illinois.edu/wsgi/api/get/128/GetAllStaffProfile",
-          httpOptions
-        ).subscribe((res) => {
-          console.log(res)
+          httpOptions,
+        )
+        .subscribe((res) => {
+          console.log(res);
           this.staffProfile.next(res);
         });
     }
@@ -153,9 +161,10 @@ export class StaffService {
       .post(
         "https://cs196.cs.illinois.edu/wsgi/api/post/128/PostStaff",
         staffObj,
-        httpOptions
-      ).subscribe((res) => {
-        console.log(res)
+        httpOptions,
+      )
+      .subscribe((res) => {
+        console.log(res);
       });
   }
 }

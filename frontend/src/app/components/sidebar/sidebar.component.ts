@@ -8,7 +8,10 @@ import { LoginService } from "src/app/services/login.service";
 })
 export class SidebarComponent implements OnInit {
   user: gapi.auth2.GoogleUser;
-  constructor(ngZone: NgZone, private loginService: LoginService) {}
+  constructor(
+    ngZone: NgZone,
+    private loginService: LoginService,
+  ) {}
 
   ngOnInit() {
     this.loginService.observable().subscribe((user) => {

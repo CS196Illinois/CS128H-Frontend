@@ -1,16 +1,19 @@
-import { Injectable } from '@angular/core';
+import { Injectable } from "@angular/core";
 import { HttpClient, HttpHeaders } from "@angular/common/http";
 import { Observable, ReplaySubject } from "rxjs";
 import { LoginService } from "./login.service";
-import { catchError } from 'rxjs/operators';
+import { catchError } from "rxjs/operators";
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: "root",
 })
 export class LectureService {
   lectures = new ReplaySubject<JSON>(1);
   user: gapi.auth2.GoogleUser;
-  constructor(private http: HttpClient, private LoginService: LoginService) {
+  constructor(
+    private http: HttpClient,
+    private LoginService: LoginService,
+  ) {
     this.LoginService.observable().subscribe((user) => {
       this.user = user;
       // sign in
@@ -31,12 +34,12 @@ export class LectureService {
     this.http
       .get<JSON>(
         "https://cs196.cs.illinois.edu/wsgi/api/get/128Lectures",
-        httpOptions
+        httpOptions,
       )
       .subscribe((res) => {
         this.lectures.next(res);
       });
-    return this.lectures.asObservable()
+    return this.lectures.asObservable();
   }
 
   public submit(lectures) {
@@ -47,16 +50,17 @@ export class LectureService {
         Authorization: this.user.getAuthResponse().id_token,
       }),
     };
-    console.log("SENDING!!")
+    console.log("SENDING!!");
     // deployment endpoint: https://cs196.cs.illinois.edu/wsgi/api
-    console.log(lectures)
+    console.log(lectures);
     this.http
       .post(
         "https://cs196.cs.illinois.edu/wsgi/api/post/Add128Lectures",
         lectures,
-        httpOptions
-      ).subscribe((res) => {
-        console.log(res)
+        httpOptions,
+      )
+      .subscribe((res) => {
+        console.log(res);
       });
   }
 
@@ -69,14 +73,15 @@ export class LectureService {
       }),
     };
     // deployment endpoint: https://cs196.cs.illinois.edu/wsgi/api
-    let body = { 'LectureID': id }
+    let body = { LectureID: id };
     this.http
       .post(
         "https://cs196.cs.illinois.edu/wsgi/api/post/Delete128Lectures",
         body,
-        httpOptions
-      ).subscribe((res) => {
-        console.log(res)
+        httpOptions,
+      )
+      .subscribe((res) => {
+        console.log(res);
       });
   }
 }

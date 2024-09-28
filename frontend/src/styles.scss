@@ -1,5 +1,5 @@
 // Custom Theming for Angular Material
-@use '@angular/material' as mat;
+@use "@angular/material" as mat;
 // For more information: https://material.angular.io/guide/theming
 // Plus imports for other components in your app.
 
@@ -14,8 +14,8 @@
 //  If you don't need the default component typographies but still want the hierarchy styles,
 //  you can delete this line and instead use:
 //    `@include mat.legacy-typography-hierarchy(mat.define-legacy-typography-config());`
-@include mat.all-legacy-component-typographies();
-@include mat.legacy-core();
+/* @include mat.all-legacy-component-typographies(); */
+@include mat.core();
 
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
@@ -27,22 +27,31 @@ $website2020-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
 $website2020-warn: mat.define-palette(mat.$red-palette);
 
 // Create the theme object (a Sass map containing all of the palettes).
-$website2020-theme: mat.define-light-theme($website2020-primary, $website2020-accent, $website2020-warn);
+$website2020-theme: mat.define-light-theme(
+    $website2020-primary,
+    $website2020-accent,
+    $website2020-warn
+);
 
 // Include theme styles for core and each component used in your app.
 // Alternatively, you can import and @include the theme mixins for each component
 // that you are using.
-@include mat.all-legacy-component-themes($website2020-theme);
+@include mat.all-component-themes($website2020-theme);
 
 /* You can add global styles to this file, and also import other style files */
 body {
-    font-family: 'Oxygen', sans-serif;
+    font-family: "Oxygen", sans-serif;
 }
 
 code {
-    font-family: 'Oxygen', sans-serif;
+    font-family: "Oxygen", sans-serif;
 }
 
-
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}

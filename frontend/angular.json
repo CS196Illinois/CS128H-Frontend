@@ -65,18 +65,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "website2020:build"
+            "buildTarget": "website2020:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "website2020:build:production"
+              "buildTarget": "website2020:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "website2020:build"
+            "buildTarget": "website2020:build"
           }
         },
         "test": {

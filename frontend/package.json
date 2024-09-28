@@ -27,7 +27,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
     "@types/gapi.auth2": "0.0.55",
     "angular-cli-ghpages": "^1.0.7",
-    "angularx-social-login": "3.0.0",
+    "angularx-social-login": "4.0.0",
     "bootstrap": "^4.5.0",
     "hammerjs": "^2.0.8",
     "rxjs": "~6.5.3",

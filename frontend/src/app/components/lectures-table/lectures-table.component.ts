@@ -1,22 +1,21 @@
 import { Component, OnInit } from "@angular/core";
-import * as data from "../../../assets/lectures.json";
+import data from "../../../assets/lectures.json";
 import {
   faChalkboard,
   faVideo,
   faCode,
-  faTimes
+  faTimes,
 } from "@fortawesome/free-solid-svg-icons";
 import { DomSanitizer, SafeResourceUrl } from "@angular/platform-browser";
 
 @Component({
   selector: "app-lectures-table",
   templateUrl: "./lectures-table.component.html",
-  styleUrls: ["./lectures-table.component.scss"]
+  styleUrls: ["./lectures-table.component.scss"],
 })
 export class LecturesTableComponent implements OnInit {
   lecture = data.lectures[0];
-  lectureVideo = [{
-  }];
+  lectureVideo = [{}];
   faChalkboard = faChalkboard;
   faVideo = faVideo;
   faCode = faCode;

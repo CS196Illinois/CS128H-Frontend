@@ -11,21 +11,11 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "es2020",
-    "typeRoots": [
-      "node_modules/@types"
-    ],
-    "types": [
-      "node",
-      "jasmine",
-      "gapi",
-      "gapi.auth2"
-    ],
-    "lib": [
-      "es2019",
-      "es2018",
-      "dom"
-    ],
-    "resolveJsonModule": true
+    "typeRoots": ["node_modules/@types"],
+    "types": ["node", "jasmine", "gapi", "gapi.auth2"],
+    "lib": ["es2019", "es2018", "dom"],
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

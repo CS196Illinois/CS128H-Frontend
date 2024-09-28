@@ -1,10 +1,4 @@
-import {
-  Component,
-  OnInit,
-  NgModule,
-  ChangeDetectorRef,
-  NgZone,
-} from "@angular/core";
+import { Component, OnInit, ChangeDetectorRef, NgZone } from "@angular/core";
 import { LecturesComponent } from "../lectures/lectures.component";
 import { DomSanitizer, SafeResourceUrl } from "@angular/platform-browser";
 import { FormGroup, UntypedFormControl } from "@angular/forms";
@@ -19,9 +13,6 @@ import { StaffDashboardComponent } from "./staff-dashboard/staff-dashboard.compo
 import { ActivatedRoute, Router } from "@angular/router";
 import { StaffService } from "src/app/services/staff.service";
 
-@NgModule({
-  imports: [CommonModule],
-})
 @Component({
   selector: "app-dashboard",
   templateUrl: "./dashboard.component.html",

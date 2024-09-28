@@ -1,7 +1,7 @@
 import { Component, OnInit, NgZone, Input } from "@angular/core";
 import { DomSanitizer } from "@angular/platform-browser";
 import { LectureService } from "src/app/services/lecture.service";
-import * as data from "../../../assets/lectures.json";
+import data from "../../../assets/lectures.json";
 import { SafeResourceUrl } from "@angular/platform-browser";
 
 @Component({

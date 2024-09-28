@@ -10,7 +10,7 @@ import { StaffComponent } from "./pages/staff/staff.component";
 import { LecturesTableComponent } from "./components/lectures-table/lectures-table.component";
 import { PersonComponent } from "./components/person/person.component";
 import { GradesComponent } from "./pages/grades/grades.component";
-import { HttpClientModule } from "@angular/common/http";
+import { provideHttpClient, withInterceptorsFromDi } from "@angular/common/http";
 import { LoginService } from "./services/login.service";
 import { GradesService } from "./services/grades.service";
 import { LecturesComponent } from "./pages/lectures/lectures.component";
@@ -47,41 +47,33 @@ const routes: Routes = [
   { path: "staff-dashboard", component: StaffDashboardComponent },
 ];
 
-@NgModule({
-  declarations: [
-    AppComponent,
-    SidebarComponent,
-    HomeComponent,
-    ResourcesComponent,
-    StaffComponent,
-    LecturesTableComponent,
-    PersonComponent,
-    GradesComponent,
-    LecturesComponent,
-    HofComponent,
-    ScheduleComponent,
-    AdminComponent,
-    DashboardComponent,
-    StaffProfileDashboardComponent,
-    StaffDashboardComponent,
-  ],
-  imports: [
-    BrowserModule,
-    RouterModule.forRoot(routes),
-    FontAwesomeModule,
-    HttpClientModule,
-    BrowserAnimationsModule,
-    MatSidenavModule,
-    MatIconModule,
-    MatMenuModule,
-    MatTableModule,
-    MatTreeModule,
-    MatCardModule,
-    MatChipsModule,
-    ReactiveFormsModule,
-    // MatTreeNestedDataSource
-  ],
-  providers: [LoginService, GradesService],
-  bootstrap: [AppComponent],
-})
+@NgModule({ declarations: [
+        AppComponent,
+        SidebarComponent,
+        HomeComponent,
+        ResourcesComponent,
+        StaffComponent,
+        LecturesTableComponent,
+        PersonComponent,
+        GradesComponent,
+        LecturesComponent,
+        HofComponent,
+        ScheduleComponent,
+        AdminComponent,
+        DashboardComponent,
+        StaffProfileDashboardComponent,
+        StaffDashboardComponent,
+    ],
+    bootstrap: [AppComponent], imports: [BrowserModule,
+        RouterModule.forRoot(routes),
+        FontAwesomeModule,
+        BrowserAnimationsModule,
+        MatSidenavModule,
+        MatIconModule,
+        MatMenuModule,
+        MatTableModule,
+        MatTreeModule,
+        MatCardModule,
+        MatChipsModule,
+        ReactiveFormsModule], providers: [LoginService, GradesService, provideHttpClient(withInterceptorsFromDi())] })
 export class AppModule {}

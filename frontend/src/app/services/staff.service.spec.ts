@@ -7,6 +7,6 @@ describe("StaffService", () => {
 
   it("should be created", () => {
     const service: StaffService = TestBed.inject(StaffService);
-    expect(service).toBeTruthy();
+    (expect(service) as any).toBeTruthy();
   });
 });

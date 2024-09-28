@@ -11,20 +11,9 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "ES2022",
-    "typeRoots": [
-      "node_modules/@types"
-    ],
-    "types": [
-      "node",
-      "jasmine",
-      "gapi",
-      "gapi.auth2"
-    ],
-    "lib": [
-      "es2019",
-      "es2018",
-      "dom"
-    ],
+    "typeRoots": ["node_modules/@types"],
+    "types": ["node", "jasmine", "gapi", "gapi.auth2", "cypress"],
+    "lib": ["es2019", "es2018", "dom"],
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
     "useDefineForClassFields": false

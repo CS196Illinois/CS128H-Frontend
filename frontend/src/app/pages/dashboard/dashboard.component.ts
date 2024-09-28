@@ -7,7 +7,7 @@ import {
 } from "@angular/core";
 import { LecturesComponent } from "../lectures/lectures.component";
 import { DomSanitizer, SafeResourceUrl } from "@angular/platform-browser";
-import { FormGroup, FormControl } from "@angular/forms";
+import { FormGroup, UntypedFormControl } from "@angular/forms";
 import { Observable, Subscriber } from "rxjs";
 import { CommonModule } from "@angular/common";
 import { LectureService } from "src/app/services/lecture.service";
@@ -34,10 +34,10 @@ export class DashboardComponent implements OnInit {
   tableView = true;
   lectureData = [];
   lectureStringify;
-  title = new FormControl("");
-  slide = new FormControl("");
-  link = new FormControl("");
-  comment = new FormControl("");
+  title = new UntypedFormControl("");
+  slide = new UntypedFormControl("");
+  link = new UntypedFormControl("");
+  comment = new UntypedFormControl("");
   // TODO: Implement authentication for dashboard
   user: gapi.auth2.GoogleUser;
   isStaff: boolean = false;

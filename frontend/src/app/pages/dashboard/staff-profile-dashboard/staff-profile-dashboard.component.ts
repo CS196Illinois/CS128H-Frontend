@@ -1,6 +1,6 @@
 import { Component, OnInit, NgModule, Input, ChangeDetectorRef } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from "@angular/platform-browser";
-import { FormGroup, FormControl } from '@angular/forms';
+import { FormGroup, UntypedFormControl } from '@angular/forms';
 import { Observable, Subscriber } from 'rxjs';
 import { CommonModule } from '@angular/common';
 import { StaffService } from "src/app/services/staff.service";
@@ -20,11 +20,11 @@ export class StaffProfileDashboardComponent implements OnInit {
   profile = null;
   isSubmit;
   imgfile;
-  name = new FormControl('')
-  bio = new FormControl('')
-  technical_areas = new FormControl('')
-  languages = new FormControl('')
-  picture = new FormControl('')
+  name = new UntypedFormControl('')
+  bio = new UntypedFormControl('')
+  technical_areas = new UntypedFormControl('')
+  languages = new UntypedFormControl('')
+  picture = new UntypedFormControl('')
   pictureSource: string;
   // loadProfile() {
   //   let profileData = localStorage.getItem('profile-data')

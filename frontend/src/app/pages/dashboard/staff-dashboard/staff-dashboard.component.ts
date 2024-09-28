@@ -1,6 +1,6 @@
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { StaffService } from "src/app/services/staff.service";
-import { FormGroup, FormControl } from '@angular/forms';
+import { FormGroup, UntypedFormControl } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
@@ -13,8 +13,8 @@ export class StaffDashboardComponent implements OnInit {
   constructor(private StaffService: StaffService, private ref: ChangeDetectorRef, private router: Router, private route: ActivatedRoute) {
   }
   staff = []
-  email = new FormControl('')
-  status = new FormControl('')
+  email = new UntypedFormControl('')
+  status = new UntypedFormControl('')
 
   addStaff() {
     let submit = confirm("Are you sure you want to add this staff?")

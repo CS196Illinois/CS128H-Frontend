@@ -20,18 +20,22 @@ export class LecturesComponent implements OnInit {
     Comment: string;
   }[] = data["lectures"];
   currLecture;
-  constructor(private sanitizer: DomSanitizer, private NgZone: NgZone, private LectureService: LectureService) { }
+  constructor(
+    private sanitizer: DomSanitizer,
+    private NgZone: NgZone,
+    private LectureService: LectureService,
+  ) {}
 
   ngOnInit() {
     this.LectureService.getLectures().subscribe((lectures) => {
       this.lectures = this.lectures;
       for (let i = 0; i < this.lectures.length; i++) {
         this.lectures[i].Link = this.sanitizer.bypassSecurityTrustResourceUrl(
-          this.lectures[i].Link as string
-        )
+          this.lectures[i].Link as string,
+        );
       }
       // console.log("HERE!" + this.lectures[0].Title);
-    })
+    });
 
     // if (this.lectureData) {
     //   this.lectures = JSON.parse(this.lectureData)
@@ -55,12 +59,11 @@ export class LecturesComponent implements OnInit {
     //     this.changeLecture(this.lectures.length - 1);
     //   })
     // }
-
   }
 
   changeLecture(id: number) {
     this.NgZone.run(() => {
-      console.log(this.lectures[id])
+      console.log(this.lectures[id]);
       this.currLecture = this.lectures[id];
     });
   }

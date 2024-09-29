@@ -34,7 +34,6 @@ export class LecturesComponent implements OnInit {
           this.lectures[i].Link as string,
         );
       }
-      // console.log("HERE!" + this.lectures[0].Title);
     });
 
     // if (this.lectureData) {

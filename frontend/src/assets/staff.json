@@ -6,6 +6,11 @@
             "Picture" : "assets/staffPictures/minh.PNG"
         },
         {
+            "Name" : "Quan Hao NG (Course Lead)",
+            "Bio" : "Likes Rust and OSes.",
+            "Picture" : "assets/staffPictures/quan-hao.jpg"
+        },
+        {
             "Name" : "Daniel Philipov",
             "Bio" : "Sophomore in Computer Science, double majoring with Physics. Loves Rust and Python, and loves optimizing code.",
             "Picture" : "assets/staffPictures/daniel.png"
@@ -14,11 +19,6 @@
             "Name" : "Porter Shawver",
             "Bio" : "Low-key loves letting loose with low-level languages. Senior; CS major; math minor.",
             "Picture" : "assets/staffPictures/porter.jpg"
-        },
-        {
-            "Name" : "Quan Hao NG",
-            "Bio" : "Likes Rust and OSes.",
-            "Picture" : "assets/staffPictures/quan-hao.jpg"
         },
         {
             "Name" : "Sohum Sharma",

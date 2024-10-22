@@ -1,7 +1,7 @@
 {
   "lectures": [
     {
-      "LectureID": "1",
+      "LectureID": "0",
       "Title": "What is Rust?",
       "Date": "September 3 2024",
       "Slide": "",
@@ -9,7 +9,7 @@
       "Comment": "Today's topic is a quick introduction to Rust and how to set up a project."
     },
     {
-      "LectureID": "2",
+      "LectureID": "1",
       "Title": "Rust Basics - Variables, Control Flow",
       "Date": "September 5 2024",
       "Slide": "",
@@ -17,7 +17,7 @@
       "Comment": "Please ignore what I say in the video regarding Homework 1 release times."
     },
     {
-      "LectureID": "3",
+      "LectureID": "2",
       "Title": "Data Types and Functions",
       "Date": "September 11 2024",
       "Slide": "",
@@ -25,7 +25,7 @@
       "Comment": "Homework 1 has been released!"
     },
     {
-      "LectureID": "4",
+      "LectureID": "3",
       "Title": "Strings and Matching",
       "Date": "September 12 2024",
       "Slide": "",
@@ -33,7 +33,7 @@
       "Comment": "This is the first in a 2 part lecture covering Strings, Enums and the match statement. The second one will release tomorrow."
     },
     {
-      "LectureID": "4.5",
+      "LectureID": "4",
       "Title": "Enums, Matching",
       "Date": "September 14 2024",
       "Slide": "",

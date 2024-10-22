@@ -1,24 +1,4 @@
 <div class="main">
-  <div class="btncontainer">
-    <button
-      type="button"
-      class="login-btn"
-      (click)="signIn()"
-      *ngIf="user == null"
-    >
-      <span class="full-text">Sign in with Google</span>
-      <span class="short-text"></span>
-    </button>
-    <button
-      type="button"
-      class="login-btn-sign-out"
-      (click)="signOut()"
-      *ngIf="user != null"
-    >
-      <span class="full-text">You're In! Log Out</span>
-      <span class="short-text"></span>
-    </button>
-  </div>
   <button id= "navmobile" mat-button [matMenuTriggerFor]="menu">
     <mat-icon>menu</mat-icon>
   </button>
@@ -27,7 +7,6 @@
     <button [routerLink]="['/hof']" mat-menu-item>Hall of Fame</button>
     <button [routerLink]="['/lectures']" mat-menu-item>Lectures</button>
     <button [routerLink]="['/staff']" mat-menu-item>Staff</button>
-    <button [routerLink]="['/grades']" mat-menu-item>Grades</button>
     <button [routerLink]="['/schedule']" mat-menu-item>Schedule</button>
 
   </mat-menu>

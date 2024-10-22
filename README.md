@@ -21,7 +21,7 @@ npm install
 Run the development server:
 
 ```bash
-export NODE_OPTIONS=--openssl-legacy-provider # Fixes error with the legacy OpenSSL provider. This is a hacky fix and should be removed once the issue is resolved
+cd frontend
 ng serve
 ```
 
@@ -33,9 +33,10 @@ ng serve
 
 ## Deployment
 
-We now deploy the site on GitHub Pages, use the following command in the `frontend` directory (required since it contains `angular.json`, otherwise won't work) after making the changes:
+We now deploy the site on GitHub Pages, use the following command:
 
 ```bash
+cd frontend
 ng deploy --cname=honors.cs128.org --repo=https://github.com/cs196illinois/CS128H-Frontend.git
 ```
 

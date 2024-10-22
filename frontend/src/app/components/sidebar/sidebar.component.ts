@@ -1,5 +1,4 @@
 import { Component, OnInit, NgZone } from "@angular/core";
-import { LoginService } from "src/app/services/login.service";
 
 @Component({
   selector: "app-sidebar",
@@ -7,12 +6,7 @@ import { LoginService } from "src/app/services/login.service";
   styleUrls: ["./sidebar.component.scss"],
 })
 export class SidebarComponent implements OnInit {
-  user: gapi.auth2.GoogleUser;
-  constructor(ngZone: NgZone, private loginService: LoginService) {}
+  constructor(ngZone: NgZone) {}
 
-  ngOnInit() {
-    this.loginService.observable().subscribe((user) => {
-      this.user = user;
-    });
-  }
+  ngOnInit() {}
 }

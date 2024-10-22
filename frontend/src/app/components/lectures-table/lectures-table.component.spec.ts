@@ -1,16 +1,15 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { waitForAsync, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { LecturesTableComponent } from './lectures-table.component';
+import { LecturesTableComponent } from "./lectures-table.component";
 
-describe('LecturesTableComponent', () => {
+describe("LecturesTableComponent", () => {
   let component: LecturesTableComponent;
   let fixture: ComponentFixture<LecturesTableComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ LecturesTableComponent ]
-    })
-    .compileComponents();
+      declarations: [LecturesTableComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {
@@ -19,7 +18,7 @@ describe('LecturesTableComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
-    expect(component).toBeTruthy();
+  it("should create", () => {
+    (expect(component) as any).toBeTruthy();
   });
 });

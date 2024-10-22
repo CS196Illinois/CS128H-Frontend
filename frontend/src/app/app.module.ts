@@ -9,39 +9,33 @@ import { ResourcesComponent } from "./pages/resources/resources.component";
 import { StaffComponent } from "./pages/staff/staff.component";
 import { LecturesTableComponent } from "./components/lectures-table/lectures-table.component";
 import { PersonComponent } from "./components/person/person.component";
-import { GradesComponent } from "./pages/grades/grades.component";
-import { HttpClientModule } from "@angular/common/http";
-import { LoginService } from "./services/login.service";
-import { GradesService } from "./services/grades.service";
-import { LecturesComponent } from './pages/lectures/lectures.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatSidenavModule } from '@angular/material/sidenav';
-import { MatIconModule, MatMenuModule } from "@angular/material";
+import {
+  provideHttpClient,
+  withInterceptorsFromDi,
+} from "@angular/common/http";
+import { LecturesComponent } from "./pages/lectures/lectures.component";
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { MatSidenavModule } from "@angular/material/sidenav";
+import { MatMenuModule } from "@angular/material/menu";
+import { MatIconModule } from "@angular/material/icon";
 import { HofComponent } from "./pages/hof/hof.component";
-import { MatTableModule } from '@angular/material/table';
-import { ScheduleComponent } from './pages/schedule/schedule.component';
-import { MatCardModule } from '@angular/material/card';
-import { MatTreeModule } from '@angular/material/tree';
-import { MatChipsModule } from "@angular/material";
-import { AdminComponent } from './pages/admin/admin/admin.component';
-import { DashboardComponent } from './pages/dashboard/dashboard.component';
-import { StaffProfileDashboardComponent } from './pages/dashboard/staff-profile-dashboard/staff-profile-dashboard.component';
-import { StaffDashboardComponent } from './pages/dashboard/staff-dashboard/staff-dashboard.component';
-import { ReactiveFormsModule } from '@angular/forms';
-
+import { MatTableModule } from "@angular/material/table";
+import { ScheduleComponent } from "./pages/schedule/schedule.component";
+import { MatCardModule } from "@angular/material/card";
+import { MatTreeModule } from "@angular/material/tree";
+import { MatChipsModule } from "@angular/material/chips";
+import { AdminComponent } from "./pages/admin/admin/admin.component";
+import { ReactiveFormsModule } from "@angular/forms";
+import { SafeUrlPipe } from "./pages/lectures/safe-url.pipe";
 
 const routes: Routes = [
   { path: "", component: HomeComponent },
   { path: "resources", component: ResourcesComponent },
   { path: "staff", component: StaffComponent },
-  { path: "grades", component: GradesComponent },
   { path: "lectures", component: LecturesComponent },
   { path: "hof", component: HofComponent },
   { path: "schedule", component: ScheduleComponent },
   { path: "admin/info/v1", component: AdminComponent },
-  { path: "dashboard", component: DashboardComponent },
-  { path: "staff-profile-dashboard", component: StaffProfileDashboardComponent },
-  { path: "staff-dashboard", component: StaffDashboardComponent }
 ];
 
 @NgModule({
@@ -53,20 +47,17 @@ const routes: Routes = [
     StaffComponent,
     LecturesTableComponent,
     PersonComponent,
-    GradesComponent,
     LecturesComponent,
     HofComponent,
     ScheduleComponent,
     AdminComponent,
-    DashboardComponent,
-    StaffProfileDashboardComponent,
-    StaffDashboardComponent
+    SafeUrlPipe,
   ],
+  bootstrap: [AppComponent],
   imports: [
     BrowserModule,
     RouterModule.forRoot(routes),
     FontAwesomeModule,
-    HttpClientModule,
     BrowserAnimationsModule,
     MatSidenavModule,
     MatIconModule,
@@ -75,10 +66,8 @@ const routes: Routes = [
     MatTreeModule,
     MatCardModule,
     MatChipsModule,
-    ReactiveFormsModule
-    // MatTreeNestedDataSource
+    ReactiveFormsModule,
   ],
-  providers: [LoginService, GradesService],
-  bootstrap: [AppComponent],
+  providers: [provideHttpClient(withInterceptorsFromDi())],
 })
-export class AppModule { }
+export class AppModule {}

@@ -31,14 +31,4 @@ export class LecturesTableComponent implements OnInit {
   ngOnInit() {
     // this.populate(data.lectures[0]);
   }
-
-  // populate(lecture) {
-  //   for (let i = 0; i < lecture.video.length; i++) {
-  //     this.lectureVideo.push({
-  //       title: lecture.video[i].title,
-  //       link: this.sanitizer.bypassSecurityTrustResourceUrl(lecture.video[i].link)
-  //     });
-  //     console.log(this.lectureVideo);
-  //   }
-  // }
 }

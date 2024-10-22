@@ -10,19 +10,19 @@
     },
     {
       "LectureID": "1",
-      "Title": "Rust Basics - Variables, Control Flow",
+      "Title": "Rust Basics I",
       "Date": "September 5 2024",
       "Slide": "",
       "Link": "https://www.youtube.com/embed/UpgcRzD38z8?si=841bZ5NNuidYh-oD",
-      "Comment": "Please ignore what I say in the video regarding Homework 1 release times."
+      "Comment": "Today we start writing some code in Rust!"
     },
     {
       "LectureID": "2",
-      "Title": "Data Types and Functions",
+      "Title": "Rust Basics II",
       "Date": "September 11 2024",
       "Slide": "",
       "Link": "https://www.youtube.com/embed/hluq6lkujc8?si=oix9b-udiWG4BJel",
-      "Comment": "Homework 1 has been released!"
+      "Comment": "We cover some additional compound data types and have a short code demo."
     },
     {
       "LectureID": "3",
@@ -30,7 +30,7 @@
       "Date": "September 12 2024",
       "Slide": "",
       "Link": "https://www.youtube.com/embed/SxMIRbc9mhs?si=Ep4Gg--zOKhuxFnF",
-      "Comment": "This is the first in a 2 part lecture covering Strings, Enums and the match statement. The second one will release tomorrow."
+      "Comment": "This is the first in a 2 part lecture covering Strings, Enums and the match statement."
     },
     {
       "LectureID": "4",
@@ -38,7 +38,7 @@
       "Date": "September 14 2024",
       "Slide": "",
       "Link": "https://www.youtube.com/embed/vlJP-vtG-RE?si=fH3bsZsAfFkMQvYD",
-      "Comment": "This is the follow up to yesterday's lecture covering Enums and further use of match statements.\nReminder: MP0 is also out on PrairieLearn and will be due in 2 weeks."
+      "Comment": "This lecture covers Enums and further explain the match statement."
     },
     {
       "LectureID": "5",
@@ -46,7 +46,7 @@
       "Date": "September 18 2024",
       "Slide": "",
       "Link": "https://www.youtube.com/embed/mqiZymTTsjw?si=k-tnFc5gartMG353",
-      "Comment": "This got slightly delayed in the announcement but Lecture 5 is out!"
+      "Comment": "This lecture introduces one of the most important concepts in Rust -- the Ownership model. This can be a confusing concept, and we'll look into it over a few lectures. For this lecture, I recommend also taking a look at Chapter 4.1 in the Rust Book for a wordier explanation of some of the concepts"
     },
     {
       "LectureID": "6",
@@ -54,7 +54,7 @@
       "Date": "September 20 2024",
       "Slide": "",
       "Link": "https://www.youtube.com/embed/DshxB99PPAQ?si=6_HVIgjo8zJIKAhC",
-      "Comment": "Lecture 6 is out! Homework 4 is also out on PrairieLearn."
+      "Comment": "For this lecture we take a deeper look into Ownership and explore the concept of Borrowing."
     },
     {
       "LectureID": "7",
@@ -62,7 +62,7 @@
       "Date": "September 24 2024",
       "Slide": "",
       "Link": "https://www.youtube.com/embed/ndVuVIaEjbc?si=AQ0Bds0VOZJnp19Y",
-      "Comment": "Lecture 7 is out! Homework 5 is also out on PrairieLearn."
+      "Comment": "For this lecture we take another look at Borrowing and take a deep dive into the concept of Slices in Rust."
     },
     {
       "LectureID": "8",
@@ -70,7 +70,55 @@
       "Date": "September 27 2024",
       "Slide": "",
       "Link": "https://www.youtube.com/embed/sjhQ0YjoTM4?si=Jp6Y22GxZ_33cUFz",
-      "Comment": "The due dates on the last slide are wrong. Homework 5 is this week and MP1 has just been released so you still have 2 weeks."
+      "Comment": "For this lecture, we will look at the basics of some structs!"
+    },
+    {
+      "LectureID": "9",
+      "Title": "Structs Part 2",
+      "Date": "October 02 2024",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/4jJaGsN2tQE?si=Dseiu9C5lCh9Yvzs",
+      "Comment": "Lecture 9 has dropped! In this lecture, we finish up structs."
+    },
+    {
+      "LectureID": "10",
+      "Title": "Generics and Smart Pointers",
+      "Date": "October 04 2024",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/kLfbCelNnxw?si=3auj5Ny5uZoB7U-1",
+      "Comment": "For this lecture we take our first look at Generics and Smart Pointers."
+    },
+    {
+      "LectureID": "11",
+      "Title": "Generics and Smart Pointers",
+      "Date": "October 09 2024",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/tyK8mFq_SrQ?si=7n2ba_7bJNhy9mmZ",
+      "Comment": "Today's lecture is Traits. We will expand upon the idea of Generics and explore how Rust handles the idea of \"interface\"."
+    },
+    {
+      "LectureID": "12",
+      "Title": "Intro to Threads",
+      "Date": "October 11 2024",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/GeK_zTrvzIc?si=m-GARcnLLugFuoz4",
+      "Comment": "This lectures introduces one of the coolest parts of Rust -- Writing multithreaded programs!"
+    },
+    {
+      "LectureID": "13",
+      "Title": "Thread Ownership, Messaging",
+      "Date": "October 16 2024",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/X6B64d-rX6s?si=wcNsq5ADxY2puF-8",
+      "Comment": "Today we explore how ownership in Rust interacts with multithreading, and also take the first look at how threads interact with each other."
+    },
+    {
+      "LectureID": "14",
+      "Title": "Thread Messaging",
+      "Date": "October 18 2024",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/pDg7UEW7BLQ?si=HmAFZqhz9JekVqJL",
+      "Comment": "Today we take a deeper look at how threads message each other."
     }
   ]
 }

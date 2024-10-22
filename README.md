@@ -37,7 +37,7 @@ We now deploy the site on GitHub Pages, use the following command:
 
 ```bash
 cd frontend
-ng deploy --cname=honors.cs128.org --repo=https://github.com/cs196illinois/CS128H-Frontend.git
+ng deploy --cname=honors.cs128.org --repo=https://github.com/cs196illinois/CS128H-Frontend.git --dir=dist/website2020
 ```
 
 ### Old Deployment:

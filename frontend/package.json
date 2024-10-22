@@ -43,8 +43,6 @@
     "@angular/language-service": "^18.2.6",
     "@cypress/schematic": "^2.5.2",
     "@types/cypress": "^0.1.6",
-    "@types/gapi": "^0.0.47",
-    "@types/gapi.auth2": "^0.0.61",
     "@types/jasmine": "^4.0.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~8.9.4",

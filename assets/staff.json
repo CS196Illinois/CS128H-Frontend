@@ -1,17 +1,12 @@
 {
     "staff": [
         {
-            "Name" : "Minh Phan (Course Lead)",
-            "Bio" : "Rust Evangelical Strike ForceTM. Loves everything Rust and system related.",
-            "Picture" : "assets/staffPictures/minh.PNG"
-        },
-        {
-            "Name" : "Quan Hao NG (Course Lead)",
+            "Name" : "Quan Hao Ng (Course Lead)",
             "Bio" : "Likes Rust and OSes.",
             "Picture" : "assets/staffPictures/quan-hao.jpg"
         },
         {
-            "Name" : "Daniel Philipov",
+            "Name" : "Daniel Philipov (Course Lead)",
             "Bio" : "Sophomore in Computer Science, double majoring with Physics. Loves Rust and Python, and loves optimizing code.",
             "Picture" : "assets/staffPictures/daniel.png"
         },
@@ -21,14 +16,14 @@
             "Picture" : "assets/staffPictures/porter.jpg"
         },
         {
-            "Name" : "Sohum Sharma",
-            "Bio" : "CS Sophomore and Rust enthusiast.",
-            "Picture" : "assets/staffPictures/sohum.jpg"
-        },
-        {
             "Name": "Derek Warner",
             "Bio": "Loves everything to do with data and code optimizing in Rust and Python",
             "Picture": "assets/staffPictures/derek.jpg"
+        },
+        {
+            "Name": "Canchen Li",
+            "Bio": "Freshman in CS+Linguistics, interested in Rust, Linux, and competitive programming, and likes playing piano in his spare time",
+            "Picture": "assets/staffPictures/canchen.jpg"
         }
     ]
 }

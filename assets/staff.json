@@ -24,6 +24,11 @@
             "Name": "Canchen Li",
             "Bio": "Freshman in CS+Linguistics, interested in Rust, Linux, and competitive programming, and likes playing piano in his spare time",
             "Picture": "assets/staffPictures/canchen.jpg"
+        },
+        {
+            "Name": "Kyubin Min",
+            "Bio": "Freshman in CS+Physics. Interested in home servers and Rust. Huge fan of city building games.",
+            "Picture": "assets/staffPictures/kyubin.png"
         }
     ]
 }

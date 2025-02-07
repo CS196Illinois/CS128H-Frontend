@@ -15,6 +15,14 @@
       "Slide": "",
       "Link": "https://www.youtube.com/embed/UpgcRzD38z8?si=841bZ5NNuidYh-oD",
       "Comment": "Today we cover variables, mutability, datatypes, control flow and functions."
+    },
+    {
+      "LectureID": "2",
+      "Title": "Compound Data Types",
+      "Date": "February 4 2025",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/lrx_EJ9aa1c?si=Z2MQ10JZeBHiYc8C",
+      "Comment": "Today we cover tuple, arrays, vectors, Option and Result."
     }
   ]
 }

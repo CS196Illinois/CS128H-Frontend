@@ -23,6 +23,14 @@
       "Slide": "",
       "Link": "https://www.youtube.com/embed/lrx_EJ9aa1c?si=Z2MQ10JZeBHiYc8C",
       "Comment": "Today we cover tuple, arrays, vectors, Option and Result."
+    },
+    {
+      "LectureID": "3",
+      "Title": "Enums and Matching",
+      "Date": "February 8 2025",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/1Q3nWswe2Go",
+      "Comment": "Today we cover match, enums, Option and Result."
     }
   ]
 }

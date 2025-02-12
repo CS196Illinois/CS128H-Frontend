@@ -31,6 +31,14 @@
       "Slide": "",
       "Link": "https://www.youtube.com/embed/1Q3nWswe2Go",
       "Comment": "Today we cover match, enums, Option and Result."
+    },
+    {
+      "LectureID": "4",
+      "Title": "Introduction to Ownership",
+      "Date": "February 11 2025",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/DgMnu_w2EYg",
+      "Comment": "Today we cover stack/heap, ownership basic, scope, clone."
     }
   ]
 }

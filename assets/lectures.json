@@ -39,6 +39,14 @@
       "Slide": "",
       "Link": "https://www.youtube.com/embed/DgMnu_w2EYg",
       "Comment": "Today we cover stack/heap, ownership basic, scope, clone."
+    },
+    {
+      "LectureID": "5",
+      "Title": "Borrowing",
+      "Date": "February 13 2025",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/zWpxmGw7jAI",
+      "Comment": "Today we cover borrowing, mutable/immutable references etc."
     }
   ]
 }

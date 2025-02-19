@@ -35,7 +35,7 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
     ></iframe>
-    <!-- <a *ngIf="currLecture" href="{{ currLecture.Slide }}" target="_blank">Click here to get the slides</a> -->
+    <a *ngIf="currLecture" href="/assets/slides/{{ currLecture.Slide }}" target="_blank">Click here to get the slides</a>
     <p *ngIf="currLecture" style="white-space: pre-line">
         {{ currLecture.Comment }}
     </p>

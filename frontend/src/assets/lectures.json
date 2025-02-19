@@ -4,7 +4,7 @@
       "LectureID": "0",
       "Title": "Introduction to Rust",
       "Date": "January 28 2025",
-      "Slide": "",
+      "Slide": "sp25/Lecture 1 - Intro to Rust.pdf",
       "Link": "https://www.youtube.com/embed/KHdlZY-SvZ4?si=nAUWk5WxbnoOgV-P",
       "Comment": "Today we cover Rust introduction, installation and 'Hello world' demo."
     },
@@ -12,7 +12,7 @@
       "LectureID": "1",
       "Title": "Rust Basics",
       "Date": "January 30 2025",
-      "Slide": "",
+      "Slide": "sp25/Lecture 2 - Rust Basics.pdff",
       "Link": "https://www.youtube.com/embed/UpgcRzD38z8?si=841bZ5NNuidYh-oD",
       "Comment": "Today we cover variables, mutability, datatypes, control flow and functions."
     },
@@ -20,7 +20,7 @@
       "LectureID": "2",
       "Title": "Compound Data Types",
       "Date": "February 4 2025",
-      "Slide": "",
+      "Slide": "sp25/Lecture 3 - Compound Data Types.pdf",
       "Link": "https://www.youtube.com/embed/lrx_EJ9aa1c?si=Z2MQ10JZeBHiYc8C",
       "Comment": "Today we cover tuple, arrays, vectors, Option and Result."
     },
@@ -28,7 +28,7 @@
       "LectureID": "3",
       "Title": "Enums and Matching",
       "Date": "February 8 2025",
-      "Slide": "",
+      "Slide": "sp25/Lecture 4 - Enums, Matching.pdf",
       "Link": "https://www.youtube.com/embed/1Q3nWswe2Go",
       "Comment": "Today we cover match, enums, Option and Result."
     },
@@ -36,7 +36,7 @@
       "LectureID": "4",
       "Title": "Introduction to Ownership",
       "Date": "February 11 2025",
-      "Slide": "",
+      "Slide": "sp25/Lecture 5 - Intro to Ownership.pdf",
       "Link": "https://www.youtube.com/embed/DgMnu_w2EYg",
       "Comment": "Today we cover stack/heap, ownership basic, scope, clone."
     },
@@ -44,9 +44,18 @@
       "LectureID": "5",
       "Title": "Borrowing",
       "Date": "February 13 2025",
-      "Slide": "",
+      "Slide": "sp25/Lecture 6 - References, Borrowing.pdf",
       "Link": "https://www.youtube.com/embed/zWpxmGw7jAI",
       "Comment": "Today we cover borrowing, mutable/immutable references etc."
+    }
+    ,
+    {
+      "LectureID": "6",
+      "Title": "Slice Types",
+      "Date": "February 18 2025",
+      "Slide": "sp25/Lecture 7 - Slices.pdf",
+      "Link": "https://www.youtube.com/embed/ui5FrhjNsRM",
+      "Comment": "Today we cover Slices and Strings."
     }
   ]
 }

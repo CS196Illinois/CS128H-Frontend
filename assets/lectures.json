@@ -64,5 +64,23 @@
       "Link": "https://www.youtube.com/embed/RVp-6BqzBUQ",
       "Comment": "Today we cover instantiating and defining structs."
     }
+    ,
+    {
+      "LectureID": "8",
+      "Title": "Structs II",
+      "Date": "February 25 2025",
+      "Slide": "sp25/Lecture 9 - Structs II.pdf",
+      "Link": "https://www.youtube.com/embed/CGjInGjA-e8",
+      "Comment": "Today we cover struct associated functions, methods and the Debug trait."
+    }
+    ,
+    {
+      "LectureID": "9",
+      "Title": "Generics",
+      "Date": "February 27 2025",
+      "Slide": "sp25/Lecture 10 - Generics.pdf",
+      "Link": "https://www.youtube.com/embed/gPYNvrXkMKk",
+      "Comment": "Today we cover generics and structs."
+    }
   ]
 }

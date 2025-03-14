@@ -87,6 +87,22 @@
       "Slide": "sp25/Lecture 11 - Traits.pdf",
       "Link": "https://www.youtube.com/embed/p9L1oI5mF1w",
       "Comment": "Today we cover traits and generics."
+    },
+    {
+      "LectureID": "11",
+      "Title": "Intro to Threads",
+      "Date": "March 6 2025",
+      "Slide": "sp25/Lecture 12 - Intro to threads.pdf",
+      "Link": "https://www.youtube.com/embed/kWVDSorpcuo",
+      "Comment": "Today we cover threads in rust."
+    },
+    {
+      "LectureID": "12",
+      "Title": "Message Passing",
+      "Date": "March 14 2025",
+      "Slide": "sp25/Lecture 12 - Intro to threads.pdf",
+      "Link": "https://www.youtube.com/embed/JUD1LfCjsms",
+      "Comment": "Today we cover threads in rust."
     }
   ]
 }

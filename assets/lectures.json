@@ -89,6 +89,7 @@
       "Comment": "Today we cover traits and generics."
     },
     {
+<<<<<<< HEAD
       "LectureID": "11",
       "Title": "Intro to Threads",
       "Date": "March 6 2025",
@@ -100,9 +101,17 @@
       "LectureID": "12",
       "Title": "Message Passing",
       "Date": "March 14 2025",
-      "Slide": "sp25/Lecture 12 - Intro to threads.pdf",
+      "Slide": "sp25/Lecture 13_ Message Passing.pdf",
       "Link": "https://www.youtube.com/embed/JUD1LfCjsms",
-      "Comment": "Today we cover threads in rust."
+      "Comment": "Today we cover message passing in rust."
+=======
+      "LectureID": "10",
+      "Title": "Traits",
+      "Date": "March 6 2025",
+      "Slide": "sp25/Lecture 12 - Intro to threads.pdf",
+      "Link": "https://www.youtube.com/embed/kWVDSorpcuo",
+      "Comment": "Today we cover threads in Rust."
+>>>>>>> 4895615ba32945dbaf2604e270844f2b3c59aee9
     }
   ]
 }

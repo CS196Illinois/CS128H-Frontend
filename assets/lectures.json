@@ -103,6 +103,14 @@
       "Slide": "sp25/Lecture 13_ Message Passing.pdf",
       "Link": "https://www.youtube.com/embed/JUD1LfCjsms",
       "Comment": "Today we cover message passing in rust."
+    },
+    {
+      "LectureID": "13",
+      "Title": "Special Topics - Building a TUI in Rust",
+      "Date": "March 14 2025",
+      "Slide": "#",
+      "Link": "https://www.youtube.com/embed/s8EFgKIhE2o",
+      "Comment": "Today we cover building a TUI in Rust."
     }
   ]
 }

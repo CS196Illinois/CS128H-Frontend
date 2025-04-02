@@ -107,10 +107,18 @@
     {
       "LectureID": "13",
       "Title": "Special Topics - Building a TUI in Rust",
-      "Date": "March 14 2025",
+      "Date": "March 27 2025",
       "Slide": "#",
       "Link": "https://www.youtube.com/embed/s8EFgKIhE2o",
       "Comment": "Today we cover building a TUI in Rust."
+    },
+    {
+      "LectureID": "14",
+      "Title": "Special Topics: Rust Project Structure",
+      "Date": "April 1 2025",
+      "Slide": "#",
+      "Link": "https://www.youtube.com/embed/s8EFgKIhE2o",
+      "Comment": "Today we cover Rust development environment and project structure."
     }
   ]
 }

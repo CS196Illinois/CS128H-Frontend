@@ -4,12 +4,22 @@
   align-content: center;
   margin-top: 15vh;
   width: 75vw;
+  padding: 0 2rem;
 }
+
+.title {
+  font-size: 3.5rem;
+}
+
 
 mat-card-actions {
   display: flex;
   justify-content: space-between;
   width: 5vw;
+}
+
+mat-card-title {
+  padding: 5px 16px;
 }
 
 .hof-plaque-container {

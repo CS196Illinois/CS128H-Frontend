@@ -6,11 +6,6 @@
 </h1>
 <div class="helper"></div>
 <mat-drawer-container class="container" autosize>
-    <div *ngIf="lectures">
-        <button id="burger" type="button" (click)="drawer.toggle()">
-            <mat-icon>menu_open</mat-icon>
-        </button>
-    </div>
     <mat-drawer #drawer class="sidenav" mode="side" opened="true">
         <h4>Lectures</h4>
         <div class="navContent" *ngFor="let lecture of lectures">
@@ -19,27 +14,34 @@
             </button>
         </div>
     </mat-drawer>
-    <div class="sidenav-content"></div>
     <mat-drawer-content class="container-content">
-        @if (currLecture) {
+        <div *ngIf="lectures">
+            <button id="burger" type="button" (click)="drawer.toggle()">
+                <mat-icon>menu_open</mat-icon>
+            </button>
+        </div>
+
+        <div class="currlecture-wrapper">
+            @if (currLecture) {
             <h1>{{ currLecture.Title }}</h1>
-            <iframe width="100%" height="400vh" [src]="currLecture.Link | safeUrl"
-                title="YouTube video player" frameborder="0"
+            <iframe width="100%" height="400vh" [src]="currLecture.Link | safeUrl" title="YouTube video player"
+                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
-            <a *ngIf="currLecture.Slide !== ''" href="/assets/slides/{{ currLecture.Slide }}"
-                target="_blank">
+            <a *ngIf="currLecture.Slide !== ''" href="/assets/slides/{{ currLecture.Slide }}" target="_blank">
                 Click here to get the slides
             </a>
             <i *ngIf="currLecture.Slide === ''">Sorry, no lecture slides available at this point. Please
                 check back later.</i>
-    
+
             <p style="white-space: pre-line">
                 {{ currLecture.Comment }}
             </p>
-        } @else {
+            } @else {
             <p>No lecture selected. Please select a lecture from the left hand side.</p>
-        }
+            }
+        </div>
+
     </mat-drawer-content>
 
 </mat-drawer-container>

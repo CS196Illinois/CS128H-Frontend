@@ -3,11 +3,10 @@
   height: 88vh;
   overflow: auto;
 }
-
-.container-content {
-  padding: 1.5rem;
+.currlecture-wrapper
+{
+  padding: 1.4rem;
 }
-
 .helper {
   padding-bottom: 10%;
 }
@@ -22,13 +21,9 @@
 #button {
   border: 0;
   width: 18vw;
-  margin: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
   border-radius: 6px;
-}
-
-.sidenav-content {
-  height: 5vh;
-  width: 20vw;
 }
 
 .sidenav {

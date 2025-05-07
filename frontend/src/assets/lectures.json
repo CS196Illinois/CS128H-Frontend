@@ -106,9 +106,9 @@
     },
     {
       "LectureID": "13",
-      "Title": "Special Topics - Building a TUI in Rust",
+      "Title": "Special Topics: Building a TUI in Rust",
       "Date": "March 27 2025",
-      "Slide": "#",
+      "Slide": "",
       "Link": "https://www.youtube.com/embed/s8EFgKIhE2o",
       "Comment": "Today we cover building a TUI in Rust."
     },
@@ -116,9 +116,17 @@
       "LectureID": "14",
       "Title": "Special Topics: Rust Project Structure",
       "Date": "April 1 2025",
-      "Slide": "#",
+      "Slide": "",
       "Link": "https://www.youtube.com/embed/s8EFgKIhE2o",
       "Comment": "Today we cover Rust development environment and project structure."
+    },
+    {
+      "LectureID": "15",
+      "Title": "Shared State Concurrency",
+      "Date": "April 4 2025",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/PKgGzXWtbf4",
+      "Comment": ""
     }
   ]
 }

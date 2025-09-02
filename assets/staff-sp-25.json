@@ -1,0 +1,34 @@
+{
+    "staff": [
+        {
+            "Name" : "Quan Hao Ng (Course Lead)",
+            "Bio" : "Likes Rust, OSes and networking. Come to the Linux User Group!",
+            "Picture" : "assets/staffPictures/quan-hao.jpg"
+        },
+        {
+            "Name" : "Daniel Philipov (Course Lead)",
+            "Bio" : "Sophomore in Computer Science, double majoring with Physics. Loves Rust and Python, and loves optimizing code.",
+            "Picture" : "assets/staffPictures/daniel.png"
+        },
+        {
+            "Name" : "Porter Shawver",
+            "Bio" : "Low-key loves letting loose with low-level languages. Senior; CS major; math minor.",
+            "Picture" : "assets/staffPictures/porter.jpg"
+        },
+        {
+            "Name": "Derek Warner",
+            "Bio": "Loves everything to do with data and code optimizing in Rust and Python",
+            "Picture": "assets/staffPictures/derek.jpg"
+        },
+        {
+            "Name": "Canchen Li",
+            "Bio": "Freshman in CS+Linguistics, interested in Rust, Linux, and competitive programming, and likes playing piano in his spare time",
+            "Picture": "assets/staffPictures/canchen.jpg"
+        },
+        {
+            "Name": "Kyubin Min",
+            "Bio": "Freshman in CS+Physics. Interested in home servers and Rust. Huge fan of city building games.",
+            "Picture": "assets/staffPictures/kyubin.png"
+        }
+    ]
+}

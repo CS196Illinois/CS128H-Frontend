@@ -2,18 +2,18 @@
     "staff": [
        {
             "Name" : "Daniel Philipov (Course Lead)",
-            "Bio" : "Sophomore in Computer Science, double majoring with Physics. Loves Rust and Python, and loves optimizing code.",
+            "Bio" : "Junior in Computer Science, double majoring with Physics. Loves Rust and Python, and loves optimizing code.",
             "Picture" : "assets/staffPictures/daniel.png"
         },
         {
-            "Name": "Canchen Li",
-            "Bio": "Freshman in CS+Linguistics, interested in Rust, Linux, and competitive programming, and likes playing piano in his spare time",
+            "Name": "Canchen Li (Course Lead)",
+            "Bio": "Sophomore in CS+Linguistics, interested in Rust, Linux, and competitive programming, and likes playing piano in his spare time.",
             "Picture": "assets/staffPictures/canchen.jpg"
         },
         {
             "Name": "Avni Kanodia",
-            "Bio": "Our new wonderful CA!",
-            "Picture": "assets/staffPictures/default-avatar.jpg"
+            "Bio": "Hey, I’m a Stats and CS sophomore who’s deeply interested in systems and machine learning! I love listening to music and playing pickleball in my spare time.",
+            "Picture": "assets/staffPictures/avni.jpg"
         }
     ]
 }

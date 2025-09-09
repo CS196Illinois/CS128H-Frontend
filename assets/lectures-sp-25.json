@@ -1,0 +1,132 @@
+{
+  "lectures": [
+    {
+      "LectureID": "0",
+      "Title": "Introduction to Rust",
+      "Date": "January 28 2025",
+      "Slide": "sp25/Lecture 1 - Intro to Rust.pdf",
+      "Link": "https://www.youtube.com/embed/KHdlZY-SvZ4?si=nAUWk5WxbnoOgV-P",
+      "Comment": "Today we cover Rust introduction, installation and 'Hello world' demo."
+    },
+    {
+      "LectureID": "1",
+      "Title": "Rust Basics",
+      "Date": "January 30 2025",
+      "Slide": "sp25/Lecture 2 - Rust Basics.pdff",
+      "Link": "https://www.youtube.com/embed/UpgcRzD38z8?si=841bZ5NNuidYh-oD",
+      "Comment": "Today we cover variables, mutability, datatypes, control flow and functions."
+    },
+    {
+      "LectureID": "2",
+      "Title": "Compound Data Types",
+      "Date": "February 4 2025",
+      "Slide": "sp25/Lecture 3 - Compound Data Types.pdf",
+      "Link": "https://www.youtube.com/embed/lrx_EJ9aa1c?si=Z2MQ10JZeBHiYc8C",
+      "Comment": "Today we cover tuple, arrays, vectors, Option and Result."
+    },
+    {
+      "LectureID": "3",
+      "Title": "Enums and Matching",
+      "Date": "February 8 2025",
+      "Slide": "sp25/Lecture 4 - Enums, Matching.pdf",
+      "Link": "https://www.youtube.com/embed/1Q3nWswe2Go",
+      "Comment": "Today we cover match, enums, Option and Result."
+    },
+    {
+      "LectureID": "4",
+      "Title": "Introduction to Ownership",
+      "Date": "February 11 2025",
+      "Slide": "sp25/Lecture 5 - Intro to Ownership.pdf",
+      "Link": "https://www.youtube.com/embed/DgMnu_w2EYg",
+      "Comment": "Today we cover stack/heap, ownership basic, scope, clone."
+    },
+    {
+      "LectureID": "5",
+      "Title": "Borrowing",
+      "Date": "February 13 2025",
+      "Slide": "sp25/Lecture 6 - References, Borrowing.pdf",
+      "Link": "https://www.youtube.com/embed/zWpxmGw7jAI",
+      "Comment": "Today we cover borrowing, mutable/immutable references etc."
+    },
+    {
+      "LectureID": "6",
+      "Title": "Slice Types",
+      "Date": "February 18 2025",
+      "Slide": "sp25/Lecture 7 - Slices.pdf",
+      "Link": "https://www.youtube.com/embed/ui5FrhjNsRM",
+      "Comment": "Today we cover Slices and Strings."
+    },
+    {
+      "LectureID": "7",
+      "Title": "Structs I",
+      "Date": "February 20 2025",
+      "Slide": "sp25/Lecture 8 - Structs I.pdf",
+      "Link": "https://www.youtube.com/embed/RVp-6BqzBUQ",
+      "Comment": "Today we cover instantiating and defining structs."
+    },
+    {
+      "LectureID": "8",
+      "Title": "Structs II",
+      "Date": "February 25 2025",
+      "Slide": "sp25/Lecture 9 - Structs II.pdf",
+      "Link": "https://www.youtube.com/embed/CGjInGjA-e8",
+      "Comment": "Today we cover struct associated functions, methods and the Debug trait."
+    },
+    {
+      "LectureID": "9",
+      "Title": "Generics",
+      "Date": "February 27 2025",
+      "Slide": "sp25/Lecture 10 - Generics.pdf",
+      "Link": "https://www.youtube.com/embed/gPYNvrXkMKk",
+      "Comment": "Today we cover generics and structs."
+    },
+    {
+      "LectureID": "10",
+      "Title": "Traits",
+      "Date": "March 4 2025",
+      "Slide": "sp25/Lecture 11 - Traits.pdf",
+      "Link": "https://www.youtube.com/embed/p9L1oI5mF1w",
+      "Comment": "Today we cover traits and generics."
+    },
+    {
+      "LectureID": "11",
+      "Title": "Intro to Threads",
+      "Date": "March 6 2025",
+      "Slide": "sp25/Lecture 12 - Intro to threads.pdf",
+      "Link": "https://www.youtube.com/embed/kWVDSorpcuo",
+      "Comment": "Today we cover threads in rust."
+    },
+    {
+      "LectureID": "12",
+      "Title": "Message Passing",
+      "Date": "March 14 2025",
+      "Slide": "sp25/Lecture 13_ Message Passing.pdf",
+      "Link": "https://www.youtube.com/embed/JUD1LfCjsms",
+      "Comment": "Today we cover message passing in rust."
+    },
+    {
+      "LectureID": "13",
+      "Title": "Special Topics: Building a TUI in Rust",
+      "Date": "March 27 2025",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/s8EFgKIhE2o",
+      "Comment": "Today we cover building a TUI in Rust."
+    },
+    {
+      "LectureID": "14",
+      "Title": "Special Topics: Rust Project Structure",
+      "Date": "April 1 2025",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/s8EFgKIhE2o",
+      "Comment": "Today we cover Rust development environment and project structure."
+    },
+    {
+      "LectureID": "15",
+      "Title": "Shared State Concurrency",
+      "Date": "April 4 2025",
+      "Slide": "",
+      "Link": "https://www.youtube.com/embed/PKgGzXWtbf4",
+      "Comment": ""
+    }
+  ]
+}

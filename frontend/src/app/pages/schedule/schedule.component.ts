@@ -65,7 +65,7 @@ const SCHEDULE_DATA_FOR_TABLE: (ScheduleElemForTable)[] = [ // | WeekDivider
   { position: 1, name: 'Week 10', type: '', date: '', isDivider: true, isDescription: false },
   { position: 1, name: 'Lecture 15 - Shared State released', type: 'Lecture', date: '10/28/2025', isDivider: false, isDescription: false },
   { position: 1, name: 'HW12: Shared State', type: 'Homework', date: '10/28/2025', isDivider: false, isDescription: false },
-  { position: 1, name: 'Project Proposal due', type: 'Due Date', date: '10/29/2025', isDivider: false, isDescription: false },
+  { position: 1, name: 'Project Proposal due', type: 'Due Date', date: '10/31/2025', isDivider: false, isDescription: false },
 
   { position: 1, name: 'Week 11', type: '', date: '', isDivider: true, isDescription: false },
 

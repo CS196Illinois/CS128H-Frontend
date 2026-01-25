@@ -1,10 +1,5 @@
 {
     "staff": [
-       {
-            "Name" : "Daniel Philipov (Course Lead)",
-            "Bio" : "Junior in Computer Science, double majoring with Physics. Loves Rust and Python, and loves optimizing code.",
-            "Picture" : "assets/staffPictures/daniel.png"
-        },
         {
             "Name": "Canchen Li (Course Lead)",
             "Bio": "Sophomore in CS+Linguistics, interested in Rust, Linux, and competitive programming, and likes playing piano in his spare time.",

@@ -1,13 +1,14 @@
 .cards { 
   display: flex;
   flex-wrap: wrap;
-  flex-flow: row wrap;
-  align-content: flex-end;
+  align-items: flex-start;
   justify-content: center;
+  gap: 3rem;
+  padding: 2rem;
 }
 
 .people {
-  margin: 2% 2.5%
+  margin: 0;
 }
 
 
@@ -22,6 +23,10 @@
 @media  (max-width: 559px){
   .staff{
     padding-top: 7%;
+  }
+  .cards {
+    gap: 2rem;
+    padding: 1.5rem;
   }
   .link {
       color: black;

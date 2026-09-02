@@ -12,15 +12,7 @@
   
 /* Add some padding inside the card container */
 .container {
-    padding: 0.25rem 2rem;
-}
-
-.picture {
-    width: 18rem;
-    height: 18rem;
-    object-fit: cover;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    padding: 1.25rem 2rem 0.25rem;
 }
 
 .cards {
@@ -28,10 +20,6 @@
 }
 
 @media  (max-width: 559px){
-    .picture {
-        width: 13rem;
-        height: 13rem;
-    }
     .card {
         width: 13rem; 
     }

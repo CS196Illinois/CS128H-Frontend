@@ -3,7 +3,7 @@
 <div *ngIf="staff" class="staff">
   <div class="cards">
     <div *ngFor="let person of staff" class="people">
-      <app-person name="{{ person.Name }}" bio="{{ person.Bio }}" picture="{{ person.Picture }}"
+      <app-person name="{{ person.Name }}" bio="{{ person.Bio }}"
         technical_area="{{ person.TechnicalAreas }}" language="{{ person.Languages }}" class="people"></app-person>
     </div>
   </div>

@@ -1,14 +1,22 @@
 {
-    "staff": [
-        {
-            "Name": "Canchen Li (Course Lead)",
-            "Bio": "Sophomore in CS+Linguistics, interested in Rust, Linux, and competitive programming, and likes playing piano in his spare time.",
-            "Picture": "assets/staffPictures/canchen.jpg"
-        },
-        {
-            "Name": "Avni Kanodia",
-            "Bio": "Hey, I’m a Stats and CS sophomore who’s deeply interested in systems and machine learning! I love listening to music and playing pickleball in my spare time.",
-            "Picture": "assets/staffPictures/avni.jpg"
-        }
-    ]
+  "staff": [
+    {
+      "Name": "Canchen Li",
+      "Bio": "I'm a junior studying CS + Linguistics. I'm interested in competitive programming and algorithms, and outside of CS I like to play piano in my spare time.",
+      "TechnicalAreas": "",
+      "Languages": ""
+    },
+    {
+      "Name": "Jerry Zhang",
+      "Bio": "I'm a sophomore studying Math & CS. I'm interested in frontend development and React, and in my free time I like to play violin and piano.",
+      "TechnicalAreas": "",
+      "Languages": ""
+    },
+    {
+      "Name": "Len Livshits",
+      "Bio": "I'm a sophomore studying Statistics & CS. I'm interested in machine learning engineering, specifically neural operators and other PDE solvers. Outside of CS, I'm in a fraternity and enjoy playing video games and working out.",
+      "TechnicalAreas": "",
+      "Languages": ""
+    }
+  ]
 }

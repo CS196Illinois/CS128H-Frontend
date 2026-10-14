@@ -1,24 +1,4 @@
-<div class="card">
-    <div class="container">
-        <h2>
-            <b>{{ name }}</b>
-        </h2>
-        <p>{{ bio }}</p>
-        <mat-chip-set *ngIf="split_technical_areas[0]">
-            <mat-chip
-                class="chips-ta"
-                *ngFor="let technical_area of split_technical_areas"
-            >
-                {{ technical_area }}
-            </mat-chip>
-        </mat-chip-set>
-        <mat-chip-set *ngIf="split_languages[0]">
-            <mat-chip
-                class="chips-lang"
-                *ngFor="let language of split_languages"
-            >
-                {{ language }}
-            </mat-chip>
-        </mat-chip-set>
-    </div>
+<div class="person">
+  <div class="name">{{ name }}</div>
+  <p class="bio">{{ bio }}</p>
 </div>

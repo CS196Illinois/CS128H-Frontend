@@ -1,37 +1,52 @@
-<img class="background-image" src="../../../assets/home-background.jpg" alt="students" />
+<div class="page">
+  <div class="eyebrow">Fall 2026</div>
+  <h1 class="title">CS 128 Honors</h1>
+  <p class="lede">
+    Illinois' premier freshman honors class, run by students, for students. This semester we're learning Rust.
+  </p>
+  <div class="actions">
+    <a
+      class="btn primary"
+      href="https://docs.google.com/document/d/1d4nVDtB6TZeHXJIJW5GNCOy3pAn-ENyDLjCw96l7RuU/edit?usp=sharing"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Syllabus</a
+    >
+    <a class="btn" href="https://forms.gle/DimNX7ddPhtNzv2U6" target="_blank" rel="noopener noreferrer">Onboarding form</a>
+  </div>
 
-<div class="home-main">
-  <h1>Honors&#64;CS128Illinois</h1>
-  <h2>
-    Illinois' premier freshman honors class run by students, for students.
-  </h2>
-  <div class="home-buttons">
+  <div class="columns">
+    <section>
+      <div class="section-head">
+        <h2>Coming up</h2>
+        <a routerLink="/schedule" class="text-link">Full schedule</a>
+      </div>
+      <div class="list">
+        @for (item of upcoming; track $index) {
+          <div class="item">
+            <span class="date">{{ short(item.date) }}</span>
+            <span>{{ item.name }}</span>
+          </div>
+        } @empty {
+          <div class="item"><span class="muted">Nothing else scheduled this term.</span></div>
+        }
+      </div>
+    </section>
 
-    <div class="button-1">
-      <!-- <-why are they different classes...?-> -->
-      <a href="https://docs.google.com/document/d/1d4nVDtB6TZeHXJIJW5GNCOy3pAn-ENyDLjCw96l7RuU/edit?usp=sharing"
-        target="_blank" rel="nooponer noreferrer">
-        <button>S Y L L A B U S</button>
-      </a>
-    </div>
-
-    <div class="button-2">
-      <a href="https://discord.gg/HqDrJSwXgv" target="_blank" rel="nooponer noreferrer">
-        <button>D I S C O R D</button>
-      </a>
-    </div>
-
-    <div class="button-2">
-      <a href="https://forms.gle/DimNX7ddPhtNzv2U6" target="_blank" rel="nooponer noreferrer">
-        <button>O N B O A R D I N G</button>
-      </a>
-    </div>
-
-    <div class="button-2">
-      <a href="https://us.prairielearn.com/pl/course_instance/208216" target="_blank" rel="nooponer noreferrer">
-        <button>P R A I R I E L E A R N</button>
-      </a>
-    </div>
-
+    @if (latest) {
+      <section>
+        <div class="section-head">
+          <h2>Latest lecture</h2>
+          <a routerLink="/lectures" class="text-link">All lectures</a>
+        </div>
+        <a class="latest" routerLink="/lectures" [queryParams]="{ n: latest.Number }">
+          <div class="meta">Lecture {{ latest.Number }} · {{ long(latest.Date) }}</div>
+          <div class="latest-title">{{ latest.Title }}</div>
+          @if (latest.Reading) {
+            <div class="meta">{{ latest.Reading }}</div>
+          }
+        </a>
+      </section>
+    }
   </div>
 </div>

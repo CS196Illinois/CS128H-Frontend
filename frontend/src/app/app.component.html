@@ -1,15 +1,17 @@
-<div class="main">
-  <button id= "navmobile" mat-button [matMenuTriggerFor]="menu">
-    <mat-icon>menu</mat-icon>
-  </button>
-  <mat-menu #menu="matMenu">
-    <button [routerLink]="['/']" mat-menu-item>Home</button>
-    <button [routerLink]="['/hof']" mat-menu-item>Hall of Fame</button>
-    <button [routerLink]="['/lectures']" mat-menu-item>Lectures</button>
-    <button [routerLink]="['/staff']" mat-menu-item>Staff</button>
-    <button [routerLink]="['/schedule']" mat-menu-item>Schedule</button>
+<div class="shell">
+  <app-sidebar [open]="navOpen" (navigate)="navOpen = false"></app-sidebar>
 
-  </mat-menu>
-  <app-sidebar></app-sidebar>
-  <router-outlet class="main-data"></router-outlet>
+  <div class="content">
+    <header class="mobile-bar">
+      <a routerLink="/" class="mobile-brand" (click)="navOpen = false">
+        <img src="assets/logo.png" alt="" />
+        <span>CS 128 Honors</span>
+      </a>
+      <button class="mobile-toggle" (click)="navOpen = !navOpen" [attr.aria-expanded]="navOpen" aria-label="Menu">
+        {{ navOpen ? "Close" : "Menu" }}
+      </button>
+    </header>
+
+    <router-outlet></router-outlet>
+  </div>
 </div>

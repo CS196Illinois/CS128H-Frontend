@@ -1,41 +1,5 @@
-.cards { 
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 3rem;
-  padding: 2rem;
-}
-
-.people {
-  margin: 0;
-}
-
-
-.title {
-  font-size: 3.5rem;
-  margin-left: 5%;
-  margin-bottom: 3%;
-  margin-top: 3%
-}
-
-
-@media  (max-width: 559px){
-  .staff{
-    padding-top: 7%;
-  }
-  .cards {
-    gap: 2rem;
-    padding: 1.5rem;
-  }
-  .link {
-      color: black;
-      margin-left: 5%;
-  }
-}
-
-@media only screen and (min-width: 559px) {
-  nav {
-      display: none;
-  }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 36px;
 }

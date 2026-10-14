@@ -1,47 +1,123 @@
-$base-color: #e56e15;
-
-.sidebar-main {
-  height: 100%;
-  background-color: $base-color;
+.sidebar {
+  width: 220px;
+  flex: none;
+  box-sizing: border-box;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  background: var(--side);
+  border-right: 1px solid var(--line);
 }
 
-img {
-  width: 50%;
-  margin-top: 40px;
-  margin-left: 25%;
-}
-
-button {
-  background-color: transparent; /* Green */
-  border: none;
-  color: rgba(255, 255, 255);
-  padding: 15px 16px 15px 16px;
-  text-align: center;
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  padding: 24px 20px 22px;
+  color: var(--ink);
   text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  width: 75%;
-  margin-left: 12.5%;
-  cursor: pointer;
-  box-sizing: border-box;
-  border-bottom: solid 3px;
-  border-color: #1e3877;
+
+  &:hover {
+    text-decoration: none;
+    color: var(--ink);
+  }
+
+  img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+  }
 }
 
-button:hover {
-  color: rgb(255, 255, 255);
+.brand-name {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.2;
 }
 
-hr {
-  border: none;
-  width: 75%;
-  color: rgb(255, 255, 255);
-  // color: rgba(255,255,0, 0.7);
-  margin-top: 30px;
-  height: 3px;
+.brand-term {
+  font-size: 12px;
+  color: var(--dim);
+  margin-top: 2px;
 }
 
-.button-groups {
-  box-sizing: border-box;
-  margin-top: 25px;
+.links {
+  display: flex;
+  flex-direction: column;
+
+  a {
+    font-size: 14px;
+    color: var(--dim);
+    padding: 9px 18px;
+    border-left: 2px solid transparent;
+    text-decoration: none;
+
+    &:hover {
+      color: var(--ink);
+      text-decoration: none;
+    }
+
+    &.active {
+      color: var(--ink);
+      font-weight: 500;
+      border-left-color: var(--rust);
+    }
+  }
+}
+
+.spacer {
+  flex: 1;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 18px 20px;
+  border-top: 1px solid var(--line);
+  font-size: 13px;
+
+  a,
+  button {
+    color: var(--dim);
+    font-size: 13px;
+    text-align: left;
+  }
+
+  a:hover,
+  button:hover {
+    color: var(--ink);
+  }
+
+  button {
+    background: transparent;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 800px) {
+  .sidebar {
+    display: none;
+    width: 100%;
+    height: auto;
+    position: static;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+
+    &.open {
+      display: flex;
+    }
+  }
+
+  .brand {
+    display: none;
+  }
+
+  .links a {
+    padding: 12px 20px;
+  }
 }

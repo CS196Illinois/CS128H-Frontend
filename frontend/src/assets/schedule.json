@@ -1,0 +1,322 @@
+{
+  "weeks": [
+    {
+      "label": "Week 1",
+      "start": "2026-08-24",
+      "items": [
+        {
+          "date": "",
+          "type": "Admin",
+          "name": "Registration and onboarding"
+        }
+      ]
+    },
+    {
+      "label": "Week 2",
+      "start": "2026-08-31",
+      "items": [
+        {
+          "date": "",
+          "type": "Admin",
+          "name": "Registration and onboarding"
+        }
+      ]
+    },
+    {
+      "label": "Week 3",
+      "start": "2026-09-07",
+      "items": [
+        {
+          "date": "2026-09-08",
+          "type": "Announcement",
+          "name": "10th day add/drop deadline"
+        },
+        {
+          "date": "2026-09-08",
+          "type": "Lecture",
+          "name": "Lecture 1 - What is Rust? & Rust setup"
+        },
+        {
+          "date": "2026-09-08",
+          "type": "Homework",
+          "name": "HW 0 - Intro Homework"
+        },
+        {
+          "date": "2026-09-08",
+          "type": "Homework",
+          "name": "HW 1"
+        },
+        {
+          "date": "2026-09-10",
+          "type": "Lecture",
+          "name": "Lecture 2 - Rust Basics"
+        }
+      ]
+    },
+    {
+      "label": "Week 4",
+      "start": "2026-09-14",
+      "items": [
+        {
+          "date": "2026-09-15",
+          "type": "Lecture",
+          "name": "Lecture 3 - Compound Data Types"
+        },
+        {
+          "date": "2026-09-15",
+          "type": "Homework",
+          "name": "HW 2"
+        },
+        {
+          "date": "2026-09-15",
+          "type": "MP",
+          "name": "MP 0 - Calculator"
+        },
+        {
+          "date": "2026-09-17",
+          "type": "Lecture",
+          "name": "Lecture 4 - Enums and Matching"
+        }
+      ]
+    },
+    {
+      "label": "Week 5",
+      "start": "2026-09-21",
+      "items": [
+        {
+          "date": "2026-09-22",
+          "type": "Lecture",
+          "name": "Lecture 5 - Ownership & Scope"
+        },
+        {
+          "date": "2026-09-22",
+          "type": "Homework",
+          "name": "HW 3"
+        },
+        {
+          "date": "2026-09-24",
+          "type": "Lecture",
+          "name": "Lecture 6 - References & Borrowing"
+        },
+        {
+          "date": "2026-09-24",
+          "type": "Homework",
+          "name": "HW 4 - Ownership"
+        }
+      ]
+    },
+    {
+      "label": "Week 6",
+      "start": "2026-09-28",
+      "items": [
+        {
+          "date": "2026-09-29",
+          "type": "Lecture",
+          "name": "Lecture 7 - Slices"
+        },
+        {
+          "date": "2026-09-29",
+          "type": "Homework",
+          "name": "HW 5 - More Ownership"
+        },
+        {
+          "date": "2026-09-29",
+          "type": "MP",
+          "name": "MP 1 - K-Nearest Neighbors"
+        },
+        {
+          "date": "2026-10-01",
+          "type": "Lecture",
+          "name": "Lecture 8 - Structs I (Defining and Instantiation)"
+        },
+        {
+          "date": "2026-10-01",
+          "type": "Homework",
+          "name": "HW 6 - Structs"
+        }
+      ]
+    },
+    {
+      "label": "Week 7",
+      "start": "2026-10-05",
+      "items": [
+        {
+          "date": "2026-10-06",
+          "type": "Lecture",
+          "name": "Lecture 9 - Structs II (Method syntax, examples)"
+        },
+        {
+          "date": "2026-10-06",
+          "type": "Homework",
+          "name": "HW 7 - Impl with Structs"
+        },
+        {
+          "date": "2026-10-06",
+          "type": "MP",
+          "name": "MP 2 - Hangman"
+        },
+        {
+          "date": "2026-10-08",
+          "type": "Lecture",
+          "name": "Lecture 10 - Generics"
+        },
+        {
+          "date": "2026-10-08",
+          "type": "Homework",
+          "name": "HW 8 - Generics"
+        }
+      ]
+    },
+    {
+      "label": "Week 8",
+      "start": "2026-10-12",
+      "items": [
+        {
+          "date": "2026-10-13",
+          "type": "Lecture",
+          "name": "Lecture 11 - Traits"
+        },
+        {
+          "date": "2026-10-13",
+          "type": "Homework",
+          "name": "HW 9 - Traits"
+        },
+        {
+          "date": "2026-10-13",
+          "type": "Announcement",
+          "name": "Start to form project groups"
+        },
+        {
+          "date": "2026-10-15",
+          "type": "Lecture",
+          "name": "Lecture 12 - Pointers (supplemental)"
+        },
+        {
+          "date": "2026-10-15",
+          "type": "Homework",
+          "name": "HW 10 - Data Structures"
+        },
+        {
+          "date": "2026-10-15",
+          "type": "Announcement",
+          "name": "Deadline to drop class without W"
+        }
+      ]
+    },
+    {
+      "label": "Week 9",
+      "start": "2026-10-19",
+      "items": [
+        {
+          "date": "2026-10-20",
+          "type": "Lecture",
+          "name": "Lecture 13 - Data Structures"
+        },
+        {
+          "date": "2026-10-20",
+          "type": "Homework",
+          "name": "HW 11 - Monte Carlo with the rand crate"
+        },
+        {
+          "date": "2026-10-20",
+          "type": "MP",
+          "name": "MP 3 - Segment Tree"
+        },
+        {
+          "date": "2026-10-22",
+          "type": "Lecture",
+          "name": "Lecture 14 - Cargo, Libraries, and the Rand Crate"
+        },
+        {
+          "date": "2026-10-22",
+          "type": "Project",
+          "name": "DUE - Group Formations"
+        },
+        {
+          "date": "2026-10-22",
+          "type": "Announcement",
+          "name": "Release special topic lectures"
+        }
+      ]
+    },
+    {
+      "label": "Week 10",
+      "start": "2026-10-26",
+      "items": [
+        {
+          "date": "2026-10-29",
+          "type": "Project",
+          "name": "DUE - Project Proposal"
+        }
+      ]
+    },
+    {
+      "label": "Week 11",
+      "start": "2026-11-02",
+      "items": [
+        {
+          "date": "",
+          "type": "Project",
+          "name": "Project work"
+        }
+      ]
+    },
+    {
+      "label": "Week 12",
+      "start": "2026-11-09",
+      "items": [
+        {
+          "date": "",
+          "type": "Project",
+          "name": "Checkpoint 1 Meetings",
+          "when": "Whole week"
+        }
+      ]
+    },
+    {
+      "label": "Week 13",
+      "start": "2026-11-16",
+      "items": [
+        {
+          "date": "",
+          "type": "Project",
+          "name": "Project work"
+        }
+      ]
+    },
+    {
+      "label": "Fall Break",
+      "start": "2026-11-23",
+      "items": [
+        {
+          "date": "",
+          "type": "Break",
+          "name": "No class"
+        }
+      ]
+    },
+    {
+      "label": "Week 15",
+      "start": "2026-11-30",
+      "items": [
+        {
+          "date": "",
+          "type": "Project",
+          "name": "Checkpoint 2 Meetings",
+          "when": "Whole week"
+        }
+      ]
+    },
+    {
+      "label": "Week 16",
+      "start": "2026-12-07",
+      "items": [
+        {
+          "date": "",
+          "type": "Project",
+          "name": "Grading"
+        }
+      ]
+    }
+  ]
+}

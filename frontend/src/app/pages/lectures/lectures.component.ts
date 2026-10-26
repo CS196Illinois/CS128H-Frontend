@@ -1,7 +1,6 @@
-import { Component, OnInit, NgZone, Input } from "@angular/core";
-import { DomSanitizer } from "@angular/platform-browser";
-import data from "../../../assets/lectures.json";
-import { SafeResourceUrl } from "@angular/platform-browser";
+import { Component, OnInit } from "@angular/core";
+import { ActivatedRoute, Router } from "@angular/router";
+import { Lecture, longDate, publishedLectures } from "../../course-data";
 
 @Component({
   selector: "app-lectures",
@@ -9,33 +8,21 @@ import { SafeResourceUrl } from "@angular/platform-browser";
   styleUrls: ["./lectures.component.scss"],
 })
 export class LecturesComponent implements OnInit {
-  @Input() lectureData: string = null;
-  lectures: {
-    LectureID: string;
-    Title: string;
-    Date: string;
-    Slide: string;
-    Link: string | SafeResourceUrl;
-    Comment: string;
-  }[] = data["lectures"];
-  currLecture;
-  constructor(private sanitizer: DomSanitizer, private NgZone: NgZone) {}
+  lectures: Lecture[] = publishedLectures();
+  curr: Lecture | undefined;
+  playlistUrl = "https://www.youtube.com/playlist?list=PLezlz_6l_jm3iMcZr1Nsf4bkVDruO-K4a";
+  long = longDate;
+
+  constructor(private route: ActivatedRoute, private router: Router) {}
 
   ngOnInit() {
-    if (this.lectureData) {
-      this.lectures = JSON.parse(this.lectureData);
-      for (let i = 0; i < this.lectures.length; i++) {
-        this.lectures[i].Link = this.sanitizer.bypassSecurityTrustResourceUrl(
-          this.lectures[i].Link as string
-        );
-      }
-    }
+    this.route.queryParamMap.subscribe((params) => {
+      const n = Number(params.get("n"));
+      this.curr = this.lectures.find((l) => l.Number === n) ?? this.lectures[this.lectures.length - 1];
+    });
   }
 
-  changeLecture(id: number) {
-    this.NgZone.run(() => {
-      console.log(this.lectures[id]);
-      this.currLecture = this.lectures[id];
-    });
+  select(n: number) {
+    this.router.navigate([], { queryParams: { n }, replaceUrl: true });
   }
 }

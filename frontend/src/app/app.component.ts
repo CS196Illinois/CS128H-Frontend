@@ -1,4 +1,4 @@
-import { ChangeDetectorRef, Component } from "@angular/core";
+import { Component } from "@angular/core";
 
 @Component({
   selector: "app-root",
@@ -7,8 +7,5 @@ import { ChangeDetectorRef, Component } from "@angular/core";
 })
 export class AppComponent {
   title = "website2020";
-
-  constructor(private ref: ChangeDetectorRef) {}
-
-  ngOnInit(): void {}
+  navOpen = false;
 }

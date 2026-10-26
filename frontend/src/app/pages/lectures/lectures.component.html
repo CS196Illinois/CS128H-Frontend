@@ -1,47 +1,43 @@
-<h1 style="padding-left: 1vw; padding-top: 6vh" *ngIf="lectures == null">
-    Loading...
-</h1>
-<h1 style="padding-left: 1vw; padding-top: 6vh" *ngIf="lectures.length == 0">
-    No lectures yet. Check again later.
-</h1>
-<div class="helper"></div>
-<mat-drawer-container class="container" autosize>
-    <mat-drawer #drawer class="sidenav" mode="side" opened="true">
-        <h4>Lectures</h4>
-        <div class="navContent" *ngFor="let lecture of lectures">
-            <button id="button" (click)="drawer.toggle()" (click)="changeLecture(lecture.LectureID)">
-                {{ lecture.Title }}
-            </button>
+<div class="page">
+  <h1 class="page-title">Lectures</h1>
+
+  @if (!curr) {
+    <p class="empty">No lectures yet. Check again later.</p>
+  } @else {
+    <div class="layout">
+      <div class="main">
+        <div class="video">
+          <iframe
+            [src]="curr.Link | safeUrl"
+            title="{{ curr.Title }}"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
-    </mat-drawer>
-    <mat-drawer-content class="container-content">
-        <div *ngIf="lectures">
-            <button id="burger" type="button" (click)="drawer.toggle()">
-                <mat-icon>menu_open</mat-icon>
-            </button>
+        <div class="meta">Lecture {{ curr.Number }} · {{ long(curr.Date) }}</div>
+        <h2>{{ curr.Title }}</h2>
+        @if (curr.Comment) {
+          <p class="comment">{{ curr.Comment }}</p>
+        }
+        @if (curr.Reading) {
+          <p class="comment">Reading: {{ curr.Reading }}</p>
+        }
+        <div class="links">
+          @if (curr.Slide) {
+            <a href="/assets/slides/{{ curr.Slide }}" target="_blank" rel="noopener noreferrer">Slides (PDF)</a>
+          }
+          <a [href]="playlistUrl" target="_blank" rel="noopener noreferrer">Open playlist on YouTube</a>
         </div>
+      </div>
 
-        <div class="currlecture-wrapper">
-            @if (currLecture) {
-            <h1>{{ currLecture.Title }}</h1>
-            <iframe width="100%" height="400vh" [src]="currLecture.Link | safeUrl" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            <a *ngIf="currLecture.Slide !== ''" href="/assets/slides/{{ currLecture.Slide }}" target="_blank">
-                Click here to get the slides
-            </a>
-            <i *ngIf="currLecture.Slide === ''">Sorry, no lecture slides available at this point. Please
-                check back later.</i>
-
-            <p style="white-space: pre-line">
-                {{ currLecture.Comment }}
-            </p>
-            } @else {
-            <p>No lecture selected. Please select a lecture from the left.</p>
-            }
-        </div>
-
-    </mat-drawer-content>
-
-</mat-drawer-container>
+      <div class="list">
+        @for (lec of lectures; track lec.LectureID) {
+          <button type="button" [class.active]="lec.Number === curr.Number" (click)="select(lec.Number)">
+            <span class="num">{{ lec.Number }}</span>
+            <span>{{ lec.Title }}</span>
+          </button>
+        }
+      </div>
+    </div>
+  }
+</div>

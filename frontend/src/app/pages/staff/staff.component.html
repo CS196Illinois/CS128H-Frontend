@@ -1,10 +1,12 @@
-<div class="title">Staff</div>
-<h3 *ngIf="staff == null">Loading..</h3>
-<div *ngIf="staff" class="staff">
-  <div class="cards">
-    <div *ngFor="let person of staff" class="people">
-      <app-person name="{{ person.Name }}" bio="{{ person.Bio }}"
-        technical_area="{{ person.TechnicalAreas }}" language="{{ person.Languages }}" class="people"></app-person>
+<div class="page">
+  <h1 class="page-title">Staff</h1>
+  @if (staff) {
+    <div class="grid">
+      @for (person of staff; track person.Name) {
+        <app-person [name]="person.Name" [bio]="person.Bio"></app-person>
+      }
     </div>
-  </div>
+  } @else {
+    <p>Loading…</p>
+  }
 </div>

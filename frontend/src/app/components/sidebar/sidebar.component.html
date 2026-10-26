@@ -1,18 +1,29 @@
-<div class="sidebar-main">
-  <img class="logo" src="../../../assets/logo.png" alt="196-logo" />
-  <div class="button-groups">
-    <button [routerLink]="['']">H O M E</button>
+<nav class="sidebar" [class.open]="open">
+  <a routerLink="/" class="brand" (click)="navigate.emit()">
+    <img src="assets/logo.png" alt="CS 128 Honors logo" />
+    <div>
+      <div class="brand-name">CS 128 Honors</div>
+      <div class="brand-term">{{ term }}</div>
+    </div>
+  </a>
+
+  <div class="links">
+    @for (item of nav; track item.path) {
+      <a
+        [routerLink]="item.path"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: item.path === '/' }"
+        (click)="navigate.emit()"
+        >{{ item.label }}</a
+      >
+    }
   </div>
-  <div class="button-groups">
-    <button [routerLink]="['/lectures']">L E C T U R E S</button>
+
+  <div class="spacer"></div>
+
+  <div class="footer">
+    <a href="https://discord.gg/HqDrJSwXgv" target="_blank" rel="noopener noreferrer">Discord</a>
+    <a href="https://us.prairielearn.com/pl/course_instance/208216" target="_blank" rel="noopener noreferrer">PrairieLearn</a>
+    <button type="button" (click)="toggleTheme()">{{ theme === "dark" ? "Light theme" : "Dark theme" }}</button>
   </div>
-  <div class="button-groups">
-    <button [routerLink]="['/staff']">S T A F F</button>
-  </div>
-  <div class="button-groups">
-    <button [routerLink]="['/hof']">H A L L O F F A M E</button>
-  </div>
-  <div class="button-groups">
-    <button [routerLink]="['/schedule']">S C H E D U L E</button>
-  </div>
-</div>
+</nav>
